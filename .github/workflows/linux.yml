@@ -1,0 +1,64 @@
+# Builds the Linux packages on Ubuntu and tests them (build/ci/linux-test.sh): the unit tests, the .deb installed with
+# Chromium's sandbox, a few checks under Xvfb, the data folder of an update and the portable archive. With the input
+# `release` (an existing release such as v0.8.0) the tested packages are added to that release. It runs only when
+# started by hand (gh workflow run linux.yml -f release=<tag>): one run takes about half an hour of the account's
+# free Actions minutes, so a push alone starts nothing.
+name: Linux
+
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        description: 'Release tag to upload the packages to (empty: only test)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    env:
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Unit tests
+        run: npm test
+      - name: Build the packages
+        run: npm run dist:linux
+      - name: Install the .deb
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb desktop-file-utils ./dist/cozy-shelves_*_amd64.deb
+      - name: Test the packages
+        run: bash build/ci/linux-test.sh
+        env:
+          OUT: ci-out
+      - name: Keep the test output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-test-output
+          path: ci-out
+          retention-days: 14
+      - name: Keep the packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-packages
+          path: |
+            dist/CozyShelves-*-linux-x64.tar.gz
+            dist/cozy-shelves_*_amd64.deb
+          retention-days: 14
+      - name: Add the packages to the release
+        if: inputs.release != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ inputs.release }}" dist/CozyShelves-*-linux-x64.tar.gz dist/cozy-shelves_*_amd64.deb --clobber

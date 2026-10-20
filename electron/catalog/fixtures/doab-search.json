@@ -1,0 +1,13 @@
+[
+  { "uuid": "d1", "name": "Politische Theorie der Gegenwart", "handle": "20.500.12854/12345", "type": "item",
+    "metadata": [
+      { "key": "dc.title", "value": "Politische Theorie der Gegenwart" },
+      { "key": "dc.contributor.author", "value": "Muster, Anna" },
+      { "key": "dc.date.issued", "value": "2021" },
+      { "key": "dc.language", "value": "German" },
+      { "key": "dc.description.abstract", "value": "Ein Überblick über Strömungen der politischen Theorie." },
+      { "key": "dc.identifier.uri", "value": "https://directory.doabooks.org/handle/20.500.12854/12345" },
+      { "key": "dc.relation.uri", "value": "https://www.example-verlag.de/download/politische-theorie.pdf" },
+      { "key": "oapen.relation.isPublishedBy", "value": "Beispiel Verlag" }
+    ] }
+]

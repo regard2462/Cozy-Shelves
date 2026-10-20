@@ -1,0 +1,13 @@
+{
+  "batchcomplete": true,
+  "continue": { "sroffset": 20, "continue": "-||" },
+  "query": {
+    "searchinfo": { "totalhits": 137 },
+    "search": [
+      { "ns": 0, "title": "Faust - Der Tragödie erster Teil", "pageid": 15011, "size": 214223, "wordcount": 31220, "snippet": "Johann Wolfgang von Goethe: <span class=\"searchmatch\">Faust</span> – Der Tragödie erster Teil. Habe nun, ach! Philosophie, Juristerei und Medizin …", "timestamp": "2024-11-03T10:12:00Z" },
+      { "ns": 0, "title": "Faust - Der Tragödie zweiter Teil", "pageid": 15012, "size": 300111, "wordcount": 45000, "snippet": "Anmutige Gegend. <span class=\"searchmatch\">Faust</span> auf blumigen Rasen gebettet, ermüdet, unruhig, schlafsuchend.", "timestamp": "2024-11-03T10:12:00Z" },
+      { "ns": 0, "title": "Der Sandmann", "pageid": 8123, "size": 90000, "wordcount": 14000, "snippet": "E. T. A. Hoffmann: Der Sandmann. Nathanael an Lothar. Gewiß seid Ihr alle voll Unruhe …", "timestamp": "2023-02-01T00:00:00Z" },
+      { "ns": 0, "title": "Wikisource:Projekte/Faust", "pageid": 99, "size": 100, "wordcount": 10, "snippet": "Projektseite", "timestamp": "2020-01-01T00:00:00Z" }
+    ]
+  }
+}

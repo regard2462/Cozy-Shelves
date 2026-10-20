@@ -1,0 +1,15 @@
+# Gradle and build output
+.gradle/
+build/
+app/build/
+local.properties
+.kotlin/
+*.apk
+*.aab
+
+# the web build copied into the assets by build/android.js (npm run build:android)
+app/src/main/assets/web/
+
+# editors
+.idea/
+*.iml

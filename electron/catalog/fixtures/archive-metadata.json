@@ -1,0 +1,14 @@
+{
+  "created": 1700000000,
+  "d1": "ia800300.us.archive.org",
+  "dir": "/12/items/lehrbuchdesschac00lask",
+  "files": [
+    { "name": "lehrbuchdesschac00lask.pdf", "source": "original", "format": "Text PDF", "size": "35123456", "md5": "abc" },
+    { "name": "lehrbuchdesschac00lask_bw.pdf", "source": "derivative", "format": "Additional Text PDF", "size": "12000000" },
+    { "name": "lehrbuchdesschac00lask.epub", "source": "derivative", "format": "EPUB", "size": "3456789" },
+    { "name": "lehrbuchdesschac00lask_djvu.txt", "source": "derivative", "format": "DjVuTXT", "size": "600000" },
+    { "name": "__ia_thumb.jpg", "source": "original", "format": "Item Tile", "size": "9000" }
+  ],
+  "metadata": { "identifier": "lehrbuchdesschac00lask", "title": "Lehrbuch des Schachspiels", "creator": "Lasker, Emanuel, 1868-1941", "language": "ger", "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/" },
+  "server": "ia800300.us.archive.org"
+}

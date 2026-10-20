@@ -1,0 +1,39 @@
+[
+  {
+    "uuid": "6b6d0a2e-1111-2222-3333-444455556666", "name": "Die Ökonomie der Aufmerksamkeit", "handle": "20.500.12657/41234", "type": "item", "link": "/rest/items/6b6d0a2e-1111-2222-3333-444455556666", "expand": ["parentCollection", "parentCollectionList", "parentCommunityList", "all"], "lastModified": "2023-05-01 10:00:00.0", "parentCollection": null,
+    "metadata": [
+      { "key": "dc.title", "value": "Die Ökonomie der Aufmerksamkeit", "language": null },
+      { "key": "dc.contributor.author", "value": "Franck, Georg", "language": null },
+      { "key": "dc.date.issued", "value": "2019-10-15", "language": null },
+      { "key": "dc.language", "value": "German", "language": null },
+      { "key": "dc.description.abstract", "value": "Aufmerksamkeit ist die knappste Ressource der Mediengesellschaft. Das Buch untersucht die Ökonomie dieser Ressource in Politik, Wissenschaft und Kultur.", "language": null },
+      { "key": "dc.subject.classification", "value": "bic Book Industry Communication::K Economics, finance, business & management::KC Economics", "language": null },
+      { "key": "dc.subject.other", "value": "Aufmerksamkeit; Medien; Wirtschaft", "language": null },
+      { "key": "dc.publisher", "value": "transcript Verlag", "language": null },
+      { "key": "dc.rights", "value": "open access", "language": null },
+      { "key": "dc.identifier.isbn", "value": "9783839400000", "language": null },
+      { "key": "oapen.identifier.doi", "value": "10.14361/9783839400000", "language": null }
+    ],
+    "bitstreams": [
+      { "uuid": "b1", "name": "9783839400000.pdf", "handle": null, "type": "bitstream", "bundleName": "ORIGINAL", "description": "", "format": "Adobe PDF", "mimeType": "application/pdf", "sizeBytes": 2451234, "retrieveLink": "/rest/bitstreams/b1/retrieve", "sequenceId": 1 },
+      { "uuid": "b2", "name": "9783839400000.pdf.jpg", "type": "bitstream", "bundleName": "THUMBNAIL", "mimeType": "image/jpeg", "sizeBytes": 20000, "retrieveLink": "/rest/bitstreams/b2/retrieve" }
+    ]
+  },
+  {
+    "uuid": "77777777-8888-9999-aaaa-bbbbbbbbbbbb", "name": "Populism and the Crisis of Democracy", "handle": "20.500.12657/99999", "type": "item",
+    "metadata": [
+      { "key": "dc.title", "value": "Populism and the Crisis of Democracy" },
+      { "key": "dc.contributor.editor", "value": "Fitzi, Gregor" },
+      { "key": "dc.contributor.editor", "value": "Mackert, Jürgen" },
+      { "key": "dc.date.issued", "value": "2018" },
+      { "key": "dc.language", "value": "English" },
+      { "key": "dc.description.abstract", "value": "Three volumes on populism, democracy and social theory." },
+      { "key": "dc.subject.other", "value": "populism, democracy, political sociology" },
+      { "key": "dc.rights", "value": "http://creativecommons.org/licenses/by-nc-nd/4.0/" }
+    ],
+    "bitstreams": [
+      { "uuid": "b3", "name": "book.pdf", "bundleName": "ORIGINAL", "mimeType": "application/pdf", "sizeBytes": 999999, "retrieveLink": "/rest/bitstreams/b3/retrieve" },
+      { "uuid": "b4", "name": "book.epub", "bundleName": "ORIGINAL", "mimeType": "application/epub+zip", "sizeBytes": 555555, "retrieveLink": "https://library.oapen.org/rest/bitstreams/b4/retrieve" }
+    ]
+  }
+]

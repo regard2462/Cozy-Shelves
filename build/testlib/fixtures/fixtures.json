@@ -1,0 +1,26 @@
+{
+ "hatched-e4-arrows.png": {
+  "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "orientation": "white",
+  "style": "hatch45",
+  "note": "drawn by build/testlib/gen_chess.py fixtures: a diagram in the style of a printed chess book as a night page shows it (dimmed), cut out and squeezed a little in height"
+ },
+ "hatched-e4-arrows-screen.png": {
+  "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "orientation": "white",
+  "style": "hatch45",
+  "note": "drawn by build/testlib/gen_chess.py fixtures: the same diagram cut out of the screen with the dark page around it"
+ },
+ "hatched-e4-arrows-page.png": {
+  "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+  "orientation": "white",
+  "style": "hatch45",
+  "board": [
+   181.0,
+   39.0,
+   469.0,
+   327.0
+  ],
+  "note": "drawn by build/testlib/gen_chess.py fixtures: the same diagram on a white page in grey (the picture of the test PDF in chess-snip-check); board: the board inside the picture (pixels)"
+ }
+}

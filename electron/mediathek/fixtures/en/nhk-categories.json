@@ -1,0 +1,164 @@
+{
+ "items": [
+  {
+   "id": "31",
+   "name": "Anime & Manga",
+   "video_episodes": {
+    "total": 34,
+    "uri": "en/categories/31/video_episodes"
+   }
+  },
+  {
+   "id": "19",
+   "name": "Art & Design",
+   "video_episodes": {
+    "total": 48,
+    "uri": "en/categories/19/video_episodes"
+   }
+  },
+  {
+   "id": "14",
+   "name": "Biz & Tech",
+   "video_episodes": {
+    "total": 116,
+    "uri": "en/categories/14/video_episodes"
+   }
+  },
+  {
+   "id": "20",
+   "name": "Culture & Lifestyle",
+   "video_episodes": {
+    "total": 616,
+    "uri": "en/categories/20/video_episodes"
+   }
+  },
+  {
+   "id": "12",
+   "name": "Current Affairs",
+   "video_episodes": {
+    "total": 83,
+    "uri": "en/categories/12/video_episodes"
+   }
+  },
+  {
+   "id": "13",
+   "name": "Debate",
+   "video_episodes": {
+    "total": 0,
+    "uri": "en/categories/13/video_episodes"
+   }
+  },
+  {
+   "id": "29",
+   "name": "Disaster Preparedness",
+   "video_episodes": {
+    "total": 86,
+    "uri": "en/categories/29/video_episodes"
+   }
+  },
+  {
+   "id": "15",
+   "name": "Documentary",
+   "video_episodes": {
+    "total": 411,
+    "uri": "en/categories/15/video_episodes"
+   }
+  },
+  {
+   "id": "26",
+   "name": "Drama",
+   "video_episodes": {
+    "total": 0,
+    "uri": "en/categories/26/video_episodes"
+   }
+  },
+  {
+   "id": "21",
+   "name": "Entertainment",
+   "video_episodes": {
+    "total": 88,
+    "uri": "en/categories/21/video_episodes"
+   }
+  },
+  {
+   "id": "17",
+   "name": "Food",
+   "video_episodes": {
+    "total": 231,
+    "uri": "en/categories/17/video_episodes"
+   }
+  },
+  {
+   "id": "27",
+   "name": "Interactive",
+   "video_episodes": {
+    "total": 23,
+    "uri": "en/categories/27/video_episodes"
+   }
+  },
+  {
+   "id": "16",
+   "name": "Interview",
+   "video_episodes": {
+    "total": 73,
+    "uri": "en/categories/16/video_episodes"
+   }
+  },
+  {
+   "id": "30",
+   "name": "Kids",
+   "video_episodes": {
+    "total": 157,
+    "uri": "en/categories/30/video_episodes"
+   }
+  },
+  {
+   "id": "28",
+   "name": "Learn Japanese",
+   "video_episodes": {
+    "total": 153,
+    "uri": "en/categories/28/video_episodes"
+   }
+  },
+  {
+   "id": "11",
+   "name": "News",
+   "video_episodes": {
+    "total": 48,
+    "uri": "en/categories/11/video_episodes"
+   }
+  },
+  {
+   "id": "22",
+   "name": "Pop Culture & Fashion",
+   "video_episodes": {
+    "total": 5,
+    "uri": "en/categories/22/video_episodes"
+   }
+  },
+  {
+   "id": "23",
+   "name": "Science & Nature",
+   "video_episodes": {
+    "total": 183,
+    "uri": "en/categories/23/video_episodes"
+   }
+  },
+  {
+   "id": "25",
+   "name": "Sports",
+   "video_episodes": {
+    "total": 39,
+    "uri": "en/categories/25/video_episodes"
+   }
+  },
+  {
+   "id": "18",
+   "name": "Travel",
+   "video_episodes": {
+    "total": 211,
+    "uri": "en/categories/18/video_episodes"
+   }
+  }
+ ]
+}

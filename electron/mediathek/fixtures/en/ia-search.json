@@ -1,0 +1,66 @@
+{
+ "responseHeader": {
+  "status": 0,
+  "QTime": 35,
+  "params": {
+   "query": "collection:prelinger AND mediatype:movies",
+   "qin": "collection:(prelinger) AND mediatype:(movies)",
+   "fields": "identifier,title,description,date,year,runtime,creator",
+   "wt": "json",
+   "sort": "downloads desc",
+   "rows": 5,
+   "start": 0
+  }
+ },
+ "response": {
+  "numFound": 10461,
+  "start": 0,
+  "docs": [
+   {
+    "creator": "Castle Films",
+    "date": "1935-01-01T00:00:00Z",
+    "description": "Complete presentation of the banana industry from the clearing of the jungle and the planting to the shipment of the fruit to the American markets.",
+    "identifier": "AboutBan1935",
+    "runtime": "11:03",
+    "title": "About Bananas",
+    "year": 1935
+   },
+   {
+    "creator": "Handy (Jam) Organization",
+    "date": "1946-01-01T00:00:00Z",
+    "description": "Epic history of industrial medicine in the first half of the 20th century, showing how manufacturers and the medical profession came to terms with one another and culminating in GM's rehabilitation program for returned World War II veterans. Directed by Haford Kerbawy.",
+    "identifier": "Doctorin1946",
+    "runtime": "18:47",
+    "title": "Doctor in Industry (Part I)",
+    "year": 1946
+   },
+   {
+    "creator": "Centron Corporation",
+    "date": "1953-01-01T00:00:00Z",
+    "description": "Young girl's mirror image teaches her fundamentals of good posture.",
+    "identifier": "HealthYo1953",
+    "runtime": "10:20",
+    "title": "Health: Your Posture",
+    "year": 1953
+   },
+   {
+    "creator": "Unknown",
+    "date": "1954-09-21T00:00:00Z",
+    "description": "Promotional film for \"Nutrilite,\" a 1950s-vintage food supplement.",
+    "identifier": "FromtheG1954",
+    "runtime": "18:31",
+    "title": "From the Ground Up",
+    "year": 1954
+   },
+   {
+    "creator": "Encyclopaedia Britannica Films",
+    "date": "1950-01-01T00:00:00Z",
+    "description": "Told from the viewpoint of a child, this film emphasizes that children should train themselves in good sleeping habits. In typical \"Goofus and Gallant\" style, it shows the advantages a well-rested kid has over his poor-sleeping classmate. Dreams are presented as a normal part of sleeping, and there is a funny dream sequence.",
+    "identifier": "Sleepfor1950",
+    "runtime": "10:44",
+    "title": "Sleep for Health",
+    "year": 1950
+   }
+  ]
+ }
+}

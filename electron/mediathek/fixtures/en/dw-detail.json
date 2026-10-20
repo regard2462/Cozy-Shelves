@@ -1,0 +1,96 @@
+{
+ "type": "Video",
+ "id": 79537022,
+ "languageId": 2,
+ "mainContent": {
+  "id": 79537022,
+  "type": "Video",
+  "name": "What can German Chancellor Friedrich Merz offer Ukraine?",
+  "permaLink": "https://p.dw.com/p/5NjDC",
+  "url": "https://api.dw.com/api/detail/video/79537022",
+  "duration": 644,
+  "sources": [
+   {
+    "protocol": "https",
+    "format": "mp4",
+    "bitrate": 3500,
+    "url": "https://tvdownloaddw-a.akamaihd.net/vps/webvideos/ENG/2026/NEWS/NEWSENG261004_Merz_in_Ukraine_05SMW_AVC_1280x720.mp4",
+    "quality": "avc_1280x720"
+   },
+   {
+    "protocol": "https",
+    "format": "mp4",
+    "bitrate": 6500,
+    "url": "https://tvdownloaddw-a.akamaihd.net/vps/webvideos/ENG/2026/NEWS/NEWSENG261004_Merz_in_Ukraine_05SMW_AVC_1920x1080.mp4",
+    "quality": "avc_1920x1080"
+   },
+   {
+    "protocol": "https",
+    "format": "mp4",
+    "bitrate": 512,
+    "url": "https://tvdownloaddw-a.akamaihd.net/vps/webvideos/ENG/2026/NEWS/NEWSENG261004_Merz_in_Ukraine_05SMW_AVC_512x288.mp4",
+    "quality": "avc_512x288"
+   },
+   {
+    "protocol": "https",
+    "format": "mp4",
+    "bitrate": 1800,
+    "url": "https://tvdownloaddw-a.akamaihd.net/vps/webvideos/ENG/2026/NEWS/NEWSENG261004_Merz_in_Ukraine_05SMW_AVC_960x540.mp4",
+    "quality": "avc_960x540"
+   },
+   {
+    "protocol": "https",
+    "format": "mp4",
+    "bitrate": 1024,
+    "url": "https://tvdownloaddw-a.akamaihd.net/vps/webvideos/ENG/2026/NEWS/NEWSENG261004_Merz_in_Ukraine_05SMW_AVC_640x360.mp4",
+    "quality": "avc_640x360"
+   },
+   {
+    "protocol": "https",
+    "format": "mp4",
+    "bitrate": 256,
+    "url": "https://tvdownloaddw-a.akamaihd.net/vps/webvideos/ENG/2026/NEWS/NEWSENG261004_Merz_in_Ukraine_05SMW_AVC_480x270.mp4",
+    "quality": "avc_480x270"
+   },
+   {
+    "protocol": "https",
+    "format": "HLS",
+    "bitrate": 6500,
+    "url": "https://hlsvod.dw.com/i/vps/webvideos/ENG/2026/NEWS/NEWSENG261004_Merz_in_Ukraine_05SMW_,AVC_1920x1080,AVC_1280x720,AVC_960x540,AVC_640x360,AVC_512x288,AVC_480x270,.mp4.csmil/master.m3u8",
+    "quality": "HLS"
+   }
+  ],
+  "previewImage": {
+   "id": 79535020,
+   "type": "Image",
+   "name": "Friedrich Merz (2nd R) is welcomed by Ukraine's Foreign Minister Andriy Sybiha (2nd L) at Kyiv central station",
+   "sizes": [
+    {
+     "width": 220,
+     "height": 124,
+     "url": "https://static.dw.com/image/79535020_301.jpg"
+    },
+    {
+     "width": 460,
+     "height": 259,
+     "url": "https://static.dw.com/image/79535020_302.jpg"
+    },
+    {
+     "width": 700,
+     "height": 394,
+     "url": "https://static.dw.com/image/79535020_303.jpg"
+    },
+    {
+     "width": 940,
+     "height": 529,
+     "url": "https://static.dw.com/image/79535020_304.jpg"
+    }
+   ]
+  }
+ },
+ "name": "What can German Chancellor Friedrich Merz offer Ukraine?",
+ "teaser": "Merz arrived in Kyiv today for an unannounced visit. Germany is among Ukraine's largest supporters. On Saturday, Russia warned foreigners and diplomats to leave Kyiv, saying \"massive\" new airstrikes would hit the city.",
+ "categoryName": "Europe",
+ "permaLink": "https://p.dw.com/p/5NjDC",
+ "displayDate": "2026-10-04T11:46:50.085Z"
+}

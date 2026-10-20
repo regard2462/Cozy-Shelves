@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Sternengeschichten</title>
+  <link>https://sternengeschichten.podigee.io</link>
+  <language>de-DE</language>
+  <description>Wer hat sich nicht schon einmal gefragt, was da oben am Himmel eigentlich so los ist? Florian Freistetter erzählt Geschichten aus dem Universum.</description>
+  <itunes:author>Florian Freistetter</itunes:author>
+  <itunes:image href="https://images.podigee.com/0x,sternengeschichten-cover.jpg"/>
+  <itunes:category text="Science"><itunes:category text="Astronomy"/></itunes:category>
+  <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>Sternengeschichten Folge 640: Der Kosmische Kalender</title>
+    <itunes:title>Der Kosmische Kalender</itunes:title>
+    <link>https://sternengeschichten.podigee.io/640-kosmischer-kalender</link>
+    <guid isPermaLink="false">sg-640-2026</guid>
+    <pubDate>Fri, 11 Sep 2026 05:00:00 +0000</pubDate>
+    <description><![CDATA[<p>Wenn man die Geschichte des Universums auf ein Jahr zusammenstaucht, dann taucht die Menschheit erst in den letzten Minuten des 31. Dezember auf. Carl Sagan hat diesen Kalender berühmt gemacht – heute schauen wir uns an, was er uns wirklich sagt.</p><p><a href="https://sternengeschichten.podigee.io/640">Shownotes</a></p>]]></description>
+    <content:encoded><![CDATA[<p>Wenn man die Geschichte des Universums auf ein Jahr zusammenstaucht, dann taucht die Menschheit erst in den letzten Minuten des 31. Dezember auf. Carl Sagan hat diesen Kalender berühmt gemacht – heute schauen wir uns an, was er uns wirklich sagt.</p><ul><li>00:00 Intro</li><li>02:15 Der Urknall am 1. Januar</li><li>08:40 Die Erde entsteht im September</li></ul>]]></content:encoded>
+    <enclosure url="https://audio.podigee-cdn.net/sternengeschichten/640.mp3" length="9234567" type="audio/mpeg"/>
+    <itunes:duration>00:12:34</itunes:duration>
+    <itunes:episode>640</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:image href="https://images.podigee.com/0x,sg-640.jpg"/>
+  </item>
+  <item>
+    <title>Sternengeschichten Folge 639: Warum der Mond keine Atmosphäre hat</title>
+    <link>https://sternengeschichten.podigee.io/639</link>
+    <guid>sg-639-2026</guid>
+    <pubDate>Fri, 04 Sep 2026 05:00:00 +0000</pubDate>
+    <itunes:summary>Der Mond hat eine Exosphäre, aber keine richtige Atmosphäre. Warum eigentlich nicht?</itunes:summary>
+    <enclosure url="https://audio.podigee-cdn.net/sternengeschichten/639.mp3" length="8123456" type="audio/mpeg"/>
+    <itunes:duration>754</itunes:duration>
+    <itunes:episode>639</itunes:episode>
+  </item>
+  <item>
+    <title>Sternengeschichten Folge 638: Die Oortsche Wolke</title>
+    <link>https://sternengeschichten.podigee.io/638</link>
+    <guid>sg-638-2026</guid>
+    <pubDate>Fri, 28 Aug 2026 05:00:00 +0000</pubDate>
+    <description>Ganz am Rand des Sonnensystems, weit hinter Pluto, liegt eine Wolke aus Billionen von Kometenkernen.</description>
+    <enclosure url="https://audio.podigee-cdn.net/sternengeschichten/638.mp3" length="7123456" type="audio/mpeg"/>
+    <itunes:duration>11:02</itunes:duration>
+  </item>
+  <item>
+    <title>Kein Audio (sollte übersprungen werden)</title>
+    <link>https://sternengeschichten.podigee.io/text</link>
+    <guid>sg-text</guid>
+    <pubDate>Fri, 21 Aug 2026 05:00:00 +0000</pubDate>
+    <description>Nur Text.</description>
+  </item>
+</channel>
+</rss>

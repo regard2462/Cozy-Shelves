@@ -1,0 +1,39 @@
+{
+  "tfa": {
+    "type": "standard",
+    "title": "Alexander_von_Humboldt",
+    "displaytitle": "<span class=\"mw-page-title-main\">Alexander von Humboldt</span>",
+    "description": "deutscher Naturforscher (1769–1859)",
+    "thumbnail": { "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Alexander_von_Humboldt.jpg/320px-Alexander_von_Humboldt.jpg", "width": 320, "height": 400 },
+    "originalimage": { "source": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Alexander_von_Humboldt.jpg", "width": 1200, "height": 1500 },
+    "lang": "de",
+    "timestamp": "2026-09-13T20:11:00Z",
+    "content_urls": { "desktop": { "page": "https://de.wikipedia.org/wiki/Alexander_von_Humboldt" } },
+    "extract": "Friedrich Wilhelm Heinrich Alexander von Humboldt war ein deutscher Naturforscher mit einem weit über Europa hinausreichenden Wirkungsfeld. In seinem über einige Jahrzehnte entstandenen Gesamtwerk schuf er „einen neuen Wissensstand und neue Reflexionsebenen des Wissens von der Welt“ und wurde Mitbegründer der Geographie als empirischer Wissenschaft.",
+    "extract_html": "<p><b>Friedrich Wilhelm Heinrich Alexander von Humboldt</b> war ein deutscher Naturforscher.</p>"
+  },
+  "mostread": {
+    "date": "2026-09-13Z",
+    "articles": [
+      { "views": 184321, "rank": 3, "title": "Bundestagswahl_2025", "displaytitle": "Bundestagswahl 2025", "extract": "Die Bundestagswahl 2025 fand am 23. Februar 2025 statt.", "thumbnail": { "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Reichstag.jpg/320px-Reichstag.jpg", "width": 320, "height": 213 }, "content_urls": { "desktop": { "page": "https://de.wikipedia.org/wiki/Bundestagswahl_2025" } } },
+      { "views": 90111, "rank": 5, "title": "Wikipedia:Hauptseite", "displaytitle": "Hauptseite", "extract": "" },
+      { "views": 77123, "rank": 6, "title": "Oktoberfest", "displaytitle": "Oktoberfest", "description": "Volksfest in München", "extract": "Das Oktoberfest in München ist das größte Volksfest der Welt.", "content_urls": { "desktop": { "page": "https://de.wikipedia.org/wiki/Oktoberfest" } } }
+    ]
+  },
+  "image": {
+    "title": "File:Rhône_Glacier_Panorama.jpg",
+    "thumbnail": { "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/r/r1/Rhone_Glacier.jpg/640px-Rhone_Glacier.jpg", "width": 640, "height": 320 },
+    "image": { "source": "https://upload.wikimedia.org/wikipedia/commons/r/r1/Rhone_Glacier.jpg", "width": 4000, "height": 2000 },
+    "file_page": "https://commons.wikimedia.org/wiki/File:Rh%C3%B4ne_Glacier_Panorama.jpg",
+    "artist": { "html": "<a href=\"//commons.wikimedia.org/wiki/User:Example\">Example User</a>", "text": "Example User" },
+    "credit": { "text": "Own work" },
+    "license": { "type": "CC BY-SA 4.0" },
+    "description": { "html": "Panorama des <a href=\"//de.wikipedia.org/wiki/Rhonegletscher\">Rhonegletschers</a> im Kanton Wallis, Schweiz.", "text": "Panorama des Rhonegletschers im Kanton Wallis, Schweiz.", "lang": "de" }
+  },
+  "onthisday": [
+    { "text": "Die Erklärung der Menschen- und Bürgerrechte wird in Frankreich verabschiedet.", "year": 1789, "pages": [ { "title": "Erklärung_der_Menschen-_und_Bürgerrechte", "displaytitle": "Erklärung der Menschen- und Bürgerrechte", "extract": "Die Erklärung der Menschen- und Bürgerrechte wurde von der Nationalversammlung verabschiedet.", "thumbnail": { "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Declaration.jpg/240px-Declaration.jpg", "width": 240, "height": 300 } } ] },
+    { "text": "Die Sowjetunion startet die Raumsonde Luna 2, die als erstes von Menschen gebautes Objekt den Mond erreicht.", "year": 1959, "pages": [ { "title": "Luna_2", "displaytitle": "Luna 2", "extract": "Luna 2 war eine sowjetische Mondsonde." } ] },
+    { "text": "Der Schweizer Reformator Ulrich Zwingli beginnt seine Predigten in Zürich.", "year": 1519, "pages": [] }
+  ],
+  "news": []
+}

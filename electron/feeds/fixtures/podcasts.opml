@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>Podcast Subscriptions</title>
+    <dateCreated>01 Jan 26 12:00:00 +0000</dateCreated>
+  </head>
+  <body>
+    <outline text="Morgenrunde" title="Morgenrunde" type="rss" xmlUrl="https://feeds.example.org/morgenrunde.xml" htmlUrl="https://morgenrunde.example.org" />
+    <outline text="Field Notes &amp; Friends" title="Field Notes &amp; Friends" type="rss" xmlUrl="https://podcasts.example.net/fieldnotes/feed.xml" htmlUrl="https://fieldnotes.example.net" />
+    <outline text="Ohne URL" type="rss" />
+    <outline text="Doppelt" type="rss" xmlUrl="https://feeds.example.org/morgenrunde.xml" />
+    <outline text="Kaputt" type="rss" xmlUrl="ftp://nope" />
+  </body>
+</opml>

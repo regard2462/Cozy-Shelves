@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Profile: EBU-TT-D-Basic-DE-->
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ebuttm="urn:ebu:tt:metadata" ttp:timeBase="media" ttp:cellResolution="50 30" xml:lang="de">
+  <tt:head>
+    <tt:metadata>
+      <ebuttm:documentMetadata>
+        <ebuttm:documentEbuttVersion>v1.0</ebuttm:documentEbuttVersion>
+      </ebuttm:documentMetadata>
+    </tt:metadata>
+    <tt:styling>
+      <tt:style xml:id="defaultStyle" tts:fontFamily="Verdana, Arial, Tiresias" tts:fontSize="160%" tts:lineHeight="125%" />
+      <tt:style xml:id="textLeft" tts:textAlign="left" />
+      <tt:style xml:id="textCenter" tts:textAlign="center" />
+      <tt:style xml:id="textRight" tts:textAlign="right" />
+      <tt:style xml:id="textBlack" tts:color="#000000" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textBlue" tts:color="#0000ff" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textGreen" tts:color="#00ff00" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textCyan" tts:color="#00ffff" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textRed" tts:color="#ff0000" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textMagenta" tts:color="#ff00ff" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textYellow" tts:color="#ffff00" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textWhite" tts:color="#ffffff" tts:backgroundColor="#000000c2" />
+    </tt:styling>
+    <tt:layout>
+      <tt:region xml:id="bottom" tts:displayAlign="after" tts:origin="10% 10%" tts:extent="80% 80%" />
+      <tt:region xml:id="top" tts:displayAlign="before" tts:origin="10% 10%" tts:extent="80% 80%" />
+    </tt:layout>
+  </tt:head>
+  <tt:body>
+    <tt:div style="defaultStyle">
+      <tt:p xml:id="sub0" style="textCenter" region="bottom" begin="00:00:00.000" end="00:00:01.000" />
+      <tt:p xml:id="sub1" style="textCenter" region="bottom" begin="00:00:02.600" end="00:00:04.600">
+        <tt:span style="textWhite">UT</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub2" style="textCenter" region="bottom" begin="00:00:05.440" end="00:00:11.000">
+        <tt:span style="textYellow">(Jo)</tt:span>
+        <tt:br />
+        <tt:span style="textMagenta">(Vera)</tt:span>
+        <tt:span style="textCyan"> (Bruno)</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub3" style="textCenter" region="bottom" begin="00:00:12.120" end="00:00:15.240">
+        <tt:span style="textWhite">(Jos Mutter)</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">(Jos Vater)</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub4" style="textCenter" region="bottom" begin="00:00:16.200" end="00:00:19.200">
+        <tt:span style="textWhite">(Molesch)</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">(Ana)</tt:span>
+        <tt:span style="textWhite"> (Johannes)</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub5" style="textCenter" region="bottom" begin="00:00:19.960" end="00:00:22.120">
+        <tt:span style="textWhite">(Lucinda)</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub6" style="textCenter" region="bottom" begin="00:00:50.680" end="00:00:52.680">
+        <tt:span style="textWhite">Von wem ist der?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub7" style="textCenter" region="bottom" begin="00:00:52.880" end="00:00:55.720">
+        <tt:span style="textYellow">Der ist von dir.</tt:span>
+        <tt:br />
+        <tt:span style="textYellow">Von wem ist der da?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub8" style="textCenter" region="bottom" begin="00:00:56.480" end="00:00:58.480">
+        <tt:span style="textWhite">Von dir.</tt:span>
+        <tt:br />
+        <tt:span style="textYellow">Von mir?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub9" style="textCenter" region="bottom" begin="00:01:01.160" end="00:01:04.640">
+        <tt:span style="textWhite">Von der Oma. Darf ich</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Wäscheklammern nehmen?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub10" style="textCenter" region="bottom" begin="00:01:04.840" end="00:01:08.080">
+        <tt:span style="textYellow">Ja, klar.</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Aber die lasse ich hier liegen.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub11" style="textCenter" region="bottom" begin="00:01:08.640" end="00:01:11.240">
+        <tt:span style="textYellow">Von wem könnte die sein?</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Von mir.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub12" style="textCenter" region="bottom" begin="00:01:12.040" end="00:01:16.240">
+        <tt:span style="textYellow">Wohin hängen wir die denn?</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Darf ich die da hinhängen?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub13" style="textCenter" region="bottom" begin="00:01:16.440" end="00:01:20.680">
+        <tt:span style="textYellow">Ja. Häng du es da hin!</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Ich häng es da und du da.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub14" style="textCenter" region="bottom" begin="00:01:21.080" end="00:01:25.880">
+        <tt:span style="textWhite">O Mama! Ist das jetzt kaputt?</tt:span>
+        <tt:br />
+        <tt:span style="textYellow">Ist nicht schlimm.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub15" style="textCenter" region="bottom" begin="00:01:26.280" end="00:01:31.200">
+        <tt:span style="textYellow">Die Waschmaschine frisst immer</tt:span>
+        <tt:br />
+        <tt:span style="textYellow">einen Socken auf. Komisch, hm?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub16" style="textCenter" region="bottom" begin="00:01:31.600" end="00:01:34.480">
+        <tt:span style="textWhite">Ja, komisch.</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Irgendwie bisschen komisch.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub17" style="textCenter" region="bottom" begin="00:01:34.880" end="00:01:37.480">
+        <tt:span style="textYellow">Ja, stimmt.</tt:span>
+        <tt:br />
+        <tt:span style="textYellow">Das brauche ich noch.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub18" style="textCenter" region="bottom" begin="00:01:42.920" end="00:01:45.560">
+        <tt:span style="textWhite">Wer entscheidet,</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">dass du deine Talente -</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub19" style="textCenter" region="bottom" begin="00:01:45.960" end="00:01:47.760">
+        <tt:span style="textWhite">- im Urwald</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">vergeudest?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub20" style="textCenter" region="bottom" begin="00:01:47.960" end="00:01:52.000">
+        <tt:span style="textYellow">Viele Bäume in Thüringen</tt:span>
+        <tt:br />
+        <tt:span style="textYellow">sind beim Sturm umgekippt.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub21" style="textCenter" region="bottom" begin="00:01:52.200" end="00:01:56.480">
+        <tt:span style="textWhite">DDR-Misswirtschaft, dem Boden</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">zu viel Wasser entzogen.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub22" style="textCenter" region="bottom" begin="00:01:56.680" end="00:02:00.880">
+        <tt:span style="textWhite">Man kann da gut Urlaub machen,</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">wenn man Biathlon mag.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub23" style="textCenter" region="bottom" begin="00:02:01.080" end="00:02:03.280">
+        <tt:span style="textYellow">Das wäre doch was für dich.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub24" style="textCenter" region="bottom" begin="00:02:03.480" end="00:02:07.120">
+        <tt:span style="textWhite">Ich kann nicht Ski laufen.</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Du kannst es lernen.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub25" style="textCenter" region="bottom" begin="00:02:07.320" end="00:02:12.120">
+        <tt:span style="textWhite">Ich habe lange nicht geschossen.</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Und dann die Westbonzen da.</tt:span>
+      </tt:p>
+    </tt:div>
+  </tt:body>
+</tt:tt>

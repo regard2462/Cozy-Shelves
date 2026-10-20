@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- no action bar, the paper behind the page, transparent bars (the activity hides them anyway) -->
+  <style name="Theme.CozyShelves" parent="android:Theme.Material.Light.NoActionBar">
+    <item name="android:windowBackground">@color/paper</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:colorPrimary">@color/ink</item>
+    <item name="android:colorAccent">@color/ink</item>
+  </style>
+</resources>

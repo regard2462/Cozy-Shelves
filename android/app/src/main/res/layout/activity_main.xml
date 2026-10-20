@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the WebView fills the screen; the start screen above it shows until the page has drawn its first frame -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/paper">
+
+  <WebView
+    android:id="@+id/web"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    android:scrollbars="none"
+    android:overScrollMode="never" />
+
+  <LinearLayout
+    android:id="@+id/splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageView
+      android:layout_width="96dp"
+      android:layout_height="96dp"
+      android:contentDescription="@string/app_name"
+      android:src="@mipmap/ic_launcher" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="18dp"
+      android:text="@string/app_name"
+      android:textColor="@color/ink"
+      android:textSize="30sp"
+      android:fontFamily="serif"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/splash_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:text="@string/loading"
+      android:textColor="@color/ink"
+      android:alpha="0.7"
+      android:textSize="15sp" />
+
+    <ProgressBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="18dp"
+      android:indeterminateTint="@color/ink" />
+  </LinearLayout>
+</FrameLayout>

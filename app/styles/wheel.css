@@ -1,0 +1,118 @@
+/* Radial category wheel – light frosted sectors, calm, readable over a bright or a dark room. */
+#wheel {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 60;
+  pointer-events: auto;
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--bg) 30%, transparent) 0%, color-mix(in srgb, var(--bg) 55%, transparent) 70%);
+  backdrop-filter: blur(4px) saturate(1.1);
+  -webkit-backdrop-filter: blur(4px) saturate(1.1);
+  animation: wheel-in 140ms ease-out;
+}
+#wheel.hidden { display: none; }
+
+@keyframes wheel-in { from { opacity: 0; transform: scale(0.94); } to { opacity: 1; transform: scale(1); } }
+
+.wheel-svg {
+  width: min(78vh, 78vw);
+  height: min(78vh, 78vw);
+  filter: drop-shadow(0 12px 30px rgba(var(--shade-rgb), 0.22));
+}
+
+.wheel-sector {
+  fill: color-mix(in srgb, var(--card) 92%, transparent);
+  stroke: rgba(var(--tint-rgb), 0.10);
+  stroke-width: 2.5;
+  transition: fill 110ms ease, transform 110ms ease;
+  cursor: pointer;
+  transform-origin: 260px 260px;
+}
+.wheel-sector:hover { fill: color-mix(in srgb, var(--card), var(--accent) 8%); }
+.wheel-sector.active {
+  fill: var(--accent);
+  stroke: var(--accent-strong);
+  transform: scale(1.035);
+}
+
+.wheel-label {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
+  fill: var(--text);
+  pointer-events: none;
+  letter-spacing: 0;
+}
+/* the label follows its sector in the SVG */
+.wheel-sector.active + .wheel-label { fill: var(--text-on-accent); }
+
+.wheel-centre {
+  position: absolute;
+  width: min(30vh, 30vw);
+  padding: 0 min(2.4vh, 2.4vw);
+  text-align: center;
+  color: var(--text);
+  pointer-events: none;
+}
+.wheel-title {
+  font-family: var(--font-display);
+  font-size: clamp(17px, 2.2vh, 26px);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--text);
+}
+.wheel-count {
+  margin-top: 6px;
+  font-family: var(--font-body);
+  font-size: clamp(12px, 1.5vh, 15px);
+  color: var(--accent-ink);
+  font-weight: 500;
+}
+.wheel-hint {
+  margin: 12px auto 0;
+  max-width: 80%;
+  font-family: var(--font-body);
+  font-size: clamp(11px, 1.25vh, 13px);
+  line-height: 1.35;
+  color: var(--text-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #wheel { animation: none; }
+  .wheel-sector { transition: none; }
+}
+
+.wheel-disc { fill: color-mix(in srgb, var(--card) 96%, transparent); stroke: rgba(var(--tint-rgb), 0.08); stroke-width: 2; }
+
+/* ---- two rings (0.7.2): the departments and the places; the centre disc swaps them ---- */
+/* the ring that comes in (on opening and on a swap) */
+.wheel-svg { animation: wheel-ring 160ms ease-out; }
+@keyframes wheel-ring { from { opacity: 0.4; transform: scale(0.97); } to { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { .wheel-svg { animation: none; } }
+
+/* the pill in the centre names the other ring and its key: the centre as a target */
+.wheel-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: .45em;
+  margin: 0 auto 10px;
+  padding: 3px 9px 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(var(--tint-rgb), 0.16);
+  background: color-mix(in srgb, var(--card) 72%, transparent);
+  font-family: var(--font-body);
+  font-size: clamp(12px, 1.5vh, 15px);
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text);
+  transition: background 110ms ease, color 110ms ease, border-color 110ms ease;
+}
+.wheel-switch .ws-rings { display: inline-flex; color: var(--accent-ink); }
+.wheel-switch .ws-rings svg { width: 1.05em; height: 1.05em; }
+.wheel-switch kbd { font-size: .78em; vertical-align: 0; }
+.wheel-switch kbd.pad { font-size: .95em; }
+.wheel-switch kbd.pad + kbd.pad { margin-left: -.2em; }
+/* nothing highlighted (the rings were just swapped): the centre itself is the choice */
+.wheel-switch.active { background: var(--accent); border-color: var(--accent-strong); color: var(--text-on-accent); }
+.wheel-switch.active .ws-rings { color: inherit; }

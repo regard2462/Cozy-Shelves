@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="https://rss.dw.com/rdf/rss-de-all">
+    <title>Deutsche Welle: DW.COM Deutsch</title>
+    <link>https://www.dw.com/de/</link>
+    <description>Nachrichten und Analysen</description>
+    <items><rdf:Seq><rdf:li rdf:resource="https://www.dw.com/de/a-1"/><rdf:li rdf:resource="https://www.dw.com/de/a-2"/></rdf:Seq></items>
+  </channel>
+  <item rdf:about="https://www.dw.com/de/a-1">
+    <title>Bundesregierung einigt sich auf Haushalt für 2027</title>
+    <link>https://www.dw.com/de/haushalt-2027/a-1</link>
+    <description>Nach wochenlangem Streit steht der Etatentwurf. Die Opposition spricht von Trickserei.</description>
+    <dc:date>2026-09-14T07:00:00Z</dc:date>
+    <dc:creator>DW</dc:creator>
+  </item>
+  <item rdf:about="https://www.dw.com/de/a-2">
+    <title>Klimakonferenz: Was von der COP zu erwarten ist</title>
+    <link>https://www.dw.com/de/cop/a-2</link>
+    <description>Ein Überblick über die wichtigsten Streitpunkte.</description>
+    <dc:date>2026-09-13T18:30:00Z</dc:date>
+  </item>
+</rdf:RDF>

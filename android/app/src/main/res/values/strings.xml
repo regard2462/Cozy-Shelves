@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name" translatable="false">Cozy Shelves</string>
+  <string name="loading">Loading the library</string>
+  <string name="pick_folder_title">Choose a folder with books</string>
+  <string name="no_picker">This device has no folder picker.</string>
+  <string name="folder_denied">The folder could not be opened.</string>
+  <string name="no_browser">No app for this link.</string>
+</resources>

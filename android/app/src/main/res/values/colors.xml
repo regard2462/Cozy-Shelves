@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- the paper of the start screen (the page's own loading screen uses the same tone) and the night blue of the logo -->
+  <color name="paper">#E3DCCF</color>
+  <color name="ink">#3A2A1C</color>
+  <color name="icon_background">#1F2B3D</color>
+</resources>

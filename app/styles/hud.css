@@ -1,0 +1,144 @@
+/* HUD additions: the book cover that appears right of the crosshair while you look at a book, the label below the
+   crosshair for everything else, the basket at the bottom left. The cover has no title, author or tags below it, only
+   its row of keys when "Hinweise einblenden" is on. */
+/* The card stands right of the middle (its left edge at 60 % of the width, vertically centred): close to the book
+   you look at, never over the crosshair or the pulled-out book (they stay within the middle fifth of the picture). */
+#book-peek {
+  position: fixed;
+  left: 60vw;
+  top: 50%;
+  transform: translateY(-50%) translateX(14px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 140ms ease, transform 180ms cubic-bezier(.22,.61,.36,1);
+  z-index: 25;
+}
+#book-peek.show { opacity: 1; transform: translateY(-50%) translateX(0); }
+#hud.panel-open #book-peek { opacity: 0 !important; }
+/* with the mini player at the bottom right the card sits in the space between the clock (90 px) and the player
+   (its height is --mb-h, set by media-bar.js, 16 px from the bottom, 12 px gap) */
+#hud.has-media-bar #book-peek { top: calc(50vh + 31px - var(--mb-h, 170px) / 2); }
+
+/* No panel around the cover (0.7.2: the glass card with its border and padding read as a white frame): the cover
+   stands alone over the room, the keys sit on a small pill of their own below it. */
+.peek-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+/* The cover: two fifths of the window height (large enough to read the title), in its own proportions
+   (--peek-ratio, set from the picture), never wider than the space between 60 % of the width and the right edge and
+   never into the clock. Rounded corners and a soft shadow, a hairline so that a light cover keeps its edge against a
+   light wall. */
+.peek-cover {
+  --peek-ratio: 0.6667;
+  position: relative;
+  height: min(40vh, 100vh - 250px, 960px, calc((40vw - 50px) / var(--peek-ratio)));
+  aspect-ratio: var(--peek-ratio);
+  margin-inline: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--surface-3);
+  box-shadow: 0 18px 44px rgba(var(--shade-rgb), 0.36), 0 4px 10px rgba(var(--shade-rgb), 0.20), 0 0 0 1px rgba(var(--shade-rgb), 0.10);
+  display: grid;
+  place-items: center;
+}
+#hud.has-media-bar .peek-cover { height: min(40vh, 100vh - 188px - var(--mb-h, 170px), 960px, calc((40vw - 50px) / var(--peek-ratio))); }
+.peek-cover img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.peek-cover .peek-typo { width: 100%; height: 100%; display: block; }
+.peek-cover .peek-fallback {
+  align-self: stretch;
+  justify-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10% 12%;
+  text-align: center;
+  font-family: var(--font-serif);
+  color: #fff;
+}
+.peek-fallback .pf-title { font-size: clamp(20px, 2.6vh, 34px); font-weight: 600; line-height: 1.18; }
+.peek-fallback .pf-rule { height: 1px; background: rgba(255, 255, 255, 0.5); margin: 12px 14%; }
+.peek-fallback .pf-author { font-size: clamp(14px, 1.8vh, 22px); font-style: italic; opacity: 0.9; }
+
+/* how far you have read: a thin line on the lower edge of the cover */
+.peek-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 5px; background: rgba(var(--shade-rgb), 0.28); }
+.peek-progress > i { display: block; height: 100%; background: var(--accent); }
+
+/* the keys below the cover, on a translucent pill of their own, centred under the cover with a little gap: E into
+   the basket, R read, F info (on the table: E read, F info, R back to the shelf); with the hints off there is nothing
+   below the cover */
+.peek-keys {
+  margin-top: 12px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: var(--glass);
+  border: 1px solid var(--glass-line);
+  box-shadow: var(--glass-shadow);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  gap: 6px 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.peek-keys > span { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+#book-peek .peek-keys kbd {
+  min-width: 1.9em;
+  padding: 2px 7px;
+  border-radius: 7px;
+  border: 1px solid var(--line-3);
+  border-bottom-width: 2px;
+  background: var(--card);
+  color: var(--text);
+  font: 700 13.5px/1.35 var(--font-ui);
+}
+
+/* ---- the label below the crosshair (not for books): the name, with the hints on also the key ---- */
+#look-label {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 21px);
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  max-width: min(520px, 80vw);
+  padding: 4px 12px 4px 13px;
+  border-radius: 999px;
+  background: var(--glass);
+  border: 1px solid var(--glass-line);
+  box-shadow: var(--glass-shadow);
+  color: var(--text);
+  font: 500 13.5px/1.35 var(--font-body);
+  white-space: nowrap;
+  pointer-events: none;
+  /* it comes and goes with the ring, without a fade: it never lingers over a book you look at next */
+  visibility: hidden;
+  contain: layout paint;
+}
+#look-label.show { visibility: visible; }
+#hud.panel-open #look-label { visibility: hidden; }
+#look-label .ll-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
+#look-label .ll-keys { display: inline-flex; align-items: center; gap: 6px; color: var(--text-2); }
+#look-label .ll-keys[hidden] { display: none; }
+#look-label .ll-keys::before { content: ""; width: 1px; height: 14px; margin-right: 3px; background: var(--line-3); }
+#look-label kbd { min-width: 1.7em; padding: 0 5px; color: var(--text); font-size: 11.5px; }
+
+/* ---- the basket at the bottom left: covers, how many books, and the key that opens it ---- */
+#basket-hud { align-items: center; gap: 9px; padding: 6px 13px 6px 10px; }
+#basket-hud .bk-icon { font-size: 19px; line-height: 1; }
+#basket-hud .bk-covers { display: flex; gap: 4px; align-items: flex-end; }
+#basket-hud .bk-text { display: flex; flex-direction: column; gap: 3px; line-height: 1.25; }
+#basket-hud .count { margin-left: 0; font-size: 13.5px; font-weight: 600; color: var(--text); white-space: nowrap; }
+#basket-hud.empty .count { font-weight: 500; color: var(--text-2); }
+#basket-hud .bk-key { font-size: 12.5px; color: var(--text-2); white-space: nowrap; }
+#basket-hud .bk-key kbd { margin-right: 5px; color: var(--text); font-size: 11.5px; }
+
+@media (prefers-reduced-motion: reduce) { #book-peek { transition: none; } }

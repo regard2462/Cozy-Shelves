@@ -1,0 +1,7 @@
+# Cozy Shelves – deutsche Sprachausgabe (Kartoffelbox / Chatterbox)
+# Wird von setup_tts.bat / setup_tts.sh (→ setup_tts.py) in tts-server/venv installiert.
+# PyTorch mit CUDA wird anschließend vom Setup-Skript passend zur von chatterbox-tts benötigten Version
+# nachinstalliert:  pip install --force-reinstall --no-deps torch==<v> torchaudio==<v> --index-url https://download.pytorch.org/whl/cu124
+chatterbox-tts
+huggingface_hub
+safetensors

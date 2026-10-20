@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/terms/" xmlns:opds="http://opds-spec.org/2010/catalog" xmlns:schema="http://schema.org/">
+	<id>https://standardebooks.org/feeds/opds/new-releases</id>
+	<link href="https://standardebooks.org/feeds/opds/new-releases" rel="self" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+	<link href="https://standardebooks.org/feeds/opds" rel="start" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+	<link href="https://standardebooks.org/feeds/opds/all?query={searchTerms}" rel="search" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+	<title>Standard Ebooks New Releases</title>
+	<subtitle>The 15 latest Standard Ebooks, most-recently-released first.</subtitle>
+	<icon>https://standardebooks.org/images/logo.png</icon>
+	<updated>2026-09-10T12:00:00Z</updated>
+	<author><name>Standard Ebooks</name><uri>https://standardebooks.org</uri></author>
+	<entry>
+		<id>https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice</id>
+		<title>Pride and Prejudice</title>
+		<author><name>Jane Austen</name><uri>https://standardebooks.org/ebooks/jane-austen</uri><schema:sameAs>http://www.wikidata.org/entity/Q36322</schema:sameAs></author>
+		<published>2014-05-13T00:00:00Z</published>
+		<updated>2026-09-10T12:00:00Z</updated>
+		<dc:identifier>url:https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice</dc:identifier>
+		<dc:language>en-GB</dc:language>
+		<dc:publisher>Standard Ebooks</dc:publisher>
+		<dc:issued>2014-05-13T00:00:00Z</dc:issued>
+		<rights>The source text and artwork in this ebook are believed to be in the United States public domain.</rights>
+		<summary type="text">Elizabeth Bennet and Mr. Darcy misjudge each other before finding their way to happiness in Jane Austen’s best-loved novel.</summary>
+		<content type="html">&lt;p&gt;&lt;i&gt;Pride and Prejudice&lt;/i&gt; may be the most famous of Jane Austen’s novels.&lt;/p&gt;</content>
+		<category scheme="https://standardebooks.org/vocab/subjects" term="Fiction" label="Fiction"/>
+		<category scheme="https://standardebooks.org/vocab/subjects" term="Romance" label="Romance"/>
+		<link href="https://standardebooks.org/images/covers/jane-austen_pride-and-prejudice-a1b2c3-cover.jpg" rel="http://opds-spec.org/image" type="image/jpeg"/>
+		<link href="https://standardebooks.org/images/covers/jane-austen_pride-and-prejudice-a1b2c3-cover-thumbnail.jpg" rel="http://opds-spec.org/image/thumbnail" type="image/jpeg"/>
+		<link href="https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice/downloads/jane-austen_pride-and-prejudice.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" title="Recommended compatible epub"/>
+		<link href="https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice/downloads/jane-austen_pride-and-prejudice_advanced.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" title="Advanced epub"/>
+		<link href="https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice/downloads/jane-austen_pride-and-prejudice.kepub.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/kepub+zip" title="Kobo Kepub epub"/>
+		<link href="https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice/downloads/jane-austen_pride-and-prejudice.azw3" rel="http://opds-spec.org/acquisition/open-access" type="application/x-mobipocket-ebook" title="Amazon Kindle azw3"/>
+	</entry>
+	<entry>
+		<id>https://standardebooks.org/ebooks/homer/the-iliad/william-cowper</id>
+		<title>The Iliad</title>
+		<author><name>Homer</name><uri>https://standardebooks.org/ebooks/homer</uri></author>
+		<contributor><name>William Cowper</name></contributor>
+		<published>2019-03-01T00:00:00Z</published>
+		<dc:language>en-GB</dc:language>
+		<rights>Public domain in the United States.</rights>
+		<summary type="text">Homer’s epic of the Trojan War, in William Cowper’s blank-verse translation.</summary>
+		<category scheme="https://standardebooks.org/vocab/subjects" term="Poetry" label="Poetry"/>
+		<link href="https://standardebooks.org/images/covers/homer_the-iliad_william-cowper-cover-thumbnail.jpg" rel="http://opds-spec.org/image/thumbnail" type="image/jpeg"/>
+		<link href="https://standardebooks.org/ebooks/homer/the-iliad/william-cowper/downloads/homer_the-iliad_william-cowper.epub" rel="http://opds-spec.org/acquisition/open-access" type="application/epub+zip" title="Recommended compatible epub"/>
+	</entry>
+	<entry>
+		<title>Fiction</title>
+		<link href="https://standardebooks.org/feeds/opds/subjects/fiction" rel="subsection" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+		<summary type="text">Navigation entry (no acquisition links)</summary>
+	</entry>
+</feed>

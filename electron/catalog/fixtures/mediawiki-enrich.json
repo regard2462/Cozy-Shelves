@@ -1,0 +1,9 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      { "pageid": 15011, "ns": 0, "title": "Faust - Der Tragödie erster Teil", "thumbnail": { "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Faust_I_Titel.jpg/240px-Faust_I_Titel.jpg", "width": 240, "height": 360 }, "extract": "Faust. Eine Tragödie von Goethe. Tübingen, in der J. G. Cotta'schen Buchhandlung 1808. Zueignung. Ihr naht euch wieder, schwankende Gestalten …" },
+      { "pageid": 8123, "ns": 0, "title": "Der Sandmann", "extract": "Nathanael an Lothar. Gewiß seid Ihr alle voll Unruhe, daß ich so lange – lange nicht geschrieben." }
+    ]
+  }
+}

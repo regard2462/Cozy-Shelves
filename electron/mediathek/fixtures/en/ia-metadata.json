@@ -1,0 +1,167 @@
+{
+ "alternate_locations": {
+  "servers": [
+   {
+    "server": "dn721306.ca.archive.org",
+    "dir": "/0/items/his_girl_friday"
+   }
+  ],
+  "workable": [
+   {
+    "server": "dn721306.ca.archive.org",
+    "dir": "/0/items/his_girl_friday"
+   }
+  ]
+ },
+ "created": 1790052415,
+ "d1": "dn800306.us.archive.org",
+ "dir": "/0/items/his_girl_friday",
+ "files": [
+  {
+   "name": "his_girl_friday.asr.srt",
+   "source": "original",
+   "format": "SubRip",
+   "mtime": "1541121346",
+   "size": "131456",
+   "md5": "8d7376b72ed6e94ef10d291bad028394",
+   "crc32": "bd0fddae",
+   "sha1": "e4a3e29afa352a92f1dc89f1831b9c0b6d37166e"
+  },
+  {
+   "name": "his_girl_friday.mp4",
+   "source": "derivative",
+   "creator": "Columbia Pictures",
+   "title": "His Girl Friday",
+   "format": "h.264",
+   "original": "his_girl_friday.mpeg",
+   "mtime": "1540593512",
+   "size": "575274912",
+   "md5": "8527a3c6c69520b655fbc6e10f0c6e3f",
+   "crc32": "21fe12fa",
+   "sha1": "018837bbf6b64e293b608ce2e32b464fac676a6a",
+   "length": "5504.57",
+   "height": "480",
+   "width": "640"
+  },
+  {
+   "name": "his_girl_friday.mpeg",
+   "source": "original",
+   "creator": "Columbia Pictures",
+   "format": "MPEG2",
+   "title": "His Girl Friday",
+   "md5": "81d563c2b7c8c324f08c8c019f13ba60",
+   "mtime": "1113401052",
+   "size": "3292094468",
+   "crc32": "3cd361b0",
+   "sha1": "4d3061a39dbfab1425d45f51df0d0542a5aac253",
+   "length": "5504.14",
+   "height": "480",
+   "width": "640"
+  },
+  {
+   "name": "his_girl_friday.ogv",
+   "source": "derivative",
+   "format": "Ogg Video",
+   "original": "his_girl_friday.mpeg",
+   "md5": "23da8978072670eb7a2ee21780dc3cf2",
+   "mtime": "1227668229",
+   "size": "390213679",
+   "crc32": "87d85a6a",
+   "sha1": "01de4ad7f811ad23088285d08edd26ec19735acb",
+   "length": "5504.08",
+   "height": "304",
+   "width": "400"
+  },
+  {
+   "name": "his_girl_friday_512kb.mp4",
+   "source": "derivative",
+   "format": "512Kb MPEG4",
+   "original": "his_girl_friday.mpeg",
+   "md5": "0ca9f7b322bf00764b405d9e4595df9d",
+   "mtime": "1227662093",
+   "size": "401207987",
+   "crc32": "b6b5a67d",
+   "sha1": "21a4edfcad455da8f87546415dedda5b558d0b2e",
+   "length": "5504.52",
+   "height": "240",
+   "width": "320"
+  },
+  {
+   "name": "his_girl_friday.thumbs/his_girl_friday_000001.jpg",
+   "source": "derivative",
+   "format": "Thumbnail",
+   "original": "his_girl_friday.mpeg",
+   "md5": "ce9f42638dc51bb0797e427826306cb6",
+   "mtime": "1227645593",
+   "size": "832",
+   "crc32": "1dc64885",
+   "sha1": "76467cf00a42d574be97ae5d63d93ae2b2ae0ba0"
+  },
+  {
+   "name": "his_girl_friday.thumbs/his_girl_friday_000060.jpg",
+   "source": "derivative",
+   "format": "Thumbnail",
+   "original": "his_girl_friday.mpeg",
+   "md5": "84cea683f3d53de3bd217bfeb5560887",
+   "mtime": "1227645597",
+   "size": "10352",
+   "crc32": "1c8b7208",
+   "sha1": "018e597df2d36310d9061575a0132860fd1d5155"
+  }
+ ],
+ "files_count": 106,
+ "item_last_updated": 1780416956,
+ "item_size": 4727178244,
+ "metadata": {
+  "identifier": "his_girl_friday",
+  "title": "His Girl Friday",
+  "mediatype": "movies",
+  "description": "Hilarious romantic comedy starring Cary Grant and Rosalind Russell.  Russell is rough and tumble reporter looking to get out of the news racket by marrying and becoming a house wife after her divorce from newspaper publisher Grant.  Just when she is about to leave town with her husband-to-be the still lovesick Grant drafts her to cover one final breaking news sensation.   \n\nAlong with plenty of laughs and fast paced dialog this film provides a witty and cynical look at news business.\n\nThere is a slight audio sync problem in the first couple minutes of the film.  It is present on the source medium and is very brief.",
+  "date": "1940",
+  "year": "1940",
+  "subject": "romance;comedy",
+  "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+  "pick": "1",
+  "publicdate": "2005-04-15 15:14:13",
+  "addeddate": "2005-04-14 09:54:42",
+  "adder": "akb",
+  "uploader": "akb@indymedia.org",
+  "updater": [
+   "akb",
+   "jordonz"
+  ],
+  "updatedate": [
+   "2005-05-12 15:12:57",
+   "2008-05-02 17:30:23"
+  ],
+  "director": "Howard Hawks",
+  "sound": "sound",
+  "color": "black and white",
+  "runtime": "1:31:44",
+  "type": "MovingImage",
+  "collection": [
+   "Comedy_Films",
+   "feature_films",
+   "moviesandfilms"
+  ],
+  "backup_location": "ia903600_8",
+  "closed_captioning": "no"
+ },
+ "server": "dn800306.us.archive.org",
+ "simplelists": {
+  "solo_manifest": {
+   "solo_manifest_dn800306": {
+    "sys_changed_by": {
+     "source": "task",
+     "task_id": "5411749079"
+    },
+    "sys_last_changed": "2026-06-02 16:16:07.262447"
+   }
+  }
+ },
+ "solo": true,
+ "uniq": 2063108179,
+ "workable_servers": [
+  "dn800306.us.archive.org"
+ ]
+}

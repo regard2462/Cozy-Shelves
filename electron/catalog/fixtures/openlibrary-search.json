@@ -1,0 +1,7 @@
+{
+  "numFound": 2, "start": 0, "numFoundExact": true,
+  "docs": [
+    { "key": "/works/OL66554W", "title": "Chess Fundamentals", "author_name": ["José Raúl Capablanca"], "first_publish_year": 1921, "language": ["eng"], "subject": ["Chess", "Chess -- Openings"], "ia": ["chessfundamental00capa", "chessfundamentals00capa"], "cover_i": 8231856, "public_scan_b": true, "edition_count": 12, "number_of_pages_median": 246, "first_sentence": ["The first thing a student should do, is to familiarise himself with the power of the pieces."] },
+    { "key": "/works/OL1234W", "title": "Kein Scan", "author_name": ["Niemand"], "first_publish_year": 1999, "language": ["ger"], "public_scan_b": false }
+  ]
+}

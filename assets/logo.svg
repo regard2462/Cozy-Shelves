@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="512" height="512" role="img" aria-label="Cozy Shelves">
+  <!-- The logo "Mondregal": a shelf of books under the moon and the stars. The app icons are drawn from the same
+       shapes by build/logo-icons.py; change both together. -->
+  <defs>
+    <mask id="moon">
+      <rect width="120" height="120" fill="#fff"/>
+      <circle cx="82" cy="32" r="14" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="#1f2b3d"/>
+  <circle cx="74" cy="38" r="16" fill="#f3e7cf" mask="url(#moon)"/>
+  <circle cx="36" cy="30" r="2" fill="#f3e7cf"/>
+  <circle cx="48" cy="44" r="1.4" fill="#f3e7cf"/>
+  <circle cx="94" cy="56" r="1.6" fill="#f3e7cf"/>
+  <rect x="27" y="64" width="9" height="28" rx="2" fill="#e39a32"/>
+  <rect x="37.5" y="60" width="8" height="32" rx="2" fill="#7a9cc0"/>
+  <rect x="47" y="66" width="10" height="26" rx="2" fill="#b4533a"/>
+  <rect x="58.5" y="62" width="8" height="30" rx="2" fill="#e7d6b5"/>
+  <rect x="68" y="67" width="9" height="25" rx="2" fill="#6f9b7c"/>
+  <rect x="80" y="70" width="7" height="22" rx="1.5" transform="rotate(14 83 92)" fill="#c58c5b"/>
+  <rect x="22" y="92" width="76" height="5" rx="2.5" fill="#8a6a4f"/>
+</svg>

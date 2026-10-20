@@ -1,0 +1,68 @@
+/* Read-aloud (0.7): the voice menu at the read-aloud icon (app/src/ui/reader/tts-voice-menu.js), the voice button of the
+   reading bars and "Alle Stimmen herunterladen" in the settings (app/src/ui/tts-all-voices.js). Colours from ui.css. */
+
+/* ---- the voice menu: a small sheet next to the icon ---- */
+.tts-menu { position: fixed; z-index: 120; display: flex; flex-direction: column; gap: 2px; padding: 10px 10px 8px; overflow-y: auto; overscroll-behavior: contain;
+  background: var(--surface); color: var(--text); border: 1px solid var(--line-2); border-radius: var(--radius-m); box-shadow: var(--shadow);
+  font-family: var(--font-ui); font-size: 14px; line-height: 1.3; outline: none; }
+.tts-menu-head { display: flex; align-items: center; gap: 8px; padding: 0 2px 6px 6px; }
+.tts-menu-title { flex: 1; font-weight: 600; font-size: 15px; }
+.tts-menu-x { width: 30px; height: 30px; border-radius: 50%; border: 0; background: transparent; color: var(--text-2); cursor: pointer; font-size: 14px; }
+.tts-menu-x:hover { background: var(--hover); color: var(--text); }
+.tts-menu-flash { margin: 0 4px 6px; padding: 6px 10px; border-radius: var(--radius-s); background: rgba(var(--bad-rgb), .1); color: var(--bad); font-size: 13px; }
+.tts-menu-sec { display: flex; flex-direction: column; gap: 2px; padding: 6px 0; border-top: 1px solid var(--line); }
+.tts-menu-sec.small { color: var(--text-3); font-size: 13px; padding: 8px 6px; }
+.tts-menu-label { padding: 2px 6px 4px; font-size: 12px; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; color: var(--text-3); }
+.tts-menu-list { display: flex; flex-direction: column; gap: 1px; }
+.tts-menu-en { max-height: 190px; overflow-y: auto; }
+.tts-menu-item { display: flex; align-items: center; gap: 9px; width: 100%; min-height: 34px; padding: 5px 8px; border: 0; border-radius: var(--radius-s);
+  background: transparent; color: var(--text); text-align: left; font: inherit; cursor: pointer; }
+.tts-menu-item:hover { background: var(--hover); }
+.tts-menu-item:focus-visible, .tts-menu-seg button:focus-visible, .tts-menu-switch:focus-visible, .tts-menu-x:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.tts-menu-item.on { background: var(--accent-soft); color: var(--accent-ink); font-weight: 600; }
+.tts-menu-dot { width: 14px; height: 14px; flex: none; border-radius: 50%; border: 2px solid var(--line-3); }
+.tts-menu-item.on .tts-menu-dot { border-color: var(--accent); background: radial-gradient(circle, var(--accent) 0 3.5px, transparent 4px); }
+.tts-menu-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tts-menu-badge { flex: none; font-size: 12px; color: var(--text-3); font-variant-numeric: tabular-nums; font-weight: 500; }
+.tts-menu-badge.get { color: var(--warm-ink); }
+.tts-menu-badge.ok { color: var(--good); }
+.tts-menu-model { display: flex; align-items: center; gap: 8px; margin: 0 6px 4px; padding: 6px 8px; border-radius: var(--radius-s); background: var(--surface-2); color: var(--text-2); font-size: 13px; }
+.tts-menu-model > span { flex: 1; }
+.tts-menu-switch { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; padding: 4px 6px; border: 0; background: transparent; color: var(--text); font: inherit; cursor: pointer; border-radius: var(--radius-s); text-align: left; }
+.tts-menu-switch:hover { background: var(--hover); }
+.tts-menu-switch .toggle { pointer-events: none; transform: scale(.82); transform-origin: right center; }
+.tts-menu-seg { display: flex; flex-wrap: wrap; gap: 4px; padding: 2px 6px 4px; }
+.tts-menu-seg button { flex: 1 0 auto; min-height: 30px; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--card); color: var(--text); font: inherit; font-size: 13px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.tts-menu-seg button:hover { border-color: var(--line-3); }
+.tts-menu-seg button.on { background: var(--accent); border-color: var(--accent); color: var(--text-on-accent); font-weight: 600; }
+.tts-menu-foot { display: flex; justify-content: flex-end; padding-top: 4px; border-top: 1px solid var(--line); }
+.tts-menu-voices { display: flex; flex-direction: column; }
+.tts-menu.wide .tts-menu-voices { display: grid; grid-template-columns: 1fr 1fr; column-gap: 14px; border-top: 1px solid var(--line); }
+.tts-menu.wide .tts-menu-voices > .tts-menu-sec { border-top: 0; min-width: 0; }
+.tts-menu.wide .tts-menu-en { max-height: 352px; }
+
+/* ---- the reader: the arrow next to the icon and the voice button of the reading bar ---- */
+.rd-btn.rd-btn-ttsmenu { margin-left: -6px; min-width: 22px; width: 22px; padding: 0; font-size: 12px; }
+.rd-btn.rd-tts-voicebtn { width: auto; max-width: 190px; padding: 0 10px; gap: 6px; border-radius: 999px; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-flex; align-items: center; }
+.rd-tts-caret { font-size: 11px; opacity: .7; }
+
+/* ---- the reading browser and the read-aloud button of the newspaper and the encyclopedia ---- */
+.br-tts .br-tts-voicebtn { display: inline-flex; align-items: center; gap: 6px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tts-btn-group { display: inline-flex; align-items: stretch; gap: 0; }
+.tts-btn-group > .tts-btn { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+.tts-btn-group > .tts-btn-more { border-top-left-radius: 0; border-bottom-left-radius: 0; margin-left: -1px; padding: 3px 9px; min-width: 0; }
+
+/* ---- settings: all voices at once ---- */
+.tts-all { display: flex; flex-direction: column; gap: 8px; margin: 6px 0 4px; }
+.tts-all-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.tts-all-sum { color: var(--text-2); font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.tts-all-bar { position: relative; height: 8px; border-radius: 999px; background: var(--surface-3); overflow: hidden; flex: 1 1 220px; min-width: 160px; }
+.tts-all-bar > i { position: absolute; inset: 0 auto 0 0; width: 0; border-radius: inherit; background: var(--accent); transition: width .3s; }
+.tts-all-list { display: grid; grid-template-columns: minmax(120px, 1fr) minmax(90px, 160px) 118px; column-gap: 12px; row-gap: 5px; margin: 0; padding: 0; list-style: none; }
+.tts-all-item { display: contents; font-size: 13.5px; }
+.tts-all-item > span:first-child { font-size: 13.5px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tts-all-item .tts-all-bar { height: 5px; flex: none; min-width: 0; align-self: center; }
+.tts-all-state { color: var(--text-3); font-size: 12.5px; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tts-all-item.done .tts-all-state, .tts-all-item.skipped .tts-all-state { color: var(--good); }
+.tts-all-item.failed .tts-all-state { color: var(--bad); }
+.tts-all-fail { color: var(--bad); font-size: 13px; }
