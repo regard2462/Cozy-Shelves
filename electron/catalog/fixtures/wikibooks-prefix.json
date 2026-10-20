@@ -1,0 +1,1 @@
+{ "batchcomplete": true, "query": { "prefixsearch": [ { "ns": 0, "title": "Schach/ Endspiel", "pageid": 1003 }, { "ns": 0, "title": "Schach/ Eröffnungen", "pageid": 1002 }, { "ns": 0, "title": "Schach/ Glossar", "pageid": 1004 }, { "ns": 0, "title": "Schach/ Regeln", "pageid": 1005 } ] } }

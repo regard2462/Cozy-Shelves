@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "id": "1234", "title": "Faust: Der Tragödie erster Teil", "description": "<p>Faust I ist die berühmteste Tragödie der deutschen Literatur. Der Gelehrte Faust schließt einen Pakt mit Mephistopheles.</p>", "url_text_source": "http://www.gutenberg.org/etext/2229", "language": "German", "copyright_year": "1808", "num_sections": "28", "url_rss": "https://librivox.org/rss/1234", "url_zip_file": "https://www.archive.org/download/faust_1_0810_librivox/faust_1_0810_librivox_64kb_mp3.zip", "url_project": "", "url_librivox": "https://librivox.org/faust-der-tragodie-erster-teil-by-johann-wolfgang-von-goethe/", "url_other": "", "totaltime": "4:36:12", "totaltimesecs": 16572,
+      "authors": [ { "id": "84", "first_name": "Johann Wolfgang von", "last_name": "Goethe", "dob": "1749", "dod": "1832" } ],
+      "sections": [ { "id": "1", "section_number": "1", "title": "Zueignung", "listen_url": "https://www.archive.org/download/faust_1_0810_librivox/faust1_01_goethe_64kb.mp3", "playtime": "612" } ],
+      "genres": [ { "id": "3", "name": "Tragedy" }, { "id": "12", "name": "Poetry" } ],
+      "translators": [],
+      "url_iarchive": "https://archive.org/details/faust_1_0810_librivox"
+    },
+    {
+      "id": "5678", "title": "Chess Fundamentals", "description": "Capablanca's classic.", "language": "English", "copyright_year": "1921", "num_sections": "12", "url_rss": "https://librivox.org/rss/5678", "url_librivox": "https://librivox.org/chess-fundamentals/", "totaltime": "3:10:00", "totaltimesecs": 11400,
+      "authors": [ { "id": "1", "first_name": "José Raúl", "last_name": "Capablanca", "dob": "1888", "dod": "1942" } ], "genres": [ { "id": "50", "name": "Games" } ]
+    }
+  ]
+}

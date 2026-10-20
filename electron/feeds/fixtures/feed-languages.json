@@ -1,0 +1,1037 @@
+{
+ "checked": "2026-10-04",
+ "feeds": {
+  "tagesschau": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2275
+  },
+  "tagesschau-inland": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1041
+  },
+  "tagesschau-ausland": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1157
+  },
+  "dw-de": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 3099
+  },
+  "dw-en": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 5336
+  },
+  "taz": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1550
+  },
+  "zeit": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 479
+  },
+  "spiegel": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1929
+  },
+  "sz": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 551
+  },
+  "faz": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 5255
+  },
+  "dlf": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 822
+  },
+  "nzz": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 622
+  },
+  "srf": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "ge",
+   "words": 2157
+  },
+  "orf": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 402
+  },
+  "derstandard": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 4322
+  },
+  "zdfheute": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 5412
+  },
+  "bbk": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 736
+  },
+  "guardian-world": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 5676
+  },
+  "guardian-europe": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3401
+  },
+  "bbc": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 836
+  },
+  "bbc-world": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 681
+  },
+  "npr": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 775
+  },
+  "aljazeera": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 701
+  },
+  "france24": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1948
+  },
+  "nyt-world": {
+   "tag": "en",
+   "detected": null,
+   "declared": null,
+   "error": "HTTP 403"
+  },
+  "euronews": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2190
+  },
+  "conversation-uk": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1551
+  },
+  "dlf-politik": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 919
+  },
+  "zeit-politik": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 855
+  },
+  "spiegel-politik": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1373
+  },
+  "swp": {
+   "tag": "de",
+   "detected": null,
+   "declared": "de",
+   "words": 7146
+  },
+  "correctiv": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 3959
+  },
+  "propublica": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2773
+  },
+  "bellingcat": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 4928
+  },
+  "foreignpolicy": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 855
+  },
+  "thediplomat": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2956
+  },
+  "cfr": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1174
+  },
+  "rs": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6681
+  },
+  "lawfare": {
+   "tag": "en",
+   "detected": null,
+   "declared": "en",
+   "words": 1
+  },
+  "wotr": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 7916
+  },
+  "politico-eu": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2358
+  },
+  "kyivindependent": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 613
+  },
+  "guardian-commentisfree": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 7146
+  },
+  "tagesschau-wirtschaft": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 987
+  },
+  "handelsblatt": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 2968
+  },
+  "wiwo": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 1069
+  },
+  "manager-magazin": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2136
+  },
+  "capital": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 5584
+  },
+  "zeit-wirtschaft": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 876
+  },
+  "finanzmarktwelt": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1504
+  },
+  "finanzwesir": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 6839
+  },
+  "ecb": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 168
+  },
+  "marginalrevolution": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 4124
+  },
+  "calculatedrisk": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 197
+  },
+  "awocs": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1084
+  },
+  "collabfund": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 10071
+  },
+  "ofdollars": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 8490
+  },
+  "bogleheads": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1219
+  },
+  "cnbc": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1124
+  },
+  "economist-finance": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 5470
+  },
+  "guardian-business": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 4810
+  },
+  "spektrum": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 602
+  },
+  "scinexx": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 4756
+  },
+  "wissenschaft-de": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1439
+  },
+  "mpg": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 681
+  },
+  "geo": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 7768
+  },
+  "dlf-forschung": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1570
+  },
+  "weltderphysik": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 537
+  },
+  "zeit-wissen": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 852
+  },
+  "quanta": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 603
+  },
+  "knowable": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 672
+  },
+  "undark": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 566
+  },
+  "physorg": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1754
+  },
+  "sciencedaily": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3621
+  },
+  "nasa": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1661
+  },
+  "nasa-eo": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1003
+  },
+  "esa": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 720
+  },
+  "apod": {
+   "tag": "en",
+   "detected": null,
+   "declared": null,
+   "words": 3
+  },
+  "biographic": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6107
+  },
+  "mongabay": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 8520
+  },
+  "e360": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 5118
+  },
+  "insideclimate": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1344
+  },
+  "emergence": {
+   "tag": "en",
+   "detected": null,
+   "declared": "en",
+   "words": 2
+  },
+  "smithsonian": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 470
+  },
+  "heise": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 4413
+  },
+  "heise-security": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 533
+  },
+  "golem": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2354
+  },
+  "t3n": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 952
+  },
+  "netzpolitik": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 4530
+  },
+  "kuketz": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 6701
+  },
+  "zeit-digital": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 882
+  },
+  "arstechnica": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3564
+  },
+  "theverge": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 670
+  },
+  "wired": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1624
+  },
+  "mittr": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6374
+  },
+  "hn": {
+   "tag": "en",
+   "detected": null,
+   "declared": null,
+   "error": "fetch failed"
+  },
+  "krebs": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6766
+  },
+  "schneier": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1027
+  },
+  "thehackernews": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3586
+  },
+  "eff": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 9235
+  },
+  "bbc-technology": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 461
+  },
+  "zeit-kultur": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 865
+  },
+  "monopol": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 200
+  },
+  "perlentaucher": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2326
+  },
+  "nmz": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 514
+  },
+  "colossal": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2511
+  },
+  "hyperallergic": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 4268
+  },
+  "artnews": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6949
+  },
+  "artnewspaper": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2389
+  },
+  "pdr": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 5410
+  },
+  "openculture": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6599
+  },
+  "guardian-culture": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 10139
+  },
+  "baunetz": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 5560
+  },
+  "designtagebuch": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2806
+  },
+  "dezeen": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2099
+  },
+  "archdaily": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1969
+  },
+  "designboom": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 4350
+  },
+  "wallpaper": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 4330
+  },
+  "yanko": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 5695
+  },
+  "core77": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6173
+  },
+  "gdg": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 585
+  },
+  "philomag": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 819
+  },
+  "zeit-geschichte": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 562
+  },
+  "historytoday": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 379
+  },
+  "dailystoic": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6894
+  },
+  "3qd": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6887
+  },
+  "historyextra": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2499
+  },
+  "spiegel-geschichte": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1342
+  },
+  "smithsonian-history": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 954
+  },
+  "54books": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 7448
+  },
+  "literaturcafe": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 727
+  },
+  "dlf-buecher": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1658
+  },
+  "longreads": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3123
+  },
+  "aeon": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 644
+  },
+  "nautilus": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 617
+  },
+  "lithub": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3574
+  },
+  "parisreview": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6280
+  },
+  "gutenberg": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 102
+  },
+  "newyorker": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1432
+  },
+  "atlantic": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 561
+  },
+  "marginalian": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 4496
+  },
+  "guardian-books": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 5495
+  },
+  "sportschau": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2178
+  },
+  "kicker": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1244
+  },
+  "sz-sport": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 514
+  },
+  "bbc-sport": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 2240
+  },
+  "guardian-sport": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 7149
+  },
+  "chessbase-de": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 7466
+  },
+  "perlen": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1021
+  },
+  "lichess": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 171
+  },
+  "chessbase-en": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 7734
+  },
+  "twic": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1970
+  },
+  "chesscom": {
+   "tag": "en",
+   "detected": "en",
+   "declared": null,
+   "words": 1272
+  },
+  "aerzteblatt": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 569
+  },
+  "zeit-gesundheit": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 868
+  },
+  "psychologie-heute": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2530
+  },
+  "utopia": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 697
+  },
+  "nyt-well": {
+   "tag": "en",
+   "detected": null,
+   "declared": null,
+   "error": "HTTP 403"
+  },
+  "guardian-food": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 4966
+  },
+  "smittenkitchen": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 1962
+  },
+  "spiegel-gesundheit": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1296
+  },
+  "faz-medizin": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2583
+  },
+  "guardian-health": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 2680
+  },
+  "zeit-reisen": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 901
+  },
+  "sz-reise": {
+   "tag": "de",
+   "detected": "de",
+   "declared": null,
+   "words": 477
+  },
+  "atlasobscura": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 6825
+  },
+  "outside": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3111
+  },
+  "adventurejournal": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 7688
+  },
+  "guardian-travel": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 3962
+  },
+  "spiegel-reise": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 1331
+  },
+  "faz-reise": {
+   "tag": "de",
+   "detected": "de",
+   "declared": "de",
+   "words": 2255
+  },
+  "cntraveler": {
+   "tag": "en",
+   "detected": "en",
+   "declared": "en",
+   "words": 985
+  }
+ }
+}

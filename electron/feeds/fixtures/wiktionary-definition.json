@@ -1,0 +1,10 @@
+{
+  "de": [
+    { "partOfSpeech": "Noun", "language": "German",
+      "definitions": [
+        { "definition": "<span class=\"form-of-definition use-with-mention\">house</span>, <a href=\"/wiki/building\">building</a>", "parsedExamples": [ { "example": "Das <b>Haus</b> steht am Fluss.", "translation": "The house stands by the river." } ], "examples": [ "Das <b>Haus</b> steht am Fluss." ] },
+        { "definition": "<a href=\"/wiki/home\">home</a>, <a href=\"/wiki/household\">household</a>", "parsedExamples": [], "examples": [] }
+      ] }
+  ],
+  "other": [ { "partOfSpeech": "Noun", "language": "Luxembourgish", "definitions": [ { "definition": "house" } ] } ]
+}

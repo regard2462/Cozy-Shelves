@@ -1,0 +1,10 @@
+{
+  "en": [
+    { "partOfSpeech": "Noun", "language": "English",
+      "definitions": [
+        { "definition": "A <a href=\"/wiki/structure\">structure</a> built or serving as an abode of human beings.", "parsedExamples": [ { "example": "This <b>house</b> has three bedrooms." } ], "examples": [ "This <b>house</b> has three bedrooms." ] },
+        { "definition": "The people who live in a house; a household.", "parsedExamples": [], "examples": [] }
+      ] },
+    { "partOfSpeech": "Verb", "language": "English", "definitions": [ { "definition": "To keep within a structure or container.", "examples": [ "The car is <b>housed</b> in the garage." ] } ] }
+  ]
+}

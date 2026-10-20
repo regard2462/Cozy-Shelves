@@ -1,0 +1,4 @@
+{ "pages": [
+  { "id": 12345, "key": "Rhonegletscher", "title": "Rhonegletscher", "excerpt": "Der <span class=\"searchmatch\">Rhonegletscher</span> ist ein Talgletscher", "matched_title": null, "description": "Gletscher in der Schweiz", "thumbnail": { "mimetype": "image/jpeg", "width": 60, "height": 40, "duration": null, "url": "//upload.wikimedia.org/wikipedia/commons/thumb/r/r1/Rhone_Glacier.jpg/60px-Rhone_Glacier.jpg" } },
+  { "id": 12346, "key": "Rhone", "title": "Rhone", "excerpt": "Rhone", "description": "Fluss in der Schweiz und Frankreich", "thumbnail": null }
+] }

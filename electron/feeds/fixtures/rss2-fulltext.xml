@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>netzpolitik.org</title>
+  <link>https://netzpolitik.org</link>
+  <description>Plattform für digitale Freiheitsrechte</description>
+  <language>de-DE</language>
+  <atom:link href="https://netzpolitik.org/feed/" rel="self" type="application/rss+xml"/>
+  <image><url>https://netzpolitik.org/wp-content/uploads/logo.png</url><title>netzpolitik.org</title><link>https://netzpolitik.org</link></image>
+  <item>
+    <title><![CDATA[Chatkontrolle: Warum das Ende der Verschlüsselung alle betrifft]]></title>
+    <link>https://netzpolitik.org/2026/chatkontrolle-verschluesselung/</link>
+    <guid isPermaLink="false">https://netzpolitik.org/?p=481234</guid>
+    <pubDate>Mon, 14 Sep 2026 08:15:00 +0000</pubDate>
+    <dc:creator><![CDATA[Lena Brandau]]></dc:creator>
+    <category><![CDATA[Überwachung]]></category>
+    <category><![CDATA[Europäische Union]]></category>
+    <description><![CDATA[Die EU-Kommission will Messenger verpflichten, private Nachrichten auf verbotene Inhalte zu durchsuchen. Was das technisch bedeutet und warum Fachleute warnen.]]></description>
+    <content:encoded><![CDATA[<p>Die Verhandlungen über die sogenannte <strong>Chatkontrolle</strong> gehen in die entscheidende Runde. Seit mehr als drei Jahren ringen Kommission, Parlament und Rat der Europäischen Union um eine Verordnung, die Anbieter von Messengerdiensten verpflichten soll, private Kommunikation anlasslos nach Darstellungen von Kindesmissbrauch zu durchsuchen. Was zunächst nach einem nachvollziehbaren Ziel klingt, entpuppt sich bei näherem Hinsehen als tiefer Eingriff in die Grundrechte aller Menschen in Europa.</p>
+<figure class="wp-caption"><img src="/wp-content/uploads/2026/09/schloss-tastatur.jpg" alt="Ein Vorhängeschloss auf einer Tastatur" width="1200" height="800" /><figcaption class="wp-caption-text">Ende-zu-Ende-Verschlüsselung schützt die Kommunikation von Milliarden Menschen. – Alle Rechte vorbehalten IMAGO / Westend61</figcaption></figure>
+<h2>Was technisch passieren soll</h2>
+<p>Kern des Vorhabens ist das sogenannte <em>Client-Side-Scanning</em>. Dabei werden Nachrichten nicht erst auf dem Server, sondern bereits auf dem Gerät der Nutzerin durchsucht, bevor sie verschlüsselt werden. Die Verschlüsselung bleibt formal erhalten, wird aber faktisch ausgehebelt: Wer eine Nachricht liest, bevor sie in den geschützten Tunnel eintritt, braucht den Tunnel nicht zu knacken.</p>
+<p>Fachleute aus Kryptographie und IT-Sicherheit warnen seit Jahren vor genau diesem Ansatz. In einem offenen Brief, den mehr als 300 Wissenschaftler:innen unterzeichnet haben, heißt es, dass eine solche Infrastruktur „zwangsläufig missbraucht“ werde – sei es durch Kriminelle, die Schwachstellen ausnutzen, oder durch Regierungen, die den Katalog der gesuchten Inhalte erweitern.</p>
+<blockquote><p>„Es gibt keinen Weg, eine Hintertür zu bauen, die nur die Guten benutzen können.“ – Mara Lindqvist, Sprecherin eines Messenger-Dienstes</p></blockquote>
+<h2>Die Fehlerquote ist das Problem</h2>
+<p>Selbst wenn man die grundsätzlichen Bedenken beiseiteschiebt, bleibt ein praktisches Problem: die Fehlerquote. Bei Milliarden Nachrichten pro Tag führt selbst eine Trefferquote von 99,9 Prozent zu Millionen falscher Verdachtsmeldungen. Die Schweizer Bundespolizei berichtete, dass rund 80 Prozent der automatisch generierten Meldungen strafrechtlich nicht relevant waren. Urlaubsfotos, Arztbilder und Familienaufnahmen landeten auf den Schreibtischen von Ermittler:innen.</p>
+<ul><li>Über 300 Wissenschaftler:innen lehnen Client-Side-Scanning ab</li><li>Der Juristische Dienst des Rates hält den Entwurf für grundrechtswidrig</li><li>Das EU-Parlament fordert, verschlüsselte Kommunikation auszunehmen</li></ul>
+<p>Die deutsche Bundesregierung hatte sich im Koalitionsvertrag festgelegt, keine Chatkontrolle mitzutragen. Ob diese Position im Rat Bestand hat, entscheidet sich in den kommenden Wochen. Beobachter:innen rechnen damit, dass die dänische Ratspräsidentschaft einen weiteren Kompromissvorschlag vorlegen wird, der die Durchsuchung zunächst auf Bilder und Links beschränkt.</p>
+<p>Für die Nutzer:innen ändert das wenig: Auch ein eingeschränktes Scanning setzt voraus, dass eine Software auf jedem Gerät mitliest. Und wer einmal eine solche Infrastruktur geschaffen hat, wird sie nicht so schnell wieder abbauen.</p>
+<img src="https://netzpolitik.org/wp-content/plugins/stats/pixel.gif?id=481234" width="1" height="1" alt="" />
+<p><a href="https://netzpolitik.org/spenden/">Wir sind spendenfinanziert – unterstütze uns!</a></p>]]></content:encoded>
+    <media:content url="https://netzpolitik.org/wp-content/uploads/2026/09/schloss-tastatur-1200.jpg" medium="image" width="1200" height="800" />
+    <media:thumbnail url="https://netzpolitik.org/wp-content/uploads/2026/09/schloss-tastatur-300.jpg" width="300" height="200" />
+  </item>
+  <item>
+    <title>Kurz gemeldet: Bundestag berät Datenschutzreform</title>
+    <link>https://netzpolitik.org/2026/kurz-bundestag-datenschutz/</link>
+    <guid>https://netzpolitik.org/?p=481240</guid>
+    <pubDate>Sun, 13 Sep 2026 16:40:00 +0000</pubDate>
+    <dc:creator>Jonas Kellner</dc:creator>
+    <description>Der Bundestag berät heute in erster Lesung die Reform des Bundesdatenschutzgesetzes. Kritiker fürchten eine Schwächung der Aufsichtsbehörden.</description>
+    <enclosure url="https://netzpolitik.org/wp-content/uploads/2026/09/bundestag.jpg" type="image/jpeg" length="123456" />
+  </item>
+  <item>
+    <title>Podcast NPP 291: Wie frei ist das Netz noch?</title>
+    <link>https://netzpolitik.org/2026/npp-291/</link>
+    <guid>https://netzpolitik.org/?p=481250</guid>
+    <pubDate>Sat, 12 Sep 2026 10:00:00 +0000</pubDate>
+    <description><![CDATA[<p>In unserer neuen Podcast-Folge sprechen wir mit <a href="https://example.org">Gästen</a> über Netzfreiheit.</p><script>alert(1)</script><iframe src="https://evil.example/x"></iframe>]]></description>
+    <enclosure url="https://netzpolitik.org/audio/npp291.mp3" type="audio/mpeg" length="55000000" />
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="loading">Die Bücherei wird geladen</string>
+  <string name="pick_folder_title">Ordner mit Büchern wählen</string>
+  <string name="no_picker">Dieses Gerät hat keine Ordnerauswahl.</string>
+  <string name="folder_denied">Der Ordner ließ sich nicht öffnen.</string>
+  <string name="no_browser">Keine App für diesen Link.</string>
+</resources>

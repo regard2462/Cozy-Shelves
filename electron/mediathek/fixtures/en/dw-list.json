@@ -1,0 +1,398 @@
+{
+ "languageId": 2,
+ "type": "MediaCenter",
+ "paginationInfo": {
+  "availableItems": 6254,
+  "availablePages": 209,
+  "pageSize": 30,
+  "currentPage": 1,
+  "itemsOnPage": 30,
+  "firstItem": 0,
+  "lastItem": 29,
+  "nextPageUrl": "https://api.dw.com/api/list/mediacenter/2?pageIndex=2"
+ },
+ "resultCount": 6254,
+ "items": [
+  {
+   "type": "VideoTeaser",
+   "name": "Top stories in 90 seconds",
+   "teaserText": "DW brings you the top international news stories in brief.",
+   "displayDate": "2026-10-04T12:33:41.973Z",
+   "image": {
+    "id": 79533979,
+    "type": "Image",
+    "name": "Präsidentschaftswahl Brasilien 2026 | Lula da Silva grüßt Anhänger in São Paulo",
+    "sizes": [
+     {
+      "width": 220,
+      "height": 124,
+      "url": "https://static.dw.com/image/79533979_301.jpg"
+     },
+     {
+      "width": 460,
+      "height": 259,
+      "url": "https://static.dw.com/image/79533979_302.jpg"
+     },
+     {
+      "width": 700,
+      "height": 394,
+      "url": "https://static.dw.com/image/79533979_303.jpg"
+     },
+     {
+      "width": 940,
+      "height": 529,
+      "url": "https://static.dw.com/image/79533979_304.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 49496622,
+    "type": "VideoRef",
+    "name": "Top stories in 90 seconds",
+    "url": "https://api.dw.com/api/detail/video/49496622"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "duration": 93
+  },
+  {
+   "type": "VideoTeaser",
+   "name": "What can German Chancellor Friedrich Merz offer Ukraine?",
+   "teaserText": "Merz arrived in Kyiv for an unannounced visit. Germany is among Ukraine's largest supporters. ",
+   "displayDate": "2026-10-04T11:46:50.085Z",
+   "image": {
+    "id": 79535020,
+    "type": "Image",
+    "name": "Ukraine Kyjiw 2026 | Friedrich Merz wird von Andrij Sybiha am Hauptbahnhof begrüßt",
+    "sizes": [
+     {
+      "width": 220,
+      "height": 124,
+      "url": "https://static.dw.com/image/79535020_301.jpg"
+     },
+     {
+      "width": 460,
+      "height": 259,
+      "url": "https://static.dw.com/image/79535020_302.jpg"
+     },
+     {
+      "width": 700,
+      "height": 394,
+      "url": "https://static.dw.com/image/79535020_303.jpg"
+     },
+     {
+      "width": 940,
+      "height": 529,
+      "url": "https://static.dw.com/image/79535020_304.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 79537022,
+    "type": "VideoRef",
+    "name": "What can German Chancellor Friedrich Merz offer Ukraine?",
+    "url": "https://api.dw.com/api/detail/video/79537022"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "duration": 644
+  },
+  {
+   "type": "VideoTeaser",
+   "name": "Young startups — Germany's next tech champions?",
+   "teaserText": "Could Germany become a hotspot for the global markets of the future?",
+   "displayDate": "2026-10-04T11:16:13.361Z",
+   "image": {
+    "id": 79437163,
+    "type": "Image",
+    "name": "DW 2026 | Dokumentation \"Junge StartUps\"",
+    "sizes": [
+     {
+      "width": 220,
+      "height": 124,
+      "url": "https://static.dw.com/image/79437163_301.jpg"
+     },
+     {
+      "width": 460,
+      "height": 259,
+      "url": "https://static.dw.com/image/79437163_302.jpg"
+     },
+     {
+      "width": 700,
+      "height": 394,
+      "url": "https://static.dw.com/image/79437163_303.jpg"
+     },
+     {
+      "width": 940,
+      "height": 529,
+      "url": "https://static.dw.com/image/79437163_304.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 79537129,
+    "type": "VideoRef",
+    "name": "Young startups — Germany's next tech champions?",
+    "url": "https://api.dw.com/api/detail/video/79537129"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "duration": 1704,
+   "programId": 294010
+  },
+  {
+   "type": "GalleryTeaser",
+   "name": "The Indian island that could disappear in 10 years",
+   "teaserText": "Kariyachalli is in danger of sinking into sea. Artificial reefs, corals, and seagrass may save India's island.",
+   "displayDate": "2026-10-04T05:42:18.991Z",
+   "image": {
+    "id": 79498634,
+    "type": "Image",
+    "name": "Indien Kariyachalli 2026 | Mitglied der Fischergemeinde befestigt Seegras-Setzlinge",
+    "sizes": [
+     {
+      "width": 220,
+      "height": 124,
+      "url": "https://static.dw.com/image/79498634_301.jpg"
+     },
+     {
+      "width": 460,
+      "height": 259,
+      "url": "https://static.dw.com/image/79498634_302.jpg"
+     },
+     {
+      "width": 700,
+      "height": 394,
+      "url": "https://static.dw.com/image/79498634_303.jpg"
+     },
+     {
+      "width": 940,
+      "height": 529,
+      "url": "https://static.dw.com/image/79498634_304.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 79504071,
+    "type": "GalleryRef",
+    "name": "Indian island of Kariyachalli risks vanishing away",
+    "url": "https://api.dw.com/api/detail/gallery/79504071"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "imageCount": 9
+  },
+  {
+   "type": "VideoTeaser",
+   "name": "Digital platforms are closing the gender gap in Pakistan",
+   "teaserText": "Women in Pakistan face wage gaps and barriers to employment. Digital platforms are creating new routes into paid work.",
+   "displayDate": "2026-10-04T11:12:14.257Z",
+   "image": {
+    "id": 79503549,
+    "type": "Image",
+    "name": "DW 2026 | SHIFT | Gigwork in Pakistan | Frauen in der digitalen Wirtschaft",
+    "sizes": [
+     {
+      "width": 0,
+      "height": 0,
+      "url": "https://static.dw.com/image/79503549_7.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 79513294,
+    "type": "VideoRef",
+    "name": "Digital platforms are closing the gender gap in Pakistan",
+    "url": "https://api.dw.com/api/detail/video/79513294"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "duration": 139,
+   "programId": 15566070
+  },
+  {
+   "type": "VideoTeaser",
+   "name": "India’s AI boom creates new opportunities for women",
+   "teaserText": "AI data jobs are creating work opportunities for women in southern India. But critics warn of workplace exploitation.  ",
+   "displayDate": "2026-10-04T11:12:06.834Z",
+   "image": {
+    "id": 79503520,
+    "type": "Image",
+    "name": "DW 2026 | SHIFT | Datenannotation in Indien | Arbeit für KI-Trainingsdaten",
+    "sizes": [
+     {
+      "width": 220,
+      "height": 124,
+      "url": "https://static.dw.com/image/79503520_301.jpg"
+     },
+     {
+      "width": 460,
+      "height": 259,
+      "url": "https://static.dw.com/image/79503520_302.jpg"
+     },
+     {
+      "width": 700,
+      "height": 394,
+      "url": "https://static.dw.com/image/79503520_303.jpg"
+     },
+     {
+      "width": 940,
+      "height": 529,
+      "url": "https://static.dw.com/image/79503520_304.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 79513272,
+    "type": "VideoRef",
+    "name": "India’s AI boom creates new opportunities for women",
+    "url": "https://api.dw.com/api/detail/video/79513272"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "duration": 129,
+   "programId": 15566070
+  },
+  {
+   "type": "VideoTeaser",
+   "name": "Breastfeeding challenges: Common and solvable.",
+   "teaserText": "World Breastfeeding Week (Sept. 28 to Oct. 4): Breastfeeding is natural. Learning it often isn't. Support matters.",
+   "displayDate": "2026-10-04T10:21:53.717Z",
+   "image": {
+    "id": 66416898,
+    "type": "Image",
+    "name": "Baby Stillen vs Fläschchen",
+    "sizes": [
+     {
+      "width": 220,
+      "height": 124,
+      "url": "https://static.dw.com/image/66416898_301.jpg"
+     },
+     {
+      "width": 460,
+      "height": 259,
+      "url": "https://static.dw.com/image/66416898_302.jpg"
+     },
+     {
+      "width": 700,
+      "height": 394,
+      "url": "https://static.dw.com/image/66416898_303.jpg"
+     },
+     {
+      "width": 940,
+      "height": 529,
+      "url": "https://static.dw.com/image/66416898_304.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 79536920,
+    "type": "VideoRef",
+    "name": "Breastfeeding challenges: Common and solvable.",
+    "url": "https://api.dw.com/api/detail/video/79536920"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "duration": 240
+  },
+  {
+   "type": "VideoTeaser",
+   "name": "He started skating at 25. Now he's a champion.",
+   "teaserText": "A late starter proving it's never too late to dream.",
+   "displayDate": "2026-10-04T09:58:47.215Z",
+   "image": {
+    "id": 78436404,
+    "type": "Image",
+    "name": "DW 2026 | Afrimaxx | Eiskunstläufer Shiven Bodasing in Kapstadt",
+    "sizes": [
+     {
+      "width": 220,
+      "height": 124,
+      "url": "https://static.dw.com/image/78436404_301.jpg"
+     },
+     {
+      "width": 460,
+      "height": 259,
+      "url": "https://static.dw.com/image/78436404_302.jpg"
+     },
+     {
+      "width": 700,
+      "height": 394,
+      "url": "https://static.dw.com/image/78436404_303.jpg"
+     },
+     {
+      "width": 940,
+      "height": 529,
+      "url": "https://static.dw.com/image/78436404_304.jpg"
+     }
+    ]
+   },
+   "reference": {
+    "id": 79507918,
+    "type": "VideoRef",
+    "name": "He started skating at 25. Now he's a champion.",
+    "url": "https://api.dw.com/api/detail/video/79507918"
+   },
+   "columnCount": 1,
+   "allowedColumnCounts": [
+    1,
+    2
+   ],
+   "duration": 357,
+   "programId": 61748277
+  }
+ ],
+ "trackingInfo": {
+  "level2": "2",
+  "page": "<prefix>::Media Center::All media content::All media content",
+  "customCriteria": {
+   "x8": "",
+   "x9": "20261004",
+   "x10": "<prefix>::Media Center::All media content",
+   "x1": "99",
+   "x2": "2",
+   "X14": "",
+   "x3": "100826",
+   "x4": "100826",
+   "x5": "All media content",
+   "X15": "",
+   "x6": "1",
+   "X18": "",
+   "x7": ""
+  }
+ },
+ "filterParameters": {
+  "terms": "",
+  "startDate": "2025-10-04T14:45:12.009Z",
+  "endDate": "2026-10-04T14:45:12.009Z",
+  "sortByDate": true,
+  "contentTypes": [
+   "Audio",
+   "Video",
+   "ImageGallery"
+  ],
+  "themes": [],
+  "programs": []
+ }
+}

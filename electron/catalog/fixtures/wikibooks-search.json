@@ -1,0 +1,13 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "searchinfo": { "totalhits": 44 },
+    "search": [
+      { "ns": 0, "title": "Schach", "pageid": 1001, "size": 10000, "wordcount": 1500, "snippet": "Dieses Buch führt in das <span class=\"searchmatch\">Schachspiel</span> ein: Regeln, Eröffnungen, Taktik und Endspiel.", "timestamp": "2024-01-01T00:00:00Z" },
+      { "ns": 0, "title": "Schach/ Eröffnungen", "pageid": 1002, "size": 8000, "wordcount": 1200, "snippet": "Eröffnungen im <span class=\"searchmatch\">Schach</span>", "timestamp": "2024-01-01T00:00:00Z" },
+      { "ns": 0, "title": "Schach/ Endspiel", "pageid": 1003, "size": 7000, "wordcount": 1100, "snippet": "Das Endspiel", "timestamp": "2024-01-01T00:00:00Z" },
+      { "ns": 0, "title": "Regal:Spiele", "pageid": 5, "size": 100, "wordcount": 10, "snippet": "Regalseite", "timestamp": "2020-01-01T00:00:00Z" },
+      { "ns": 0, "title": "Go", "pageid": 2001, "size": 3000, "wordcount": 500, "snippet": "Go ist ein Brettspiel wie <span class=\"searchmatch\">Schach</span>", "timestamp": "2024-01-01T00:00:00Z" }
+    ]
+  }
+}

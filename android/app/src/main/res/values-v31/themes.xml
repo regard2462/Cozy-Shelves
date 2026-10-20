@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Android 12 and later draw a splash screen of their own before the activity: the icon on the paper -->
+  <style name="Theme.CozyShelves" parent="android:Theme.Material.Light.NoActionBar">
+    <item name="android:windowBackground">@color/paper</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:colorPrimary">@color/ink</item>
+    <item name="android:colorAccent">@color/ink</item>
+    <item name="android:windowSplashScreenBackground">@color/paper</item>
+    <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+  </style>
+</resources>

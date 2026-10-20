@@ -1,0 +1,84 @@
+/* Record player panel (app/src/ui/records.js) – all classes prefixed .rec- */
+.rec-panel { width: min(1120px, 94vw); }
+.rec-panel .panel-header { padding-bottom: 12px; }
+.rec-sub { font-family: var(--font-body); font-weight: 400; font-size: 14px; color: var(--text-3); margin-left: 4px; margin-top: 4px; }
+.rec-body { display: grid; grid-template-columns: 330px minmax(0, 1fr); gap: 30px; align-items: start; }
+@media (max-width: 960px) { .rec-body { grid-template-columns: 1fr; } }
+.rec-h { font-family: var(--font-display); font-size: 16px; margin: 0 0 8px; font-weight: 600; color: var(--text); }
+
+/* ---- turntable: a light plinth, the dark platter, a silver arm ---- */
+.rec-deck { display: flex; flex-direction: column; gap: 14px; align-items: stretch; }
+.rec-plinth { position: relative; width: 330px; max-width: 100%; height: 300px; margin: 0 auto; border-radius: 16px;
+  background: linear-gradient(160deg, var(--card) 0%, color-mix(in srgb, var(--card), var(--surface-3) 50%) 55%, color-mix(in srgb, var(--surface-3), var(--text) 4%) 100%);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--card) 90%, transparent), inset 0 -3px 0 rgba(var(--shade-rgb), .06), 0 0 0 1px rgba(var(--shade-rgb), .06), 0 16px 32px rgba(var(--shade-rgb), .16); }
+.rec-plinth::before { content: ""; position: absolute; inset: 0; border-radius: 16px; background: linear-gradient(180deg, color-mix(in srgb, var(--card) 50%, transparent), transparent 40%); pointer-events: none; }
+.rec-plinth-foot { position: absolute; left: 18px; right: 18px; bottom: -5px; height: 5px; border-radius: 0 0 8px 8px; background: color-mix(in srgb, var(--surface-3), var(--text) 14%); }
+.rec-platter { position: absolute; left: 22px; top: 24px; width: 252px; height: 252px; border-radius: 50%;
+  background: radial-gradient(circle, #3a3a3b 0 58%, #2a2a2b 100%);
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .4), 0 6px 14px rgba(var(--shade-rgb), .28); }
+.rec-disc { position: absolute; inset: 5%; border-radius: 50%; overflow: hidden;
+  background: repeating-radial-gradient(circle at center, #141414 0 1px, #1d1d1e 1px 3px), radial-gradient(circle, #1a1a1b, #0e0e0f);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .45); }
+.rec-disc::after { content: ""; position: absolute; inset: 0; border-radius: 50%; pointer-events: none;
+  background: conic-gradient(from 15deg, rgba(255, 255, 255, 0) 0 38%, rgba(255, 255, 255, .09) 44%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 78%, rgba(255, 255, 255, .07) 84%, rgba(255, 255, 255, 0) 90%); }
+.rec-platter.spinning .rec-disc { animation: rec-spin 1.8s linear infinite; }
+.rec-platter.empty .rec-disc { display: none; }
+.rec-label { position: absolute; left: 50%; top: 50%; width: 36%; height: 36%; transform: translate(-50%, -50%); border-radius: 50%; overflow: hidden; background: var(--surface-2); box-shadow: 0 0 0 1px rgba(0, 0, 0, .5); }
+.rec-label canvas { width: 100%; height: 100%; display: block; }
+.rec-spindle { position: absolute; left: 50%; top: 50%; width: 7px; height: 7px; transform: translate(-50%, -50%); border-radius: 50%; background: #e3e3e3; box-shadow: 0 0 2px #000; z-index: 2; }
+@keyframes rec-spin { to { transform: rotate(360deg); } }
+.rec-arm { position: absolute; right: 22px; top: 22px; width: 34px; height: 140px; transform-origin: 50% 16px; transform: rotate(-11deg); transition: transform 1.5s var(--ease); }
+.rec-arm.on { transform: rotate(18deg); }
+.rec-arm-base { position: absolute; top: 0; left: 50%; width: 32px; height: 32px; transform: translateX(-50%); border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ffffff, #b9b6b1 70%); box-shadow: 0 2px 5px rgba(var(--shade-rgb), .35); }
+.rec-arm-tube { position: absolute; top: 18px; left: 50%; width: 7px; height: 112px; transform: translateX(-50%); border-radius: 4px; background: linear-gradient(90deg, #9d9a95, #f4f3f1 45%, #8e8b86); box-shadow: 0 1px 3px rgba(var(--shade-rgb), .35); }
+.rec-arm-head { position: absolute; bottom: -6px; left: 50%; width: 16px; height: 28px; transform: translateX(-50%) rotate(16deg); background: linear-gradient(180deg, #3a3a3b, #1f1f20); border-radius: 3px; box-shadow: 0 2px 4px rgba(0, 0, 0, .4); }
+.rec-now { text-align: center; min-height: 56px; }
+.rec-now-title { font-family: var(--font-display); font-size: 19px; font-weight: 600; line-height: 1.2; }
+.rec-now-artist { color: var(--text-2); font-size: 14px; margin-top: 2px; }
+.rec-now-time { font-size: 13.5px; color: var(--text-3); margin-top: 2px; font-variant-numeric: tabular-nums; }
+.rec-controls { display: flex; justify-content: center; align-items: center; gap: 12px; }
+.rec-btn { font-size: 14px; }
+.rec-play { width: 52px; height: 52px; font-size: 18px; }
+.rec-volumes { display: flex; flex-direction: column; gap: 8px; padding-top: 4px; }
+.rec-vol-row { display: flex; align-items: center; gap: 10px; min-height: var(--hit); }
+.rec-vol-label { width: 92px; font-size: 14px; color: var(--text-2); }
+.rec-range { flex: 1; width: auto; min-width: 80px; }
+.rec-vol-val { width: 42px; text-align: right; font-size: 13.5px; color: var(--text-2); font-variant-numeric: tabular-nums; }
+
+/* ---- rack of sleeves ---- */
+.rec-right { min-width: 0; display: flex; flex-direction: column; gap: 18px; }
+.rec-rack { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 14px; padding: 18px 14px 12px;
+  background: var(--surface-2); border-radius: 14px; border: 1px solid var(--line); }
+.rec-sleeve { cursor: pointer; display: flex; flex-direction: column; gap: 2px; transition: transform .2s var(--ease); }
+.rec-sleeve:hover { transform: translateY(-4px); }
+.rec-sleeve-art { position: relative; aspect-ratio: 1; border-radius: 4px; background: var(--surface-3); box-shadow: 0 5px 12px rgba(var(--shade-rgb), .18); }
+.rec-sleeve-art canvas { position: relative; z-index: 1; width: 100%; height: 100%; display: block; border-radius: 4px; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .06); }
+.rec-sleeve-disc { position: absolute; top: -9%; left: 6%; width: 88%; aspect-ratio: 1; border-radius: 50%; z-index: 0; transition: transform .3s var(--ease);
+  background: radial-gradient(circle, #e5e2dc 0 13%, #161616 14% 100%); box-shadow: 0 -1px 4px rgba(0, 0, 0, .35); }
+.rec-sleeve:hover .rec-sleeve-disc { transform: translateY(-8%); }
+.rec-sleeve.playing .rec-sleeve-disc, .rec-sleeve.silent .rec-sleeve-disc { display: none; }
+.rec-sleeve.selected .rec-sleeve-art { box-shadow: 0 0 0 2px var(--accent), 0 5px 12px rgba(var(--shade-rgb), .2); }
+.rec-sleeve-badge { position: absolute; left: 6px; top: 6px; z-index: 2; display: none; font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; background: var(--warm-strong); color: #ffffff; border-radius: 999px; padding: 2px 8px; }
+.rec-sleeve.playing .rec-sleeve-badge { display: inline-block; }
+.rec-sleeve-title { font-family: var(--font-display); font-weight: 600; font-size: 14px; line-height: 1.25; margin-top: 6px; }
+.rec-sleeve-artist { font-size: 12.5px; color: var(--text-3); line-height: 1.3; }
+.rec-sleeve.silent .rec-sleeve-art canvas { opacity: .75; }
+
+/* ---- ambience & own music ---- */
+.rec-sections { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.rec-section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 12px; min-width: 0; box-shadow: var(--shadow-s); }
+.rec-folder-row { margin-bottom: 8px; flex-wrap: nowrap; }
+.rec-folder { font-size: 13.5px; color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; flex: 1; }
+.rec-tracks { max-height: 210px; overflow: auto; margin: 0 -6px; }
+.rec-track { padding: 5px 8px; font-size: 14px; gap: 10px; }
+.rec-track.active { background: var(--accent-soft); }
+.rec-track-no { color: var(--text-3); width: 26px; flex: none; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.rec-track-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rec-track-mark { color: var(--accent); font-size: 16px; }
+.rec-empty { padding: 6px 2px; line-height: 1.45; }
+/* numbers (time, volume, track) in the UI font with even digits */
+.rec-panel .mono { font-family: var(--font-body); font-variant-numeric: tabular-nums; }
+
+/* 0.6: the record waits while a film or a podcast plays (audio/engine.js hold) */
+.rec-now-held { margin-top: 6px; font-size: 13px; color: var(--accent-ink); }
+.rec-now-held[hidden] { display: none; }

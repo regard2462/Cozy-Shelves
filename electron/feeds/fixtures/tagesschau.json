@@ -1,0 +1,64 @@
+{
+  "news": [
+    {
+      "sophoraId": "bundestag-haushalt-2027-100",
+      "externalId": "b6a1e3c0-1",
+      "title": "Bundestag debattiert über den Haushalt 2027",
+      "date": "2026-09-14T09:12:00.000+02:00",
+      "teaserImage": {
+        "alttext": "Der Plenarsaal des Bundestages",
+        "imageVariants": {
+          "1x1-144": "https://images.tagesschau.de/image/abc/1x1-144.jpg",
+          "16x9-256": "https://images.tagesschau.de/image/abc/16x9-256.jpg",
+          "16x9-960": "https://images.tagesschau.de/image/abc/16x9-960.jpg",
+          "16x9-1920": "https://images.tagesschau.de/image/abc/16x9-1920.jpg"
+        },
+        "type": "image",
+        "copyright": "dpa"
+      },
+      "tags": [{ "tag": "Bundestag" }, { "tag": "Haushalt" }],
+      "topline": "Generaldebatte",
+      "firstSentence": "Mit einer Generaldebatte hat der Bundestag die Beratungen über den Haushalt 2027 begonnen.",
+      "details": "https://www.tagesschau.de/api2u/inland/bundestag-haushalt-2027-100.json",
+      "detailsweb": "https://www.tagesschau.de/inland/bundestag-haushalt-2027-100.html",
+      "shareURL": "https://www.tagesschau.de/inland/bundestag-haushalt-2027-100.html",
+      "ressort": "inland",
+      "breakingNews": false,
+      "type": "story",
+      "content": [
+        { "value": "Mit einer <strong>Generaldebatte</strong> hat der Bundestag die Beratungen über den Haushalt 2027 begonnen. Der Etatentwurf sieht Ausgaben von 512 Milliarden Euro vor – so viel wie nie zuvor in Friedenszeiten. Die Opposition wirft der Regierung vor, die Schuldenbremse mit Sondervermögen zu umgehen.", "type": "text" },
+        { "value": "<h2>Streit um die Schuldenbremse</h2>", "type": "headline" },
+        { "value": "Der Bundesfinanzminister verteidigte den Entwurf: Angesichts der Investitionslücke bei Bahn, Brücken und Bildung sei ein „Weiter so“ keine Option. Die Neuverschuldung liege innerhalb der Regeln, die der Bundestag selbst beschlossen habe. Die Vorsitzende des Haushaltsausschusses widersprach: Ein erheblicher Teil der Ausgaben werde in Nebenhaushalte verschoben, die der parlamentarischen Kontrolle entzogen seien.", "type": "text" },
+        { "quotation": { "text": "Wer Schulden macht, muss sagen, wer sie zurückzahlt." }, "type": "quotation" },
+        { "type": "image", "image": { "alttext": "Der Finanzminister am Rednerpult", "title": "Der Finanzminister verteidigt den Etatentwurf im Plenum.", "copyright": "picture alliance / dpa", "imageVariants": { "16x9-960": "https://images.tagesschau.de/image/def/16x9-960.jpg", "16x9-1920": "https://images.tagesschau.de/image/def/16x9-1920.jpg" } } },
+        { "value": "Die Debatte wird am Nachmittag mit den Einzelplänen für Verteidigung und Verkehr fortgesetzt. Die abschließende Beratung ist für Ende November geplant. Bis dahin will der Haushaltsausschuss in der sogenannten Bereinigungssitzung noch Änderungen vornehmen. Erfahrungsgemäß werden dabei mehrere hundert Millionen Euro umgeschichtet, meist zugunsten von Projekten aus den Wahlkreisen der Haushälter.", "type": "text" },
+        { "type": "box", "box": { "title": "Was ist die Bereinigungssitzung?", "text": "In der Bereinigungssitzung legt der Haushaltsausschuss die endgültigen Zahlen fest. Sie dauert oft bis tief in die Nacht.", "link": "https://www.tagesschau.de/wirtschaft/haushalt-faq-100.html", "linkText": "Mehr zum Haushaltsverfahren" } },
+        { "type": "video", "value": "" },
+        { "type": "related", "related": [] }
+      ]
+    },
+    {
+      "sophoraId": "video-123",
+      "title": "Video: Die Debatte im Überblick",
+      "date": "2026-09-14T09:00:00.000+02:00",
+      "type": "video",
+      "detailsweb": "https://www.tagesschau.de/multimedia/video/video-123.html"
+    },
+    {
+      "sophoraId": "wetter-herbst-100",
+      "title": "Der Herbst kommt mit Sturm",
+      "date": "2026-09-13T17:45:00.000+02:00",
+      "teaserImage": { "imageVariants": { "16x9-640": "https://images.tagesschau.de/image/wetter/16x9-640.jpg" } },
+      "topline": "Wetter",
+      "firstSentence": "Nach dem Spätsommer bringt ein Tief stürmische Böen.",
+      "detailsweb": "https://www.tagesschau.de/wetter/herbst-sturm-100.html",
+      "details": "https://www.tagesschau.de/api2u/wetter/herbst-sturm-100.json",
+      "ressort": "inland",
+      "type": "story",
+      "content": [ { "value": "Nach dem Spätsommer bringt ein Tief stürmische Böen.", "type": "text" } ]
+    }
+  ],
+  "regional": [],
+  "newStoriesCountLink": "https://www.tagesschau.de/api2u/news/?ressort=inland",
+  "type": "news"
+}

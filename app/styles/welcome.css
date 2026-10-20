@@ -1,0 +1,43 @@
+/* the welcome card (app/src/ui/welcome.js): over the start menu while no books folder is set */
+.panel-layer.welcome-layer { background: color-mix(in srgb, var(--bg) 42%, transparent); }
+.welcome-card { width: min(640px, 92vw); max-height: 92vh; overflow-y: auto; padding: 34px 44px 22px; gap: 0; text-align: left; }
+.wel-ornament { font-family: var(--font-serif); font-size: 44px; line-height: 1; color: var(--warm); margin-bottom: 6px; }
+.wel-title { font-family: var(--font-display); font-size: 34px; font-weight: 600; letter-spacing: -.02em; line-height: 1.1; margin: 0 0 var(--sp-3); color: var(--text); }
+.wel-lead { margin: 0 0 var(--sp-5); font-size: 16.5px; line-height: 1.6; color: var(--text-2); }
+.wel-label { font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--text-3); margin-bottom: var(--sp-2); }
+.wel-modes { display: flex; flex-direction: column; gap: var(--sp-2); margin-bottom: var(--sp-5); }
+.wel-mode { display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: start; text-align: left; width: 100%; padding: 12px 16px; border-radius: var(--radius-m); border: 1px solid var(--line-2); background: var(--card); color: var(--text); cursor: pointer; font-family: var(--font-body); transition: border-color .15s, background .15s, box-shadow .15s; }
+.wel-mode:hover { border-color: var(--line-3); }
+.wel-mode.on { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 0 0 1px var(--accent); }
+.wel-mode kbd { margin-top: 2px; }
+.wel-mode.on kbd { border-color: var(--accent-line); color: var(--accent-ink); }
+.wel-mode-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.wel-mode-name { font-size: 16px; font-weight: 600; }
+.wel-mode.on .wel-mode-name { color: var(--accent-ink); }
+.wel-mode-hint { font-size: 14px; line-height: 1.45; color: var(--text-2); }
+.wel-actions { display: flex; flex-wrap: wrap; gap: var(--sp-3); align-items: center; }
+.wel-actions .btn { min-height: 42px; padding: 8px 20px; font-size: 15.5px; }
+.wel-actions .btn kbd { margin-left: 4px; }
+.wel-actions .btn.primary kbd { background: transparent; color: var(--text-on-accent); border-color: rgba(255, 255, 255, 0.55); }
+.wel-note { margin: var(--sp-4) 0 0; font-size: 14px; line-height: 1.5; color: var(--text-3); }
+.wel-lang { display: flex; gap: var(--sp-2); justify-content: flex-end; margin-top: var(--sp-4); padding-top: var(--sp-3); border-top: 1px solid var(--line); }
+/* large screens (2560 × 1440): the card grows with the menu behind it */
+@media (min-width: 2000px) and (min-height: 1200px) {
+  .welcome-card { width: min(780px, 92vw); padding: 44px 56px 28px; }
+  .wel-title { font-size: 42px; }
+  .wel-lead { font-size: 19px; }
+  .wel-mode-name { font-size: 18.5px; }
+  .wel-mode-hint, .wel-note { font-size: 16px; }
+  .wel-actions .btn { min-height: 48px; font-size: 17.5px; }
+}
+/* short windows (down to 1024 × 640) */
+@media (max-height: 760px) {
+  .welcome-card { padding: 22px 32px 16px; }
+  .wel-ornament { display: none; }
+  .wel-title { font-size: 28px; }
+  .wel-lead { margin-bottom: var(--sp-4); font-size: 15.5px; }
+  .wel-modes { margin-bottom: var(--sp-4); }
+  .wel-mode { padding: 9px 14px; }
+}
+/* the start menu's way back to the card while no books folder is set (ui/menu.js) */
+.menu-nofolder { display: flex; flex-wrap: wrap; gap: var(--sp-2) var(--sp-3); align-items: center; justify-content: center; margin-top: var(--sp-3); }

@@ -1,0 +1,12 @@
+{
+  "responseHeader": { "status": 0, "QTime": 42, "params": { "query": "(title:(schach) OR creator:(schach)) AND mediatype:texts", "qin": "schach", "fields": "identifier,title,creator,year,language,subject,description,downloads,format", "wt": "json", "rows": "25", "start": 0 } },
+  "response": {
+    "numFound": 312,
+    "start": 0,
+    "docs": [
+      { "identifier": "lehrbuchdesschac00lask", "title": "Lehrbuch des Schachspiels", "creator": "Lasker, Emanuel, 1868-1941", "year": "1926", "language": "ger", "subject": ["Chess", "Schach"], "description": "Das klassische Lehrbuch des Weltmeisters Emanuel Lasker.", "downloads": 4120, "format": ["Abbyy GZ", "DjVu", "DjVuTXT", "EPUB", "Text PDF", "Item Tile"], "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/", "publisher": "Berlin: A. Scherl" },
+      { "identifier": "chessfundamental00capa", "title": "Chess fundamentals", "creator": ["Capablanca, José Raúl, 1888-1942"], "year": 1921, "language": ["eng"], "subject": "Chess", "description": ["Reprint of the 1921 edition.", "Includes index."], "downloads": 9800, "format": ["DjVuTXT", "Text PDF", "Item Tile"], "publisher": "New York, Harcourt, Brace" },
+      { "identifier": "noformats-item", "title": "Ohne Formatangabe", "creator": "Unbekannt", "downloads": 1 }
+    ]
+  }
+}

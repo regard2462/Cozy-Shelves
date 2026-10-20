@@ -1,0 +1,1069 @@
+{
+ "source": "piper = piper-phonemize 1.1.0 (rhasspy/espeak-ng, the phonemizer of Piper 1.x, voice de), misaki = misaki 0.9.4 EspeakG2P(de) with espeak-ng 1.52.0 (espeakng-loader), both on the raw text",
+ "sentences": [
+  {
+   "text": "Guten Tag, das ist ein Test.",
+   "piper": [
+    "ɡˈuːtən tˈɑːk, das ɪst aɪn tˈɛst."
+   ],
+   "misaki": "ɡˈuːtən tˈɑːk, das ɪst In tˈɛst."
+  },
+  {
+   "text": "Die Zeitung berichtete über die Bundesregierung. Wie geht es dir? Gut!",
+   "piper": [
+    "diː tsˈaɪtˌʊŋ bərˈɪçtətə ˌyːbɜ diː bˈʊndəsreːɡˈiːrʊŋ.",
+    "viː ɡˈeːt ɛs dˈiːɾ?",
+    "ɡˈuːt!"
+   ],
+   "misaki": "diː ʦˈItˌʊŋ bərˈɪçtətə ˌyːbɜ diː bˈʊndəsreːɡˈiːrʊŋ. viː ɡˈeːt ɛs dˈiːɾ? ɡˈuːt!"
+  },
+  {
+   "text": "Ich habe heute keine Zeit, aber morgen komme ich gern vorbei.",
+   "piper": [
+    "ɪç hɑːbə hˈɔøtə kˈaɪnə tsˈaɪt, ˌɑːbɜ mˈɔɾɡən kˈɔmə ɪç ɡˈɛɾn foːɾbˈaɪ."
+   ],
+   "misaki": "ɪç hɑːbə hˈɔøtə kˈInə ʦˈIt, ˌɑːbɜ mˈɔɾɡən kˈɔmə ɪç ɡˈɛɾn foːɾbˈI."
+  },
+  {
+   "text": "Der Zug nach München fährt um 14:30 Uhr von Gleis 7 ab.",
+   "piper": [
+    "dɛɾ tsˈuːk nɑːx mˈynçən fˈɛːɾt ʊm fˈɪɾtseːn uːɾ dɾˈaɪsɪç ˈuːɾ fɔn ɡlˈaɪs zˈiːbən ˈap."
+   ],
+   "misaki": "dɛɾ ʦˈuːk nɑːx mˈʏnçən fˈɛːɾt ʊm fˈɪɾʦeːn:dɾˈIsɪç ˈuːɾ fɔn ɡlˈIs zˈiːbən ˈap."
+  },
+  {
+   "text": "Am 3. Oktober 1990 wurde Deutschland wiedervereinigt.",
+   "piper": [
+    "am dɾˈaɪ.",
+    "ɔktˈoːbɜ ˈaɪn tˈaʊzənt nˈɔønhˈʊndɜt nˈɔøntsɪç vˌ??də dˈɔøtʃlant viːdɜfɛɾˈaɪnɪkt."
+   ],
+   "misaki": "am dɾˈI. ɔktˈoːbɜ ˈIn tˈWzənt nˈɔønhˈʊndɜt nˈɔønʦɪç vˌʊɐdə dˈɔøtʃlant viːdɜfɛɾˈInɪkt."
+  },
+  {
+   "text": "Das Buch kostet 24,95 € und hat 352 Seiten.",
+   "piper": [
+    "das bˈuːx kˈɔstət fˈiːɾ ʊnttsvˈantsɪç kˌɔmɑː nˈɔøn fˈynf ˈɔøroː ʊnt hat dɾˈaɪhˈʊndɜt tsvˈaɪ ʊntfˈynftsɪç zˈaɪtən."
+   ],
+   "misaki": "das bˈuːx kˈɔstət fˈiːɾ ʊntʦvˈanʦɪç,fˈʏnf ʊntnˈɔønʦɪç ˈɔøroː ʊnt hat dɾˈIhˈʊndɜt ʦvˈI ʊntfˈʏnfʦɪç zˈItən."
+  },
+  {
+   "text": "Im 19. Jahrhundert wuchsen die Städte sehr schnell.",
+   "piper": [
+    "ɪm nˈɔøntseːn.",
+    "jɑːɾhˈʊndɜt vˈʊxzən diː ʃtˈɛtə zˈeːɾ ʃnˈɛl."
+   ],
+   "misaki": "ɪm nˈɔønʦeːn. jɑːɾhˈʊndɜt vˈʊxzən diː ʃtˈɛtə zˈeːɾ ʃnˈɛl."
+  },
+  {
+   "text": "Er wohnt in der Goethestraße 12, ca. 5 km vom Bahnhof entfernt.",
+   "piper": [
+    "ɛɾ vˈoːnt ɪn dɛɾ ɡˈœtəstɾˌɑːsə tsvˈœlf, kˈɑː.",
+    "fˈynf kˌɑːˈɛm fɔm bˈɑːnhoːf ɛntfˈɛɾnt."
+   ],
+   "misaki": "ɛɾ vˈoːnt ɪn dɛɾ ɡˈœtəstɾˌɑːsə ʦvˈœlf, kˈɑː. fˈʏnf kˌɑːˈɛm fɔm bˈɑːnhoːf ɛntfˈɛɾnt."
+  },
+  {
+   "text": "Vgl. dazu z. B. Kapitel 4 bzw. die Anmerkungen am Ende.",
+   "piper": [
+    "fˌaʊɡˌeːˈɛl dɑːtsˈuː tsˈɛt.",
+    "bˈeː.",
+    "kˈɑpiːtəl fˈiːɾ bˌeːtsˌɛtvˈeː diː ˈanmˌɛɾkʊŋən am ˈɛndə."
+   ],
+   "misaki": "fˌWɡˌeːˈɛl. dɑːʦˈuː ʦˈɛt. bˈeː. kˈɑpiːtəl fˈiːɾ bˌeːʦˌɛtvˈeː. diː ˈanmˌɛɾkʊŋən am ˈɛndə."
+  },
+  {
+   "text": "Dr. Müller und Prof. Schmidt sprachen u. a. über die Ergebnisse.",
+   "piper": [
+    "dˌeːˈɛɾ.",
+    "mˈylɜ ʊnt pɾˈoːf.",
+    "ʃmˈɪt ʃpɾˈɑːxən ˈuː ˈɑː ˌyːbɜ diː ɛɾɡˈeːbnɪsə."
+   ],
+   "misaki": "dˌeːˈɛɾ. mˈʏlɜ ʊnt pɾˈoːf. ʃmˈɪt ʃpɾˈɑːxən ˈuː. ˈɑː. ˌyːbɜ diː ɛɾɡˈeːbnɪsə."
+  },
+  {
+   "text": "Die Donaudampfschifffahrtsgesellschaft ist ein bekanntes Beispiel für lange Wörter.",
+   "piper": [
+    "diː dˌoːnaʊdˌampfʃɪfˌɑːɾtsɡeːzˈɛlʃaft ɪst aɪn bəkˈantəs bˈaɪʃpiːl fyːɾ lˈaŋə vˈœɾtɜ."
+   ],
+   "misaki": "diː dˌoːnWdˌampfʃɪfˌɑːɾtsɡeːzˈɛlʃaft ɪst In bəkˈantəs bˈIʃpiːl fyːɾ lˈaŋə vˈœɾtɜ."
+  },
+  {
+   "text": "Die Bundesverfassungsgerichtsentscheidung wurde im Herbst veröffentlicht.",
+   "piper": [
+    "diː bˈʊndəsfɜfˌasʊŋsɡərˌɪçtzəntʃˌaɪdʊŋ vˌ??də ɪm hˈɛɾpst fɛɾˈœfəntlɪçt."
+   ],
+   "misaki": "diː bˈʊndəsfɜfˌasʊŋsɡərˌɪçtzəntʃˌIdʊŋ vˌʊɐdə ɪm hˈɛɾpst fɛɾˈœfəntlɪçt."
+  },
+  {
+   "text": "Wir trafen uns im Restaurant und bestellten Croissants und Cappuccino.",
+   "piper": [
+    "viːɾ tɾˈɑːfən ʊns ɪm rˌɛstoːrˈɑ̃ ʊnt bəʃtˈɛltən kɾˌoːɪsˈants ʊnt kˌapʊkˈiːnoː."
+   ],
+   "misaki": "viːɾ tɾˈɑːfən ʊns ɪm rˌɛstoːrˈɑ̃ ʊnt bəʃtˈɛltən kɾˌoːɪsˈants ʊnt kˌapʊkˈiːnoː."
+  },
+  {
+   "text": "Der Journalist interviewte den Manager über das neue Computerprogramm.",
+   "piper": [
+    "dɛɾ jˌuːɾnalˈɪst ˈɪntɜvˌiːvtə deːn mˈɛnɪdʒɜ ˌyːbɜ das nˈɔøə kɔmpjˈuːtɜpɾoːɡɾˌam."
+   ],
+   "misaki": "dɛɾ jˌuːɾnalˈɪst ˈɪntɜvˌiːvtə deːn mˈɛnɪʤɜ ˌyːbɜ das nˈɔøə kɔmpjˈuːtɜpɾoːɡɾˌam."
+  },
+  {
+   "text": "Das Handy lag neben dem Laptop auf dem Schreibtisch.",
+   "piper": [
+    "das hˈɛndiː lˈɑːk nˌeːbən deːm lˈaptɒp aʊf deːm ʃrˈaɪptɪʃ."
+   ],
+   "misaki": "das hˈɛndiː lˈɑːk nˌeːbən deːm lˈaptɒp Wf deːm ʃrˈIptɪʃ."
+  },
+  {
+   "text": "Johann Wolfgang von Goethe schrieb den Faust.",
+   "piper": [
+    "jˈoːhan vˈɔlfɡaŋ fɔn ɡˈœtə ʃrˈiːp deːn fˈaʊst."
+   ],
+   "misaki": "jˈoːhan vˈɔlfɡaŋ fɔn ɡˈœtə ʃrˈiːp deːn fˈWst."
+  },
+  {
+   "text": "Friedrich Nietzsche wurde in Röcken bei Lützen geboren.",
+   "piper": [
+    "frˈiːdɾɪç nˈiːtsʃə vˌ??də ɪn rˈœkən baɪ lˈytsən ɡəbˈoːrən."
+   ],
+   "misaki": "frˈiːdɾɪç nˈiːʦʃə vˌʊɐdə ɪn rˈœkən bI lˈʏʦən ɡəbˈoːrən."
+  },
+  {
+   "text": "Angela Merkel war sechzehn Jahre lang Bundeskanzlerin.",
+   "piper": [
+    "ˈanɡəlˌɑː mˈɛɾkəl vɑːɾ zˈɛçtseːn jˈɑːrə lˈaŋ bˈʊndəskˌantslərˌɪn."
+   ],
+   "misaki": "ˈanɡəlˌɑː mˈɛɾkəl vɑːɾ zˈɛçʦeːn jˈɑːrə lˈaŋ bˈʊndəskˌanʦlərˌɪn."
+  },
+  {
+   "text": "Die Katze schläft auf dem Sofa, während der Hund im Garten spielt.",
+   "piper": [
+    "diː kˈatsə ʃlˈɛft aʊf deːm zˈoːfɑː, vˌɛːrənt dɛɾ hˈʊnt ɪm ɡˈaɾtən ʃpˈiːlt."
+   ],
+   "misaki": "diː kˈaʦə ʃlˈɛft Wf deːm zˈoːfɑː, vˌɛːrənt dɛɾ hˈʊnt ɪm ɡˈaɾtən ʃpˈiːlt."
+  },
+  {
+   "text": "Können Sie mir bitte sagen, wie spät es ist?",
+   "piper": [
+    "kˌœnən ziː miːɾ bˈɪtə zˈɑːɡən, viː ʃpˈɛːt ɛsɪst?"
+   ],
+   "misaki": "kˌœnən ziː miːɾ bˈɪtə zˈɑːɡən, viː ʃpˈɛːt ɛsɪst?"
+  },
+  {
+   "text": "Ach, wie schön, dass du gekommen bist!",
+   "piper": [
+    "ˈax, viː ʃˈøːn, das duː ɡəkˈɔmən bɪst!"
+   ],
+   "misaki": "ˈax, viː ʃˈøːn, das duː ɡəkˈɔmən bɪst!"
+  },
+  {
+   "text": "Er sagte: „Ich weiß es nicht.“",
+   "piper": [
+    "ɛɾ zˈɑːɡtə: ɪç vˈaɪs ɛs nˈɪçt."
+   ],
+   "misaki": "ɛɾ zˈɑːɡtə: ɪç vˈIs ɛs nˈɪçt.“"
+  },
+  {
+   "text": "Natürlich ist das möglich, aber nicht wahrscheinlich.",
+   "piper": [
+    "nɑːtˈyːɾlɪç ɪst das mˈøːklɪç, ˌɑːbɜ nˈɪçt vɑːɾʃˈaɪnlɪç."
+   ],
+   "misaki": "nɑːtˈyːɾlɪç ɪst das mˈøːklɪç, ˌɑːbɜ nˈɪçt vɑːɾʃˈInlɪç."
+  },
+  {
+   "text": "Eichhörnchen sammeln im Herbst Nüsse und Eicheln.",
+   "piper": [
+    "ˈaɪçhœɾnçən zˈaməln ɪm hˈɛɾpst nˈysə ʊnt ˈaɪçəln."
+   ],
+   "misaki": "ˈIçhœɾnçən zˈaməln ɪm hˈɛɾpst nˈʏsə ʊnt ˈIçəln."
+  },
+  {
+   "text": "Die Bäckerei öffnet täglich um sechs Uhr morgens.",
+   "piper": [
+    "diː bˌɛkeːrˈaɪ ˈœfnət tˈɛːklɪç ʊm zˈɛks ˈuːɾ mˈɔɾɡəns."
+   ],
+   "misaki": "diː bˌɛkeːrˈI ˈœfnət tˈɛːklɪç ʊm zˈɛks ˈuːɾ mˈɔɾɡəns."
+  },
+  {
+   "text": "Fünfzehn Schüler übten fleißig für die Prüfung.",
+   "piper": [
+    "fˈynftseːn ʃˈyːlɜ ˈyːptən flˈaɪsɪç fyːɾ diː pɾˈyːfʊŋ."
+   ],
+   "misaki": "fˈʏnfʦeːn ʃˈyːlɜ ˈyːptən flˈIsɪç fyːɾ diː pɾˈyːfʊŋ."
+  },
+  {
+   "text": "Der Löwe brüllte, und die Vögel flogen erschrocken davon.",
+   "piper": [
+    "dɛɾ lˈøːvə bɾˈyltə, ʊnt diː vˈøːɡəl flˈoːɡən ɛɾʃrˈɔkən dɑːfˈɔn."
+   ],
+   "misaki": "dɛɾ lˈøːvə bɾˈʏltə, ʊnt diː vˈøːɡəl flˈoːɡən ɛɾʃrˈɔkən dɑːfˈɔn."
+  },
+  {
+   "text": "Ein wichtiger Grund war die wirtschaftliche Entwicklung der Region.",
+   "piper": [
+    "aɪn vˈɪçtɪɡɜ ɡɾˈʊnt vɑːɾ diː vˈɪɾtʃaftlˌɪçə ɛntvˈɪklʊŋ dɛɾ rˌeːɡiˈoːn."
+   ],
+   "misaki": "In vˈɪçtɪɡɜ ɡɾˈʊnt vɑːɾ diː vˈɪɾtʃaftlˌɪçə ɛntvˈɪklʊŋ dɛɾ rˌeːɡiˈoːn."
+  },
+  {
+   "text": "Das Ergebnis lag bei 0,5 Prozent, also deutlich unter den Erwartungen.",
+   "piper": [
+    "das ɛɾɡˈeːbnɪs lˈɑːk baɪ nˈʊl kɔmɑː fˈynf pɾoːtsˈɛnt, ˈalzoː dˈɔøtlɪç ˌʊntɜ deːn ɛɾvˈaɾtʊŋən."
+   ],
+   "misaki": "das ɛɾɡˈeːbnɪs lˈɑːk bI nˈʊl,fˈʏnf pɾoːʦˈɛnt, ˈalzoː dˈɔøtlɪç ˌʊntɜ deːn ɛɾvˈaɾtʊŋən."
+  },
+  {
+   "text": "Im Jahr 2024 stieg die Zahl auf 1.250.000 Einwohner.",
+   "piper": [
+    "ɪm jˈɑːɾ tsvˈaɪ tˈaʊzənt fˈiːɾ ʊnttsvˈantsɪç ʃtˈiːk diː tsˈɑːl aʊf ˈaɪnə mɪljˈoːn tsvˈaɪhˈʊndɜt fˈynftsɪç tˈaʊzənt ˈaɪnvˌoːnɜ."
+   ],
+   "misaki": "ɪm jˈɑːɾ ʦvˈI tˈWzənt fˈiːɾ ʊntʦvˈanʦɪç ʃtˈiːk diː ʦˈɑːl Wf ˈIns.ʦvˈIhˈʊndɜt fˈʏnfʦɪç.nˈʊlnˈʊl nˈʊl ˈInvˌoːnɜ."
+  },
+  {
+   "text": "Seite 17 bis 23 behandelt die Zeit zwischen 1914 und 1918.",
+   "piper": [
+    "zˈaɪtə zˈiːptseːn bɪs dɾˈaɪ ʊnttsvˈantsɪç bəhˈandəlt diː tsˈaɪt tsvˈɪʃən ˈaɪn tˈaʊzənt nˈɔønhˈʊndɜt fˈɪɾtseːn ʊnt ˈaɪn tˈaʊzənt nˈɔønhˈʊndɜt ˈaxtseːn."
+   ],
+   "misaki": "zˈItə zˈiːpʦeːn bɪs dɾˈI ʊntʦvˈanʦɪç bəhˈandəlt diː ʦˈIt ʦvˈɪʃən ˈIn tˈWzənt nˈɔønhˈʊndɜt fˈɪɾʦeːn ʊnt ˈIn tˈWzənt nˈɔønhˈʊndɜt ˈaxʦeːn."
+  },
+  {
+   "text": "Mein Geburtstag ist am 17.04.1918.",
+   "piper": [
+    "maɪn ɡəbˈ??tstɑːk ɪst am zˈiːptseːn pˌʊŋkt nˈʊl fˈiːɾ pʊŋkt ˈaɪn tˈaʊzənt nˈɔønhˈʊndɜt ˈaxtseːn."
+   ],
+   "misaki": "mIn ɡəbˈʊɐtstɑːk ɪst am zˈiːpʦeːn.nˈʊl fˈiːɾ.ˈIn tˈWzənt nˈɔønhˈʊndɜt ˈaxʦeːn."
+  },
+  {
+   "text": "Die Temperatur fiel auf minus 5 °C.",
+   "piper": [
+    "diː tˌɛmpeːratˈuːɾ fˈiːl aʊf mˈiːnʊs fˈynf ɡɾˈɑːt tsˈeː."
+   ],
+   "misaki": "diː tˌɛmpeːratˈuːɾ fˈiːl Wf mˈiːnʊs fˈʏnf ɡɾˈɑːt ʦˈeː."
+  },
+  {
+   "text": "Wir brauchen 3 Eier, 200 g Mehl und 1/2 Liter Milch.",
+   "piper": [
+    "viːɾ bɾˈaʊxən dɾˈaɪ ˈaɪɜ, tsvˈaɪhˈʊndɜt ɡˈeː mˈeːl ʊnt ˈaɪns tsvˈaɪ lˈiːtɜ mˈɪlç."
+   ],
+   "misaki": "viːɾ bɾˈWxən dɾˈI ˈIɜ, ʦvˈIhˈʊndɜt ɡˈeː mˈeːl ʊnt ˈIns ʦvˈI lˈiːtɜ mˈɪlç."
+  },
+  {
+   "text": "Der Vortrag dauert ungefähr anderthalb Stunden.",
+   "piper": [
+    "dɛɾ fˈoːɾtɾˌɑːk dˈaʊɜt ˈʊnɡəfˌɛːɾ ˈandɜtˌalp ʃtˈʊndən."
+   ],
+   "misaki": "dɛɾ fˈoːɾtɾˌɑːk dˈWɜt ˈʊnɡəfˌɛːɾ ˈandɜtˌalp ʃtˈʊndən."
+  },
+  {
+   "text": "Die Philosophie der Aufklärung prägte das europäische Denken.",
+   "piper": [
+    "diː fˌiːloːzoːfˈiː dɛɾ ˈaʊfklˌɛːrʊŋ pɾˈɛːktə das ɔøroːpˈɛːɪʃə dˈɛŋkən."
+   ],
+   "misaki": "diː fˌiːloːzoːfˈiː dɛɾ ˈWfklˌɛːrʊŋ pɾˈɛːktə das ɔøroːpˈɛːɪʃə dˈɛŋkən."
+  },
+  {
+   "text": "Die Universität bietet Studiengänge in Physik, Chemie und Informatik an.",
+   "piper": [
+    "diː ˌuːniːvˌɛɾziːtˈɛːt bˈiːtət ʃtˈuːdiːŋˌɛŋə ɪn fyːzˈiːk, çeːmˈiː ʊnt ˌɪnfɔɾmˈɑtiːk ˈan."
+   ],
+   "misaki": "diː ˌuːniːvˌɛɾziːtˈɛːt bˈiːtət ʃtˈuːdiːŋˌɛŋə ɪn fyːzˈiːk, çeːmˈiː ʊnt ˌɪnfɔɾmˈɑtiːk ˈan."
+  },
+  {
+   "text": "Sie studierte Psychologie und arbeitete danach als Therapeutin.",
+   "piper": [
+    "ziː ʃtuːdˈiːɾtə psˌyːçoːloːɡˈiː ʊnt ˈaɾbaɪtətə danˈax als tˈeːrapˌɔøtɪn."
+   ],
+   "misaki": "ziː ʃtuːdˈiːɾtə psˌyːçoːloːɡˈiː ʊnt ˈaɾbItətə danˈax als tˈeːrapˌɔøtɪn."
+  },
+  {
+   "text": "Das Orchester spielte eine Sinfonie von Beethoven.",
+   "piper": [
+    "das ɔɾkˈɛstɜ ʃpˈiːltə ˌaɪnə zˌɪnfoːnˈiː fɔn bˈeːtoːvən."
+   ],
+   "misaki": "das ɔɾkˈɛstɜ ʃpˈiːltə ˌInə zˌɪnfoːnˈiː fɔn bˈeːtoːvən."
+  },
+  {
+   "text": "Die Regierung beschloss neue Maßnahmen gegen den Klimawandel.",
+   "piper": [
+    "diː reːɡˈiːrʊŋ bəʃlˈɔs nˈɔøə mˈasnɑːmən ɡˌeːɡən deːn klˈiːmavˌandəl."
+   ],
+   "misaki": "diː reːɡˈiːrʊŋ bəʃlˈɔs nˈɔøə mˈasnɑːmən ɡˌeːɡən deːn klˈiːmavˌandəl."
+  },
+  {
+   "text": "Viele Menschen verreisen im Sommer ans Meer oder in die Berge.",
+   "piper": [
+    "fˈiːlə mˈɛnʃən fɛɾrˈaɪzən ɪm zˈɔmɜ ans mˈeːɾ ˌoːdɜ ɪn diː bˈɛɾɡə."
+   ],
+   "misaki": "fˈiːlə mˈɛnʃən fɛɾrˈIzən ɪm zˈɔmɜ ans mˈeːɾ ˌoːdɜ ɪn diː bˈɛɾɡə."
+  },
+  {
+   "text": "Das Wetter war wechselhaft, mit Regen und gelegentlichem Sonnenschein.",
+   "piper": [
+    "das vˈɛtɜ vɑːɾ vˈɛksəlhˌaft, mɪt rˈeːɡən ʊnt ɡəlˈeːɡəntlɪçəm zˈɔnənʃˌaɪn."
+   ],
+   "misaki": "das vˈɛtɜ vɑːɾ vˈɛksəlhˌaft, mɪt rˈeːɡən ʊnt ɡəlˈeːɡəntlɪçəm zˈɔnənʃˌIn."
+  },
+  {
+   "text": "Er hatte sich verlaufen und fand den Weg nicht mehr zurück.",
+   "piper": [
+    "ɛɾ hˌatə zɪç fɛɾlˈaʊfən ʊnt fˈant deːn vˈeːk nˈɪçt mˌeːɾ tsuːrˈyk."
+   ],
+   "misaki": "ɛɾ hˌatə zɪç fɛɾlˈWfən ʊnt fˈant deːn vˈeːk nˈɪçt mˌeːɾ ʦuːrˈʏk."
+  },
+  {
+   "text": "Die Kinder spielten Verstecken im alten Schuppen hinter dem Haus.",
+   "piper": [
+    "diː kˈɪndɜ ʃpˈiːltən fɛɾʃtˈɛkən ɪm ˈaltən ʃˈʊpən hˈɪntɜ deːm hˈaʊs."
+   ],
+   "misaki": "diː kˈɪndɜ ʃpˈiːltən fɛɾʃtˈɛkən ɪm ˈaltən ʃˈʊpən hˈɪntɜ deːm hˈWs."
+  },
+  {
+   "text": "Ob das stimmt, weiß niemand so genau.",
+   "piper": [
+    "ˌɔp das ʃtˈɪmt, vˈaɪs nˈiːmant zoː ɡənˈaʊ."
+   ],
+   "misaki": "ˌɔp das ʃtˈɪmt, vˈIs nˈiːmant zoː ɡənˈW."
+  },
+  {
+   "text": "Heute Abend gehen wir ins Theater und danach essen.",
+   "piper": [
+    "hˈɔøtə ˈɑːbənt ɡˈeːən viːɾ ɪns teːˈɑːtɜ ʊnt danˈax ˈɛsən."
+   ],
+   "misaki": "hˈɔøtə ˈɑːbənt ɡˈeːən viːɾ ɪns teːˈɑːtɜ ʊnt danˈax ˈɛsən."
+  },
+  {
+   "text": "Der Pianist übte jeden Tag mehrere Stunden.",
+   "piper": [
+    "dɛɾ pˌiːanˈɪst ˈyːptə jˈeːdən tˈɑːk mˈeːrərə ʃtˈʊndən."
+   ],
+   "misaki": "dɛɾ pˌiːanˈɪst ˈyːptə jˈeːdən tˈɑːk mˈeːrərə ʃtˈʊndən."
+  },
+  {
+   "text": "Die Ausstellung zeigt Gemälde aus dem 17. und 18. Jahrhundert.",
+   "piper": [
+    "diː ˈaʊsʃtˌɛlʊŋ tsˈaɪkt ɡəmˈɛldə ˌaʊs deːm zˈiːptseːntə ʊnt ˈaxtseːn.",
+    "jɑːɾhˈʊndɜt."
+   ],
+   "misaki": "diː ˈWsʃtˌɛlʊŋ ʦˈIkt ɡəmˈɛːldə ˌWs deːm zˈiːpʦeːn. ʊnt ˈaxʦeːn. jɑːɾhˈʊndɜt."
+  },
+  {
+   "text": "Bitte schließen Sie die Tür, wenn Sie den Raum verlassen.",
+   "piper": [
+    "bˈɪtə ʃlˈiːsən ziː diː tˈyːɾ, vˌɛn ziː deːn rˈaʊm fɛɾlˈasən."
+   ],
+   "misaki": "bˈɪtə ʃlˈiːsən ziː diː tˈyːɾ, vˌɛn ziː deːn rˈWm fɛɾlˈasən."
+  },
+  {
+   "text": "Der Arzt verschrieb ihm ein Medikament gegen die Schmerzen.",
+   "piper": [
+    "dɛɾ ˈaɾtst fɛɾʃrˈiːp iːm aɪn mˌeːdiːkamˈɛnt ɡˌeːɡən diː ʃmˈɛɾtsən."
+   ],
+   "misaki": "dɛɾ ˈaɾʦt fɛɾʃrˈiːp iːm In mˌeːdiːkamˈɛnt ɡˌeːɡən diː ʃmˈɛɾʦən."
+  },
+  {
+   "text": "Die Feuerwehr rückte mit drei Fahrzeugen aus.",
+   "piper": [
+    "diː fˈɔøɜvˌeːɾ rˈyktə mɪt dɾˈaɪ fˈɑːɾtsɔøɡən ˈaʊs."
+   ],
+   "misaki": "diː fˈɔøɜvˌeːɾ rˈʏktə mɪt dɾˈI fˈɑːɾʦɔøɡən ˈWs."
+  },
+  {
+   "text": "Die Kirche wurde im gotischen Stil erbaut.",
+   "piper": [
+    "diː kˈɪɾçə vˌ??də ɪm ɡˈoːtɪʃən ʃtˈiːl ɛɾbˈaʊt."
+   ],
+   "misaki": "diː kˈɪɾçə vˌʊɐdə ɪm ɡˈoːtɪʃən ʃtˈiːl ɛɾbˈWt."
+  },
+  {
+   "text": "Er las das Buch in einem Zug und konnte es kaum weglegen.",
+   "piper": [
+    "ɛɾ lˈɑːs das bˈuːx ɪn ˌaɪnəm tsˈuːk ʊnt kˈɔntə ɛs kˈaʊm vɛɡlˈeːɡən."
+   ],
+   "misaki": "ɛɾ lˈɑːs das bˈuːx ɪn ˌInəm ʦˈuːk ʊnt kˈɔntə ɛs kˈWm vɛɡlˈeːɡən."
+  },
+  {
+   "text": "Die Strategie des Unternehmens änderte sich grundlegend.",
+   "piper": [
+    "diː ʃtɾˌɑteːɡˈiː dɛs ˌʊntɜnˈeːməns ˈɛndɜtə zɪç ɡɾʊndlˈeːɡənt."
+   ],
+   "misaki": "diː ʃtɾˌɑteːɡˈiː dɛs ˌʊntɜnˈeːməns ˈɛndɜtə zɪç ɡɾʊndlˈeːɡənt."
+  },
+  {
+   "text": "Die Polizei ermittelt wegen des Verdachts auf Betrug.",
+   "piper": [
+    "diː pˌoːliːtsˈaɪ ɛɾmˈɪtəlt vˌeːɡən dɛs fɛɾdˈaxts aʊf bətɾˈuːk."
+   ],
+   "misaki": "diː pˌoːliːʦˈI ɛɾmˈɪtəlt vˌeːɡən dɛs fɛɾdˈaxts Wf bətɾˈuːk."
+  },
+  {
+   "text": "Wissenschaftler entdeckten eine neue Art von Tiefseefischen.",
+   "piper": [
+    "vˈɪsənʃˌaftlɜ ɛntdˈɛktən ˌaɪnə nˈɔøə ˈɑːɾt fɔn tˈiːfzˌeːfɪʃən."
+   ],
+   "misaki": "vˈɪsənʃˌaftlɜ ɛntdˈɛktən ˌInə nˈɔøə ˈɑːɾt fɔn tˈiːfzˌeːfɪʃən."
+  },
+  {
+   "text": "Die Demokratie lebt vom Engagement ihrer Bürgerinnen und Bürger.",
+   "piper": [
+    "diː dˌeːmoːkɾatˈiː lˈeːpt fɔm ˌɛŋaɡeːmˈɛnt ˌiːrɜ bˈyɾɡeːrˌɪnən ʊnt bˈyɾɡɜ."
+   ],
+   "misaki": "diː dˌeːmoːkɾatˈiː lˈeːpt fɔm ˌɛŋaɡeːmˈɛnt ˌiːrɜ bˈʏɾɡeːrˌɪnən ʊnt bˈʏɾɡɜ."
+  },
+  {
+   "text": "Sie trank einen Schluck Kaffee und blätterte in der Zeitung.",
+   "piper": [
+    "ziː tɾˈaŋk ˌaɪnən ʃlˈʊk kˈafeː ʊnt blˈɛtɜtə ɪn dɛɾ tsˈaɪtˌʊŋ."
+   ],
+   "misaki": "ziː tɾˈaŋk ˌInən ʃlˈʊk kˈafeː ʊnt blˈɛtɜtə ɪn dɛɾ ʦˈItˌʊŋ."
+  },
+  {
+   "text": "Der Wind pfiff durch die Ritzen des alten Fensters.",
+   "piper": [
+    "dɛɾ vˈɪnt pfˈɪf d??ç diː rˈɪtsən dɛs ˈaltən fˈɛnstɜs."
+   ],
+   "misaki": "dɛɾ vˈɪnt pfˈɪf dʊɐç diː rˈɪʦən dɛs ˈaltən fˈɛnstɜs."
+  },
+  {
+   "text": "Tschüss, bis morgen!",
+   "piper": [
+    "tʃˈys, bɪs mˈɔɾɡən!"
+   ],
+   "misaki": "ʧˈʏs, bɪs mˈɔɾɡən!"
+  },
+  {
+   "text": "Die Quelle des Flusses liegt in den Alpen.",
+   "piper": [
+    "diː kvˈɛlə dɛs flˈʊsəs lˈiːkt ɪn deːn ˈalpən."
+   ],
+   "misaki": "diː kvˈɛlə dɛs flˈʊsəs lˈiːkt ɪn deːn ˈalpən."
+  },
+  {
+   "text": "Der Rhythmus der Musik war mitreißend.",
+   "piper": [
+    "dɛɾ rˈytmʊs dɛɾ muːzˈiːk vɑːɾ mˈɪtɾˌaɪsənt."
+   ],
+   "misaki": "dɛɾ rˈʏtmʊs dɛɾ muːzˈiːk vɑːɾ mˈɪtɾˌIsənt."
+  },
+  {
+   "text": "Die Chance ist gering, aber nicht ausgeschlossen.",
+   "piper": [
+    "diː ʃˈɑ̃sə ɪst ɡərˈɪŋ, ˌɑːbɜ nˈɪçt ˈaʊsɡəʃlˌɔsən."
+   ],
+   "misaki": "diː ʃˈɑ̃sə ɪst ɡərˈɪŋ, ˌɑːbɜ nˈɪçt ˈWsɡəʃlˌɔsən."
+  },
+  {
+   "text": "Er ist ein typischer Pessimist, sie eher Optimistin.",
+   "piper": [
+    "ɛɾ ɪst aɪn tˈyːpɪʃɜ pˌɛsiːmˈɪst, ziː ˈeːɜ ˈɔptiːmˌɪstɪn."
+   ],
+   "misaki": "ɛɾ ɪst In tˈyːpɪʃɜ pˌɛsiːmˈɪst, ziː ˈeːɜ ˈɔptiːmˌɪstɪn."
+  },
+  {
+   "text": "Zwischen Theorie und Praxis liegen oft Welten.",
+   "piper": [
+    "tsvˈɪʃən tˌeːoːrˈiː ʊnt pɾˈaksɪs lˈiːɡən ˈɔft vˈɛltən."
+   ],
+   "misaki": "ʦvˈɪʃən tˌeːoːrˈiː ʊnt pɾˈaksɪs lˈiːɡən ˈɔft vˈɛltən."
+  },
+  {
+   "text": "Die Archäologen fanden Überreste einer römischen Siedlung.",
+   "piper": [
+    "diː ˌaɾçɛːoːlˈoːɡən fˈandən ˌyːbɜrˈɛstə ˌaɪnɜ rˈøːmɪʃən zˈiːdlʊŋ."
+   ],
+   "misaki": "diː ˌaɾçɛːoːlˈoːɡən fˈandən ˌyːbɜrˈɛstə ˌInɜ rˈøːmɪʃən zˈiːdlʊŋ."
+  },
+  {
+   "text": "Das Spiel endete 2:1 für die Gastgeber.",
+   "piper": [
+    "das ʃpˈiːl ˈɛndətə tsvˈaɪ ˈaɪns fyːɾ diː ɡˈastɡeːbɜ."
+   ],
+   "misaki": "das ʃpˈiːl ˈɛndətə ʦvˈI:ˈIns fyːɾ diː ɡˈastɡeːbɜ."
+  },
+  {
+   "text": "Die Konferenz findet vom 5. bis 7. Mai statt.",
+   "piper": [
+    "diː kɔnfeːrˈɛnts fˈɪndət fɔm fˈynftə bɪs zˈiːbən.",
+    "mˈaɪ ʃtˈat."
+   ],
+   "misaki": "diː kɔnfeːrˈɛnʦ fˈɪndət fɔm fˈʏnf. bɪs zˈiːbən. mˈI ʃtˈat."
+  },
+  {
+   "text": "Kapitel 1: Die Ankunft",
+   "piper": [
+    "kˈɑpiːtəl ˈaɪns: diː ˈankˌʊnft"
+   ],
+   "misaki": "kˈɑpiːtəl ˈIns: diː ˈankˌʊnft"
+  },
+  {
+   "text": "Er war 1,85 m groß und wog 80 kg.",
+   "piper": [
+    "ɛɾ vɑːɾ ˈaɪns kɔmɑː ˈaxt fˈynf ˈɛm ɡɾˈoːs ʊnt vˈoːk ˈaxtsɪç kˌɑːɡˈeː."
+   ],
+   "misaki": "ɛɾ vɑːɾ ˈIns,fˈʏnf ʊntˈaxʦɪç ˈɛm ɡɾˈoːs ʊnt vˈoːk ˈaxʦɪç kˌɑːɡˈeː."
+  },
+  {
+   "text": "Die Abkürzung EU steht für Europäische Union.",
+   "piper": [
+    "diː ˈapkˌyɾtsʊŋ ˌeːˈuː ʃtˈeːt fyːɾ ɔøroːpˈɛːɪʃə uːnjˈoːn."
+   ],
+   "misaki": "diː ˈapkˌʏɾʦʊŋ ˌeːˈuː ʃtˈeːt fyːɾ ɔøroːpˈɛːɪʃə uːnjˈoːn."
+  },
+  {
+   "text": "Die NATO und die UNO sind internationale Organisationen.",
+   "piper": [
+    "diː nˈɑːtoː ʊnt diː ˌuːˌɛnˈoː zɪnt ˌɪntɜnatsjˌoːnˈɑːlə ˌɔɾɡanˌiːzatsjˈoːnən."
+   ],
+   "misaki": "diː nˈɑːtoː ʊnt diː ˌuːˌɛnˈoː zɪnt ˌɪntɜnaʦjˌoːnˈɑːlə ˌɔɾɡanˌiːzaʦjˈoːnən."
+  },
+  {
+   "text": "Der ICE fährt mit bis zu 300 km/h.",
+   "piper": [
+    "dɛɾ ˌiːtsˌeːˈeː fˈɛːɾt mɪt bɪs tsuː dɾˈaɪhˈʊndɜt kˌɑːˈɛm hˈɑː."
+   ],
+   "misaki": "dɛɾ ˌiːʦˌeːˈeː fˈɛːɾt mɪt bɪs ʦuː dɾˈIhˈʊndɜt kˌɑːˈɛm hˈɑː."
+  },
+  {
+   "text": "Die Firma XYZ GmbH hat ihren Sitz in Köln.",
+   "piper": [
+    "diː fˈɪɾmɑː ˌɪksˌypsɪlˌɔntsˈɛt ɡˌeːˌɛmbˈeː hˈɑː hat ˌiːrən zˈɪts ɪn kˈœln."
+   ],
+   "misaki": "diː fˈɪɾmɑː ˌɪksˌʏpsɪlˌɔnʦˈɛt ɡˌeːˌɛmbˈeː hˈɑː hat ˌiːrən zˈɪʦ ɪn kˈœln."
+  },
+  {
+   "text": "Es war einmal ein König, der hatte drei Töchter.",
+   "piper": [
+    "ɛs vɑːɾ ˈaɪnmˌɑːl aɪn kˈøːnɪç, dɛɾ hˌatə dɾˈaɪ tˈœçtɜ."
+   ],
+   "misaki": "ɛs vɑːɾ ˈInmˌɑːl In kˈøːnɪç, dɛɾ hˌatə dɾˈI tˈœçtɜ."
+  },
+  {
+   "text": "Am Ende des Tages zählt nur das Ergebnis.",
+   "piper": [
+    "am ˈɛndə dɛs tˈɑːɡəs tsˈɛːlt nˈuːɾ das ɛɾɡˈeːbnɪs."
+   ],
+   "misaki": "am ˈɛndə dɛs tˈɑːɡəs ʦˈɛːlt nˈuːɾ das ɛɾɡˈeːbnɪs."
+  },
+  {
+   "text": "Die Verhandlungen zogen sich über mehrere Wochen hin.",
+   "piper": [
+    "diː fɛɾhˈandlʊŋən tsˈoːɡən zɪç ˌyːbɜ mˈeːrərə vˈɔxən hˈɪn."
+   ],
+   "misaki": "diː fɛɾhˈandlʊŋən ʦˈoːɡən zɪç ˌyːbɜ mˈeːrərə vˈɔxən hˈɪn."
+  },
+  {
+   "text": "Der Bürgermeister eröffnete das neue Schwimmbad.",
+   "piper": [
+    "dɛɾ bˈyɾɡɜmˌaɪstɜ ɛɾˈœfnətə das nˈɔøə ʃvˈɪmbɑːt."
+   ],
+   "misaki": "dɛɾ bˈʏɾɡɜmˌIstɜ ɛɾˈœfnətə das nˈɔøə ʃvˈɪmbɑːt."
+  },
+  {
+   "text": "Sie hatte das Gefühl, beobachtet zu werden.",
+   "piper": [
+    "ziː hˌatə das ɡəfˈyːl, bəˈoːbaxtət tsuː vˌɛɾdən."
+   ],
+   "misaki": "ziː hˌatə das ɡəfˈyːl, bəˈoːbaxtət ʦuː vˌɛɾdən."
+  },
+  {
+   "text": "Die Kartoffeln müssen etwa zwanzig Minuten kochen.",
+   "piper": [
+    "diː kaɾtˈɔfəln mˈysən ˌɛtvɑː tsvˈantsɪç miːnˈuːtən kˈɔxən."
+   ],
+   "misaki": "diː kaɾtˈɔfəln mˈʏsən ˌɛtvɑː ʦvˈanʦɪç miːnˈuːtən kˈɔxən."
+  },
+  {
+   "text": "Er zuckte mit den Schultern und ging weiter.",
+   "piper": [
+    "ɛɾ tsˈʊktə mɪt deːn ʃˈʊltɜn ʊnt ɡˈɪŋ vˈaɪtɜ."
+   ],
+   "misaki": "ɛɾ ʦˈʊktə mɪt deːn ʃˈʊltɜn ʊnt ɡˈɪŋ vˈItɜ."
+  },
+  {
+   "text": "Das Flugzeug landete pünktlich in Frankfurt am Main.",
+   "piper": [
+    "das flˈuːɡtsɔøk lˈandətə pˈyŋktlɪç ɪn frˈaŋkf??t am mˈaɪn."
+   ],
+   "misaki": "das flˈuːɡʦɔøk lˈandətə pˈʏŋktlɪç ɪn frˈaŋkfʊɐt am mˈIn."
+  },
+  {
+   "text": "Die Ärztin untersuchte den Patienten gründlich.",
+   "piper": [
+    "diː ˈɛɾtstɪn ˌʊntɜzˈuːxtə deːn patsjˈɛntən ɡɾˈyntlɪç."
+   ],
+   "misaki": "diː ˈɛɾʦtɪn ˌʊntɜzˈuːxtə deːn paʦjˈɛntən ɡɾˈʏntlɪç."
+  },
+  {
+   "text": "Hast du die E-Mail schon gelesen?",
+   "piper": [
+    "hast duː diː ˈeːmˈeɪl ʃˌoːn ɡəlˈeːzən?"
+   ],
+   "misaki": "hast duː diː ˈeːmˈAl ʃˌoːn ɡəlˈeːzən?"
+  },
+  {
+   "text": "Die Software-Entwicklung erfordert viel Geduld.",
+   "piper": [
+    "diː sˈɒftweəɛntvˈɪklʊŋ ɛɾfˈɔɾdɜt fˈiːl ɡədˈʊlt."
+   ],
+   "misaki": "diː sˈɒftweəɛntvˈɪklʊŋ ɛɾfˈɔɾdɜt fˈiːl ɡədˈʊlt."
+  },
+  {
+   "text": "Der Begriff stammt aus dem Griechischen.",
+   "piper": [
+    "dɛɾ bəɡɾˈɪf ʃtˈamt ˌaʊs deːm ɡɾˈiːçɪʃən."
+   ],
+   "misaki": "dɛɾ bəɡɾˈɪf ʃtˈamt ˌWs deːm ɡɾˈiːçɪʃən."
+  },
+  {
+   "text": "Die Nachricht verbreitete sich wie ein Lauffeuer.",
+   "piper": [
+    "diː nˈaxrɪçt fɛɾbɾˈaɪtətə zɪç viː aɪn lˈaʊfɔøɜ."
+   ],
+   "misaki": "diː nˈaxrɪçt fɛɾbɾˈItətə zɪç viː In lˈWfɔøɜ."
+  },
+  {
+   "text": "Er öffnete den Brief mit zitternden Händen.",
+   "piper": [
+    "ɛɾ ˈœfnətə deːn bɾˈiːf mɪt tsˈɪtɛɾndən hˈɛndən."
+   ],
+   "misaki": "ɛɾ ˈœfnətə deːn bɾˈiːf mɪt ʦˈɪtɛɾndən hˈɛndən."
+  },
+  {
+   "text": "Das Eis schmolz in der Sonne.",
+   "piper": [
+    "das ˈaɪs ʃmˈɔlts ɪn dɛɾ zˈɔnə."
+   ],
+   "misaki": "das ˈIs ʃmˈɔlʦ ɪn dɛɾ zˈɔnə."
+  },
+  {
+   "text": "Die Ruine der Burg thront über dem Tal.",
+   "piper": [
+    "diː ruːˈiːnə dɛɾ bˈ??k tɾˈɔnt ˌyːbɜ deːm tˈɑːl."
+   ],
+   "misaki": "diː ruːˈiːnə dɛɾ bˈʊɐk tɾˈɔnt ˌyːbɜ deːm tˈɑːl."
+  },
+  {
+   "text": "Ihr naht euch wieder, schwankende Gestalten,",
+   "piper": [
+    "iːɾ nˈɑːt ɔøç vˈiːdɜ, ʃvˈaŋkəndə ɡəʃtˈaltən, "
+   ],
+   "misaki": "iːɾ nˈɑːt ɔøç vˈiːdɜ, ʃvˈaŋkəndə ɡəʃtˈaltən,"
+  },
+  {
+   "text": "Ihr Beifall selbst macht meinem Herzen bang,",
+   "piper": [
+    "iːɾ bˈaɪfal zˈɛlpst mˈaxt mˌaɪnəm hˈɛɾtsən bˈaŋ, "
+   ],
+   "misaki": "iːɾ bˈIfal zˈɛlpst mˈaxt mˌInəm hˈɛɾʦən bˈaŋ,"
+  },
+  {
+   "text": "Die Tage der Welt vergeß ich’s nicht!",
+   "piper": [
+    "diː tˈɑːɡə dɛɾ vˈɛlt fɛɾɡˈeːs ˈɪçs nˈɪçt!"
+   ],
+   "misaki": "diː tˈɑːɡə dɛɾ vˈɛlt fɛɾɡˈeːs ˈɪçs nˈɪçt!"
+  },
+  {
+   "text": "Laß Er mich mit dem Gesetz in Frieden!",
+   "piper": [
+    "lˈɑːs ɛɾ mɪç mɪt deːm ɡəzˈɛts ɪn frˈiːdən!"
+   ],
+   "misaki": "lˈɑːs ɛɾ mɪç mɪt deːm ɡəzˈɛʦ ɪn frˈiːdən!"
+  },
+  {
+   "text": "Ich sag Euch, mit dem schönen Kind",
+   "piper": [
+    "ɪç zˈɑːk ˈɔøç, mɪt deːm ʃˈøːnən kˈɪnt"
+   ],
+   "misaki": "ɪç zˈɑːk ˈɔøç, mɪt deːm ʃˈøːnən kˈɪnt"
+  },
+  {
+   "text": "Da wird er reüssieren!",
+   "piper": [
+    "dɑː vˌɪɾt ɛɾ rˌeːysˈiːrən!"
+   ],
+   "misaki": "dɑː vˌɪɾt ɛɾ rˌeːʏsˈiːrən!"
+  },
+  {
+   "text": "Wie atmet rings Gefühl der Stille,",
+   "piper": [
+    "viː ˈatmət rˈɪŋs ɡəfˈyːl dɛɾ ʃtˈɪlə, "
+   ],
+   "misaki": "viː ˈatmət rˈɪŋs ɡəfˈyːl dɛɾ ʃtˈɪlə,"
+  },
+  {
+   "text": "Hier möcht ich volle Stunden säumen.",
+   "piper": [
+    "hˈiːɾ mˈœçt ɪç fˈɔlə ʃtˈʊndən zˈɔømən."
+   ],
+   "misaki": "hˈiːɾ mˈœçt ɪç fˈɔlə ʃtˈʊndən zˈɔømən."
+  },
+  {
+   "text": "Ich kehre nimmermehr!",
+   "piper": [
+    "ɪç kˈeːrə nˈɪmɜmˌeːɾ!"
+   ],
+   "misaki": "ɪç kˈeːrə nˈɪmɜmˌeːɾ!"
+  },
+  {
+   "text": "Als solltet Ihr in den Hörsaal hinein,",
+   "piper": [
+    "als zˈɔltət iːɾ ɪn deːn hˈœɾzɑːl hɪnˈaɪn, "
+   ],
+   "misaki": "als zˈɔltət iːɾ ɪn deːn hˈœɾzɑːl hɪnˈIn,"
+  },
+  {
+   "text": "Zählt er seine Städt im Reich,",
+   "piper": [
+    "tsˈɛːlt ɛɾ zˌaɪnə ʃtˈɛt ɪm rˈaɪç, "
+   ],
+   "misaki": "ʦˈɛːlt ɛɾ zˌInə ʃtˈɛt ɪm rˈIç,"
+  },
+  {
+   "text": "Und meine Mutter lieh darauf.",
+   "piper": [
+    "ʊnt mˌaɪnə mˈʊtɜ lˈiː dɑːrˈaʊf."
+   ],
+   "misaki": "ʊnt mˌInə mˈʊtɜ lˈiː dɑːrˈWf."
+  },
+  {
+   "text": "Zu ihm Mephistopheles.",
+   "piper": [
+    "tsuː iːm mˈeːfɪstˌɔfələs."
+   ],
+   "misaki": "ʦuː iːm mˈeːfɪstˌɔfələs."
+  },
+  {
+   "text": "Befängt die Seele, zehrt auf das Blut.",
+   "piper": [
+    "bəfˈɛŋt diː zˈeːlə, tsˈeːɾt aʊf das blˈuːt."
+   ],
+   "misaki": "bəfˈɛŋt diː zˈeːlə, ʦˈeːɾt Wf das blˈuːt."
+  },
+  {
+   "text": "Dankt’ nicht weniger und nicht mehr,",
+   "piper": [
+    "dˈaŋkt nˈɪçt vˈeːnɪɡɜ ʊnt nˌɪçt mˈeːɾ, "
+   ],
+   "misaki": "dˈaŋkt nˈɪçt vˈeːnɪɡɜ ʊnt nˌɪçt mˈeːɾ,"
+  },
+  {
+   "text": "Gott verzeih’s meinem lieben Mann,",
+   "piper": [
+    "ɡˈɔt fɛɾtsˈaɪhs mˌaɪnəm lˈiːbən mˈan, "
+   ],
+   "misaki": "ɡˈɔt fɛɾʦˈIhs mˌInəm lˈiːbən mˈan,"
+  },
+  {
+   "text": "Komm du nur oft zu mir herüber,",
+   "piper": [
+    "kˈɔm duː nˈuːɾ ˈɔft tsuː miːɾ hɛrˈyːbɜ, "
+   ],
+   "misaki": "kˈɔm duː nˈuːɾ ˈɔft ʦuː miːɾ hɛrˈyːbɜ,"
+  },
+  {
+   "text": "Verzeiht die Freiheit, die ich genommen,",
+   "piper": [
+    "fɛɾtsˈaɪht diː frˈaɪhaɪt, diː ɪç ɡənˈɔmən, "
+   ],
+   "misaki": "fɛɾʦˈIht diː frˈIhIt, diː ɪç ɡənˈɔmən,"
+  },
+  {
+   "text": "Freud muß Leid, Leid muß Freude haben.",
+   "piper": [
+    "frˈɔøt mˈuːs lˈaɪt, lˈaɪt mˈuːs frˈɔødə hˈɑːbən."
+   ],
+   "misaki": "frˈɔøt mˈuːs lˈIt, lˈIt mˈuːs frˈɔødə hˈɑːbən."
+  },
+  {
+   "text": "Ihr seid ein liebenswürdig Kind.",
+   "piper": [
+    "iːɾ zˈaɪt aɪn lˈiːbənsvˌyɾdɪç kˈɪnt."
+   ],
+   "misaki": "iːɾ zˈIt In lˈiːbənsvˌʏɾdɪç kˈɪnt."
+  },
+  {
+   "text": "Er fabelte gewiß in letzten Zügen,",
+   "piper": [
+    "ɛɾ fˈɑbəltə ɡəvˈiːs ɪn lˈɛtstən tsˈyːɡən, "
+   ],
+   "misaki": "ɛɾ fˈɑbəltə ɡəvˈiːs ɪn lˈɛʦtən ʦˈyːɡən,"
+  },
+  {
+   "text": "Sie hat an ihm viel Liebs und Treus getan,",
+   "piper": [
+    "ziː hat an iːm fˈiːl lˈiːbs ʊnt tɾˈɔøs ɡətˈɑːn, "
+   ],
+   "misaki": "ziː hat an iːm fˈiːl lˈiːbs ʊnt tɾˈɔøs ɡətˈɑːn,"
+  },
+  {
+   "text": "MEPHISTOPHELES (für sich).",
+   "piper": [
+    "mˈeːfɪstˌɔfələs fyːɾ zɪç."
+   ],
+   "misaki": "mˈeːfɪstˌɔfələs (fyːɾ zɪç)."
+  },
+  {
+   "text": "Müßte vor dem Herren schamrot werden.",
+   "piper": [
+    "mˈystə fˌɔɾ deːm hˈɛrən ʃˈamroːt vˌɛɾdən."
+   ],
+   "misaki": "mˈʏstə fˌɔɾ deːm hˈɛrən ʃˈamroːt vˌɛɾdən."
+  },
+  {
+   "text": "Ist es das erstemal in eurem Leben,",
+   "piper": [
+    "ɪst ɛs das ɛɾʃtˈeːmɑːl ɪn ˈɔørəm lˈeːbən, "
+   ],
+   "misaki": "ɪst ɛs das ɛɾʃtˈeːmɑːl ɪn ˈɔørəm lˈeːbən,"
+  },
+  {
+   "text": "Nach Namen suche, keinen finde,",
+   "piper": [
+    "nɑːx nˈɑːmən zˈuːxə, kˈaɪnən fˈɪndə, "
+   ],
+   "misaki": "nɑːx nˈɑːmən zˈuːxə, kˈInən fˈɪndə,"
+  },
+  {
+   "text": "(Er küßt ihre Hand.)",
+   "piper": [
+    "ɛɾ kˈyst ˌiːrə hˈant."
+   ],
+   "misaki": "(ɛɾ kˈʏst ˌiːrə hˈant.)"
+  },
+  {
+   "text": "O Beste! glaube, was man so verständig nennt,",
+   "piper": [
+    "ˈoː bˈɛstə!",
+    "ɡlˈaʊbə, vˈas man zoː fɛɾʃtˈɛndɪç nˈɛnt, "
+   ],
+   "misaki": "ˈoː bˈɛstə! ɡlˈWbə, vˈas man zoː fɛɾʃtˈɛndɪç nˈɛnt,"
+  },
+  {
+   "text": "Ich hatte mit dem Kind wohl meine liebe Not;",
+   "piper": [
+    "ɪç hˌatə mɪt deːm kˈɪnt vˈoːl mˌaɪnə lˈiːbə nˈoːt; "
+   ],
+   "misaki": "ɪç hˌatə mɪt deːm kˈɪnt vˈoːl mˌInə lˈiːbə nˈoːt;"
+  },
+  {
+   "text": "Bald, wenn’s nicht schwieg, vom Bett aufstehn",
+   "piper": [
+    "bˈalt, vˈɛns nˈɪçt ʃvˈiːk, fɔm bˈɛt ˈaʊfʃtˌeːn"
+   ],
+   "misaki": "bˈalt, vˈɛns nˈɪçt ʃvˈiːk, fɔm bˈɛt ˈWfʃtˌeːn"
+  },
+  {
+   "text": "Doch ich versteh’—daß Ihr sehr gütig seid.",
+   "piper": [
+    "dɔx ɪç fɛɾʃtˈeː das iːɾ zˈeːɾ ɡˈyːtɪç zˈaɪt."
+   ],
+   "misaki": "dɔx ɪç fɛɾʃtˈeː—das iːɾ zˈeːɾ ɡˈyːtɪç zˈIt."
+  },
+  {
+   "text": "Ihr lacht mich aus.",
+   "piper": [
+    "iːɾ lˈaxt mɪç ˈaʊs."
+   ],
+   "misaki": "iːɾ lˈaxt mɪç ˈWs."
+  },
+  {
+   "text": "Ewig!—Ihr Ende würde Verzweiflung sein",
+   "piper": [
+    "ˈeːvɪç iːɾ ˈɛndə vˈyɾdə fɛɾtsvˈaɪflʊŋ zaɪn"
+   ],
+   "misaki": "ˈeːvɪç!—iːɾ ˈɛndə vˈʏɾdə fɛɾʦvˈIflʊŋ zIn"
+  },
+  {
+   "text": "(Er küßt sie.)",
+   "piper": [
+    "ɛɾ kˈyst ziː."
+   ],
+   "misaki": "(ɛɾ kˈʏst ziː.)"
+  },
+  {
+   "text": "Dein Angesicht im Feuer zugewendet.",
+   "piper": [
+    "daɪn ˈanɡəzˌɪçt ɪm fˈɔøɜ tsˈuːɡeːvəndət."
+   ],
+   "misaki": "dIn ˈanɡəzˌɪçt ɪm fˈɔøɜ ʦˈuːɡeːvəndət."
+  },
+  {
+   "text": "O daß dem Menschen nichts Vollkommnes wird,",
+   "piper": [
+    "ˈoː das deːm mˈɛnʃən nˈɪçts fɔlkˈɔmnəs vˌɪɾt, "
+   ],
+   "misaki": "ˈoː das deːm mˈɛnʃən nˈɪçts fɔlkˈɔmnəs vˌɪɾt,"
+  },
+  {
+   "text": "Ist wahrlich wenig zu verlieren.",
+   "piper": [
+    "ɪst vˈɑːɾlɪç vˈeːnɪç tsuː fɛɾlˈiːrən."
+   ],
+   "misaki": "ɪst vˈɑːɾlɪç vˈeːnɪç ʦuː fɛɾlˈiːrən."
+  },
+  {
+   "text": "Du wärest Teufel gnug, mein Glück mir nicht zu gönnen.",
+   "piper": [
+    "duː vˈɛːrəst tˈɔøfəl ɡənˈuːk, maɪn ɡlˈyk miːɾ nˈɪçt tsuː ɡˈœnən."
+   ],
+   "misaki": "duː vˈɛːrəst tˈɔøfəl ɡənˈuːk, mIn ɡlˈʏk miːɾ nˈɪçt ʦuː ɡˈœnən."
+  },
+  {
+   "text": "Du bist schon wieder abgetrieben",
+   "piper": [
+    "duː bɪst ʃˌoːn vˈiːdɜ ˈapɡətɾˌiːbən"
+   ],
+   "misaki": "duː bɪst ʃˌoːn vˈiːdɜ ˈapɡətɾˌiːbən"
+  },
+  {
+   "text": "Einmal recht ausgeweint,",
+   "piper": [
+    "ˈaɪnmˌɑːl rˈɛçt ˈaʊsɡəvˌaɪnt, "
+   ],
+   "misaki": "ˈInmˌɑːl rˈɛçt ˈWsɡəvˌInt,"
+  },
+  {
+   "text": "Auch selbst Gelegenheit zu machen.",
+   "piper": [
+    "ˌaʊx zˈɛlpst ɡəlˈeːɡənhˌaɪt tsuː mˈaxən."
+   ],
+   "misaki": "ˌWx zˈɛlpst ɡəlˈeːɡənhˌIt ʦuː mˈaxən."
+  },
+  {
+   "text": "Hilf, Teufel, mir die Zeit der Angst verkürzen.",
+   "piper": [
+    "hˈɪlf, tˈɔøfəl, miːɾ diː tsˈaɪt dɛɾ ˈaŋst fɛɾkˈyɾtsən."
+   ],
+   "misaki": "hˈɪlf, tˈɔøfəl, miːɾ diː ʦˈIt dɛɾ ˈaŋst fɛɾkˈʏɾʦən."
+  },
+  {
+   "text": "Ist mir verrückt,",
+   "piper": [
+    "ɪst miːɾ fɛɾrˈykt, "
+   ],
+   "misaki": "ɪst miːɾ fɛɾrˈʏkt,"
+  },
+  {
+   "text": "Und ihre vorgeschriebne Reise",
+   "piper": [
+    "ʊnt ˌiːrə fˈoːɾɡəʃrˌiːbnə rˈaɪzə"
+   ],
+   "misaki": "ʊnt ˌiːrə fˈoːɾɡəʃrˌiːbnə rˈIzə"
+  },
+  {
+   "text": "Das sanfte Wandeln deines Tags.",
+   "piper": [
+    "das zˈanftə vˈandəln dˌaɪnəs tˈɑːks."
+   ],
+   "misaki": "das zˈanftə vˈandəln dˌInəs tˈɑːks."
+  },
+  {
+   "text": "Wie eine der langbeinigen Zikaden,",
+   "piper": [
+    "viː ˌaɪnə dɛɾ lˈaŋbˌaɪnɪɡən tsˈiːkɑːdən, "
+   ],
+   "misaki": "viː ˌInə dɛɾ lˈaŋbˌInɪɡən ʦˈiːkɑːdən,"
+  },
+  {
+   "text": "So werd ich ihn bald in die Klarheit führen.",
+   "piper": [
+    "zoː vˈeːɾt ɪç iːn bˈalt ɪn diː klˈaɾhaɪt fˈyːrən."
+   ],
+   "misaki": "zoː vˈeːɾt ɪç iːn bˈalt ɪn diː klˈaɾhIt fˈyːrən."
+  },
+  {
+   "text": "Schon gut! nur dauert es nicht lange.",
+   "piper": [
+    "ʃˌoːn ɡˈuːt!",
+    "nˈuːɾ dˈaʊɜt ɛs nˈɪçt lˈaŋə."
+   ],
+   "misaki": "ʃˌoːn ɡˈuːt! nˈuːɾ dˈWɜt ɛs nˈɪçt lˈaŋə."
+  },
+  {
+   "text": "Von Zeit zu Zeit seh ich den Alten gern,",
+   "piper": [
+    "fɔn tsˈaɪt tsuː tsˈaɪt zˈeː ɪç deːn ˈaltən ɡˈɛɾn, "
+   ],
+   "misaki": "fɔn ʦˈIt ʦuː ʦˈIt zˈeː ɪç deːn ˈaltən ɡˈɛɾn,"
+  },
+  {
+   "text": "Mich plagen keine Skrupel noch Zweifel,",
+   "piper": [
+    "mɪç plˈɑːɡən kˈaɪnə skɾˈuːpəl nɔx tsvˈaɪfəl, "
+   ],
+   "misaki": "mɪç plˈɑːɡən kˈInə skɾˈuːpəl nɔx ʦvˈIfəl,"
+  },
+  {
+   "text": "An diesem Pult herangewacht.",
+   "piper": [
+    "an dˌiːzəm pˈʊlt hɛrˈanɡəvˌaxt."
+   ],
+   "misaki": "an dˌiːzəm pˈʊlt hɛrˈanɡəvˌaxt."
+  },
+  {
+   "text": "Und fragst du noch, warum dein Herz",
+   "piper": [
+    "ʊnt frˈɑːkst duː nɔx, vɑːrˈʊm daɪn hˈɛɾts"
+   ],
+   "misaki": "ʊnt frˈɑːkst duː nɔx, vɑːrˈʊm dIn hˈɛɾʦ"
+  },
+  {
+   "text": "Ha! welche Wonne fließt in diesem Blick",
+   "piper": [
+    "hˈɑː!",
+    "vˈɛlçə vˈɔnə flˈiːst ɪn dˌiːzəm blˈɪk"
+   ],
+   "misaki": "hˈɑː! vˈɛlçə vˈɔnə flˈiːst ɪn dˌiːzəm blˈɪk"
+  },
+  {
+   "text": "Deine Ordner sind die Abteilungen, ihre Unterordner die Regale.",
+   "piper": [
+    "dˌaɪnə ˈɔɾdnɜ zɪnt diː ˈaptˌaɪlʊŋən, ˌiːrə ˌʊntɜˈɔɾdnɜ diː reːɡˈɑːlə."
+   ],
+   "misaki": "dˌInə ˈɔɾdnɜ zɪnt diː ˈaptˌIlʊŋən, ˌiːrə ˌʊntɜˈɔɾdnɜ diː reːɡˈɑːlə."
+  },
+  {
+   "text": "„Zuletzt gelesen“ führt zum Regal am Durchgang im Stehen springen, im Sitzen aufstehen; Orte; Plattenspieler; Menü; Vollbild Mediathek; Lesebrowser , , Film oder Podcast anhalten und fortsetzen, zurück und vor (Film 10 Sekunden, Podcast 15 Sekunden); es gilt, was zuletzt gestartet wurde.",
+   "piper": [
+    "tsuːlˈɛtst ɡəlˈeːzən fˈyːɾt tsʊm reːɡˈɑːl am dˈ??çɡˌaŋ ɪm ʃtˈeːən ʃpɾˈɪŋən, ɪm zˈɪtsən ˈaʊfʃtˌeːən; ˈɔɾtə; plˈatənʃpˌiːlɜ; meːnˈyː; fˈɔlbˌɪlt mˌeːdiːatˈeːk; lˈeːzɛbɾˌɔvzɜ, fˈɪlm ˌoːdɜ pˈɔtkast ˈanhˌaltən ʊnt fˈɔɾtzɛtsən, tsuːrˈyk ʊnt fˌɔɾ fˈɪlm tsˈeːn zeːkˈʊndən, pˈɔtkast fˈynftseːn zeːkˈʊndən; ɛs ɡˈɪlt, vˈas tsuːlˈɛtst ɡəʃtˈaɾtət vˌ??də."
+   ],
+   "misaki": "ʦuːlˈɛʦt ɡəlˈeːzən“ fˈyːɾt ʦʊm reːɡˈɑːl am dˈʊɐçɡˌaŋ ɪm ʃtˈeːən ʃpɾˈɪŋən, ɪm zˈɪʦən ˈWfʃtˌeːən; ˈɔɾtə; plˈatənʃpˌiːlɜ; meːnˈyː; fˈɔlbˌɪlt mˌeːdiːatˈeːk; lˈeːzɛbɾˌɔvzɜ , , fˈɪlm ˌoːdɜ pˈɔtkast ˈanhˌaltən ʊnt fˈɔɾtzɛʦən, ʦuːrˈʏk ʊnt fˈɔɾ (fˈɪlm ʦˈeːn zeːkˈʊndən, pˈɔtkast fˈʏnfʦeːn zeːkˈʊndən); ɛs ɡˈɪlt, vˈas ʦuːlˈɛʦt ɡəʃtˈaɾtət vˌʊɐdə."
+  },
+  {
+   "text": "Buchen, Eichen, Birken, Fichten, Kiefern und Sträucher bewegen sich im Wind, ein Kiesweg führt zu einem See, in dem sich Himmel und Waldrand spiegeln, und die Hügel verschwinden in der Ferne im Dunst.",
+   "piper": [
+    "bˈuːxən, ˈaɪçən, bˈɪɾkən, fˈɪçtən, kˈiːfɜn ʊnt ʃtɾˈɔøçɜ bəvˌeːɡən zɪç ɪm vˈɪnt, aɪn kˈiːsveːk fˈyːɾt tsuː ˌaɪnəm zˈeː, ɪn deːm zɪç hˈɪməl ʊnt vˈaldɾant ʃpˈiːɡəln, ʊnt diː hˈyːɡəl fɛɾʃvˈɪndən ɪn dɛɾ fˈɛɾnə ɪm dˈʊnst."
+   ],
+   "misaki": "bˈuːxən, ˈIçən, bˈɪɾkən, fˈɪçtən, kˈiːfɜn ʊnt ʃtɾˈɔøçɜ bəvˌeːɡən zɪç ɪm vˈɪnt, In kˈiːsveːk fˈyːɾt ʦuː ˌInəm zˈeː, ɪn deːm zɪç hˈɪməl ʊnt vˈaldɾant ʃpˈiːɡəln, ʊnt diː hˈyːɡəl fɛɾʃvˈɪndən ɪn dɛɾ fˈɛɾnə ɪm dˈʊnst."
+  },
+  {
+   "text": "Katze : Die Bibliothekskatze schläft auf den Sesseln, dem Sofa und der Fensterbank und wechselt ab und zu den Platz.",
+   "piper": [
+    "kˈatsə: diː bˌɪblɪoːtˈeːkskatsə ʃlˈɛft aʊf deːn zˈɛsəln, deːm zˈoːfɑː ʊnt dɛɾ fˈɛnstɜbˌaŋk ʊnt vˈɛksəlt ap ʊnt tsuː deːn plˈats."
+   ],
+   "misaki": "kˈaʦə : diː bˌɪblɪoːtˈeːkskaʦə ʃlˈɛft Wf deːn zˈɛsəln, deːm zˈoːfɑː ʊnt dɛɾ fˈɛnstɜbˌaŋk ʊnt vˈɛksəlt ap ʊnt ʦuː deːn plˈaʦ."
+  },
+  {
+   "text": "Voreingestellt ist Thorsten (mittel).",
+   "piper": [
+    "fˈoːɾˌaɪnɡəʃtˌɛlt ɪst tˈoːɾstən mˈɪtəl."
+   ],
+   "misaki": "fˈoːɾˌInɡəʃtˌɛlt ɪst tˈoːɾstən (mˈɪtəl)."
+  },
+  {
+   "text": "Ziehen verschiebt die Karte, das Mausrad, die Knöpfe unten rechts und die Tasten und vergrößern und verkleinern, die Pfeiltasten verschieben, zeigt die ganze Welt, springt in die Suche.",
+   "piper": [
+    "tsˈiːən fɛɾʃˈiːpt diː kˈaɾtə, das mˈaʊsrɑːt, diː knˈœpfə ˈʊntən rˈɛçts ʊnt diː tˈastən ʊnt fɛɾɡɾˈøːsɜn ʊnt fɛɾklˈaɪnɜn, diː pfˈaɪltastən fɛɾʃˈiːbən, tsˈaɪkt diː ɡˈantsə vˈɛlt, ʃpɾˈɪŋt ɪn diː zˈuːxə."
+   ],
+   "misaki": "ʦˈiːən fɛɾʃˈiːpt diː kˈaɾtə, das mˈWsrɑːt, diː knˈœpfə ˈʊntən rˈɛçts ʊnt diː tˈastən ʊnt fɛɾɡɾˈøːsɜn ʊnt fɛɾklˈInɜn, diː pfˈIltastən fɛɾʃˈiːbən, ʦˈIkt diː ɡˈanʦə vˈɛlt, ʃpɾˈɪŋt ɪn diː zˈuːxə."
+  },
+  {
+   "text": "Merkliste , Weiterschauen und Downloads sammeln gemerkte, angefangene und gespeicherte Filme.",
+   "piper": [
+    "mɛɾklˈɪstə, vˈaɪtɜʃˌaʊən ʊnt dˈaʊnləʊdz zˈaməln ɡəmˈɛɾktə, ˈanɡəfˌaŋənə ʊnt ɡəʃpˈaɪçɜtə fˈɪlmə."
+   ],
+   "misaki": "mɛɾklˈɪstə , vˈItɜʃˌWən ʊnt dˈWnlQdz zˈaməln ɡəmˈɛɾktə, ˈanɡəfˌaŋənə ʊnt ɡəʃpˈIçɜtə fˈɪlmə."
+  }
+ ]
+}

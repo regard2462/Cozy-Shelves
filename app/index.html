@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Cozy Shelves</title>
+  <script src="./theme-boot.js"></script>
+  <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+  <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="./styles/ui.css">
+  <link rel="stylesheet" href="./styles/menu.css">
+  <link rel="stylesheet" href="./styles/reader.css">
+  <link rel="stylesheet" href="./styles/tts.css">
+  <link rel="stylesheet" href="./styles/computer.css">
+  <link rel="stylesheet" href="./styles/news.css">
+  <link rel="stylesheet" href="./styles/podcasts.css">
+  <link rel="stylesheet" href="./styles/wiki.css">
+  <link rel="stylesheet" href="./styles/worldmap.css">
+  <link rel="stylesheet" href="./styles/chess.css">
+  <link rel="stylesheet" href="./styles/watercolor.css">
+  <link rel="stylesheet" href="./styles/gallery.css">
+  <link rel="stylesheet" href="./styles/records.css">
+  <link rel="stylesheet" href="./styles/catalog.css">
+  <link rel="stylesheet" href="./styles/browser.css">
+  <link rel="stylesheet" href="./styles/mediathek.css">
+  <link rel="stylesheet" href="./styles/media.css">
+  <link rel="stylesheet" href="./styles/player.css">
+  <link rel="stylesheet" href="./styles/audiobooks.css">
+  <link rel="stylesheet" href="./styles/wheel.css">
+  <link rel="stylesheet" href="./styles/hud.css">
+  <link rel="stylesheet" href="./styles/welcome.css">
+  <link rel="stylesheet" href="./styles/shelves.css">
+  <link rel="stylesheet" href="./styles/gamepad.css">
+  <link rel="stylesheet" href="./styles/search.css">
+  <link rel="stylesheet" href="./styles/touch.css">
+  <link rel="stylesheet" href="./vendor/chessground/chessground.base.css">
+  <link rel="stylesheet" href="./vendor/chessground/chessground.brown.css">
+  <link rel="stylesheet" href="./vendor/chessground/chessground.cburnett.css">
+  <style>
+    /* Start screen: the name, the current step and a thin running line on a light page. The page itself is the
+       #fade layer below: while #loading shows, the fade is light, and it only turns black (for the transitions
+       inside the world) long after it has faded out, so the world appears without a dark flash. */
+    #loading { position: absolute; inset: 0; z-index: 41; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 6vh 24px 0; font-family: var(--font-body); font-size: 16px; color: var(--text-2); text-align: center; pointer-events: none; }
+    #loading::before { content: "Cozy Shelves"; font-family: var(--font-display); font-size: 60px; font-weight: 600; letter-spacing: -.02em; line-height: 1.05; color: var(--text); }
+    #loading::after { content: ""; width: 168px; height: 3px; margin-top: 14px; border-radius: 999px; background: linear-gradient(90deg, transparent, var(--accent), transparent) no-repeat -84px 0 / 84px 100%, var(--surface-3); animation: loading-run 1.5s ease-in-out infinite; }
+    @keyframes loading-run { to { background-position: 168px 0, 0 0; } }
+    #loading:not(.hidden) + #fade { background-color: var(--bg); }
+    #fade { transition: opacity .9s ease, background-color 0s linear 2.5s; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <canvas id="world"></canvas>
+    <div id="ui">
+      <div id="hud"></div>
+      <div id="panels"></div>
+      <div id="toasts"></div>
+    </div>
+    <div id="loading"></div>
+    <div id="fade"></div>
+  </div>
+  <script type="module" src="./dist/app.js"></script>
+</body>
+</html>

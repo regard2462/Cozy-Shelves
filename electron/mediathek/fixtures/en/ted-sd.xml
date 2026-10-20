@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:jwplayer="http://developer.longtailvideo.com/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <atom:link xmlns:atom10="http://www.w3.org/2005/Atom" href="https://pa.tedcdn.com/feeds/talks.rss?type=video&amp;apikey=172BB350-0205&amp;days=60" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 21 May 2025 17:37:48 +0000</lastBuildDate>
+    <title>TED Talks Daily (SD video)</title>
+    <link>https://www.ted.com/talks</link>
+    <generator>TED - TED.com</generator>
+    <description>TED is a nonprofit devoted to ideas worth spreading. On this video feed, you'll find TED Talks to inspire, intrigue and stir the imagination from some of the world's leading thinkers and doers, speaking from the stage at TED conferences, TEDx events and partner events around the world. This podcast is also available in high-def video and audio-only formats.</description>
+    <itunes:subtitle>TED is a nonprofit devoted to ideas worth spreading. On this video feed, you'll find TED Talks to inspire, intrigue and stir the imagination from some of the world's leading thinkers and doers, speaking from the stage at TED conferences, TEDx events and p</itunes:subtitle>
+    <itunes:author>TED</itunes:author>
+    <itunes:summary>TED is a nonprofit devoted to ideas worth spreading. On this video feed, you'll find TED Talks to inspire, intrigue and stir the imagination from some of the world's leading thinkers and doers, speaking from the stage at TED conferences, TEDx events and partner events around the world. This podcast is also available in high-def video and audio-only formats.</itunes:summary>
+    <language>en</language>
+    <copyright>© TED: https://www.ted.com/about/our-organization/our-policies-terms/ted-com-terms-of-use#h2--copyright-issues-and-licenses</copyright>
+    
+    <image>
+      <url>https://pl.tedcdn.com/rss_feed_images/ted_talks_main_podcast/video.png</url>
+      <title>TED Talks Daily (SD video)</title>
+      <link>https://www.ted.com/talks</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:image href="https://pl.tedcdn.com/rss_feed_images/ted_talks_main_podcast/video.png"/>
+    <category>Science</category>
+    <category>Technology</category>
+    <category>Entertainment</category>
+    <category>Design</category>
+    
+    
+    
+    <itunes:keywords>TED, TEDTalks, TED Talks, inspiration, creativity, tech demo, education</itunes:keywords>
+    <itunes:explicit>no</itunes:explicit>
+    <media:rating scheme="urn:simple">nonadult</media:rating>
+    <itunes:category text="Education"/><itunes:category text="Technology"/><itunes:category text="Arts"/><itunes:category text="Society &amp; Culture"/><itunes:category text="News &amp; Politics"/><itunes:owner><itunes:email>contact@ted.com</itunes:email><itunes:name>TED</itunes:name></itunes:owner><item>
+      <title>This is what the future of media looks like | Hamish McKenzie</title>
+      <itunes:author>Hamish McKenzie</itunes:author>
+      <description>
+        <![CDATA[What if the polarizing mess of social media, clickbait headlines and addictive algorithms isn't a breakdown of media but a transition to something better? Substack cofounder Hamish McKenzie explores how independent creators are growing a new media "garden," where trust beats engagement metrics and audiences matter more than ads. Learn why clicking “subscribe” doesn’t just signal support; it gives you power.]]>
+      </description>
+      <itunes:subtitle>This is what the future of media looks like | Hamish McKenzie</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[What if the polarizing mess of social media, clickbait headlines and addictive algorithms isn't a breakdown of media but a transition to something better? Substack cofounder Hamish McKenzie explores how independent creators are growing a new media "garden," where trust beats engagement metrics and audiences matter more than ads. Learn why clicking “subscribe” doesn’t just signal support; it gives you power.]]>
+      </itunes:summary>
+      <enclosure length="" type="video/mp4" url="https://download.ted.com/products/199003.mp4?apikey=172BB350-0205"/>
+      <link>https://www.ted.com/talks/hamish_mckenzie_this_is_what_the_future_of_media_looks_like?rss=172BB350-0205</link>
+      <guid isPermaLink="false">en.video.talk.ted.com:148378</guid>
+      <jwplayer:talkId>148378</jwplayer:talkId>
+      <pubDate>Wed, 21 May 2025 14:48:48 +0000</pubDate>
+      <category>Higher Education</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:10:58</itunes:duration>
+      <itunes:keywords>TED</itunes:keywords>
+      <media:content fileSize="" type="video/mp4" url="https://download.ted.com/products/199003.mp4?apikey=172BB350-0205"/>
+      <media:thumbnail height="360" url="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_148378/ecba9a5c-46fc-4d3e-85b6-b76bac9b5eb6/HamishMcKenzie_2025-embed.jpg?h=360&amp;origin=rss&amp;w=480" width="480"/>
+      <itunes:image href="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_148378/ecba9a5c-46fc-4d3e-85b6-b76bac9b5eb6/HamishMcKenzie_2025-embed.jpg?"/>
+    <author>contact@ted.com (TED)</author></item>
+<item>
+      <title>The catastrophic risks of AI — and a safer path | Yoshua Bengio</title>
+      <itunes:author>Yoshua Bengio</itunes:author>
+      <description>
+        <![CDATA[Yoshua Bengio — the world's most-cited computer scientist and a "godfather" of artificial intelligence — is deadly concerned about the current trajectory of the technology. As AI models race toward full-blown agency, Bengio warns that they've already learned to deceive, cheat, self-preserve and slip out of our control. Drawing on his groundbreaking research, he reveals a bold plan to keep AI safe and ensure that human flourishing, not machines with unchecked power and autonomy, defines our future.]]>
+      </description>
+      <itunes:subtitle>The catastrophic risks of AI — and a safer path | Yoshua Bengio</itunes:subtitle>
+      <itunes:summary>
+        <![CDATA[Yoshua Bengio — the world's most-cited computer scientist and a "godfather" of artificial intelligence — is deadly concerned about the current trajectory of the technology. As AI models race toward full-blown agency, Bengio warns that they've already learned to deceive, cheat, self-preserve and slip out of our control. Drawing on his groundbreaking research, he reveals a bold plan to keep AI safe and ensure that human flourishing, not machines with unchecked power and autonomy, defines our future.]]>
+      </itunes:summary>
+      <enclosure length="" type="video/mp4" url="https://download.ted.com/products/198948.mp4?apikey=172BB350-0205"/>
+      <link>https://www.ted.com/talks/yoshua_bengio_the_catastrophic_risks_of_ai_and_a_safer_path?rss=172BB350-0205</link>
+      <guid isPermaLink="false">en.video.talk.ted.com:148377</guid>
+      <jwplayer:talkId>148377</jwplayer:talkId>
+      <pubDate>Tue, 20 May 2025 14:55:18 +0000</pubDate>
+      <category>Higher Education</category>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:14:49</itunes:duration>
+      <itunes:keywords>TED</itunes:keywords>
+      <media:content fileSize="" type="video/mp4" url="https://download.ted.com/products/198948.mp4?apikey=172BB350-0205"/>
+      <media:thumbnail height="360" url="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_148377/0f2795e4-2743-40aa-a1d6-1838a6ddf3b5/YoshuaBengio_2025-embed.jpg?h=360&amp;origin=rss&amp;w=480" width="480"/>
+      <itunes:image href="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_148377/0f2795e4-2743-40aa-a1d6-1838a6ddf3b5/YoshuaBengio_2025-embed.jpg?"/>
+    <author>contact@ted.com (TED)</author></item>
+</channel></rss>

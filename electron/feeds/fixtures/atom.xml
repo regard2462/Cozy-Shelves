@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en">
+  <title>The Verge - All Posts</title>
+  <id>https://www.theverge.com/rss/index.xml</id>
+  <link rel="alternate" type="text/html" href="https://www.theverge.com/"/>
+  <link rel="self" type="application/atom+xml" href="https://www.theverge.com/rss/index.xml"/>
+  <updated>2026-09-14T12:00:00+00:00</updated>
+  <icon>https://www.theverge.com/icon.png</icon>
+  <entry>
+    <id>https://www.theverge.com/2026/9/14/e-ink-monitor-review</id>
+    <title type="html">The first e-ink monitor that doesn't make me want to throw it out the window</title>
+    <link rel="alternate" type="text/html" href="https://www.theverge.com/2026/9/14/e-ink-monitor-review"/>
+    <published>2026-09-14T11:30:00+00:00</published>
+    <updated>2026-09-14T11:45:00+00:00</updated>
+    <author><name>Sam Holloway</name></author>
+    <category term="Reviews"/>
+    <summary type="html">After a month with the Dasung Paperlike 13.3, I finally understand who this thing is for.</summary>
+    <content type="html">&lt;figure&gt;&lt;img alt="A monochrome monitor on a wooden desk" src="https://cdn.example.com/verge/eink-hero.jpg" /&gt;&lt;figcaption&gt;Photo by Sam Holloway / The Verge&lt;/figcaption&gt;&lt;/figure&gt;&lt;p&gt;I have wanted to like e-ink monitors for a decade. The pitch is irresistible: a display that looks like paper, doesn't glow into your eyes at midnight, and sips power. The reality has usually been a ghosting, flickering mess that costs more than a good laptop. So when the newest generation arrived at my door, I braced for disappointment.&lt;/p&gt;&lt;p&gt;Instead, I've spent the last thirty days writing, editing, and even browsing on a screen that refreshes fast enough to feel like a slightly sluggish LCD, and slow enough to remind you that you're looking at pigment instead of light. It isn't perfect. But for the first time, it's good enough that I keep reaching for it.&lt;/p&gt;&lt;h2&gt;The good&lt;/h2&gt;&lt;p&gt;Text is the star. At 300 pixels per inch, letters have the crisp, ink-on-paper quality that makes long reading sessions comfortable in a way no backlit panel can match. The front light is warm and even, and it turns off entirely when the room is bright enough — which is the whole point.&lt;/p&gt;&lt;p&gt;Ghosting, the bane of every e-ink device, is managed with a clever adaptive refresh. Scroll a document and the panel switches to a fast, dithered mode; stop, and it snaps a clean full refresh half a second later. After a day I stopped noticing it.&lt;/p&gt;&lt;h2&gt;The bad&lt;/h2&gt;&lt;p&gt;Video is a non-starter, and anything with fine gradients turns into a newspaper halftone. The stand is flimsy. And at $1,299, this remains a specialist tool for writers, coders, and people whose eyes have simply had enough.&lt;/p&gt;&lt;p&gt;Still: if you spend eight hours a day staring at words, this is the first e-ink monitor I'd actually recommend buying. Which, given the history of this category, feels like a small miracle.&lt;/p&gt;</content>
+    <media:thumbnail url="https://cdn.example.com/verge/eink-thumb.jpg"/>
+  </entry>
+  <entry>
+    <id>https://www.theverge.com/2026/9/14/short-news</id>
+    <title>Apple quietly drops the price of the Vision Pro</title>
+    <link rel="alternate" href="https://www.theverge.com/2026/9/14/short-news"/>
+    <published>2026-09-14T09:00:00+00:00</published>
+    <author><name>Jay Porter</name></author>
+    <content type="html">&lt;p&gt;The headset now starts at $2,499, down from $3,499.&lt;/p&gt;</content>
+  </entry>
+</feed>

@@ -1,0 +1,55 @@
+/* Cozy Shelves – the shelves (0.7): the "Gelesen" ribbon on the book card, read state and other copies in the book info,
+   the list of duplicate books (.dup-), the shelf settings and the reading goal in the computer's statistics. */
+
+/* ---- the book card in the room: a book that is read ---- */
+.peek-read {
+  position: absolute; top: 10px; left: 10px;
+  padding: 3px 10px 3px 8px; border-radius: 999px;
+  background: rgba(var(--shade-rgb), 0.62); color: #fff8ea;
+  font: 600 13px/1.35 var(--font-ui); letter-spacing: .01em;
+  box-shadow: 0 2px 8px rgba(var(--shade-rgb), 0.25);
+  pointer-events: none;
+}
+
+/* ---- the book info ---- */
+.rd-bi-done { font-size: 13.5px; font-weight: 600; color: var(--good, var(--accent-ink)); }
+.rd-bi-copies { margin-top: 6px; padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--radius-s, 10px); background: rgba(var(--tint-rgb), .03); display: flex; flex-direction: column; gap: 8px; }
+.rd-bi-copies-head { font-size: 13px; font-weight: 600; color: var(--text-2); }
+.rd-bi-copies-note { font-size: 12.5px; color: var(--text-3); }
+
+/* one copy of a book: format, size, folder and its buttons (book info and the list) */
+.dup-copy { display: flex; align-items: center; gap: 12px; padding: 6px 0; border-top: 1px solid var(--line); }
+.rd-bi-copies .dup-copy:first-of-type, .dup-copies .dup-copy:first-child { border-top: 0; }
+.dup-copy-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.dup-copy-facts { font-size: 13.5px; font-weight: 600; color: var(--text); display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.dup-copy-folder { font-size: 12.5px; color: var(--text-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dup-copy-actions { display: flex; gap: 6px; flex: none; }
+.dup-chip { font-size: 11.5px; font-weight: 600; padding: 1px 8px; border-radius: 999px; background: var(--accent-soft, rgba(var(--accent-rgb), .14)); color: var(--accent-ink); }
+.dup-chip.muted { background: rgba(var(--tint-rgb), .06); color: var(--text-2); font-weight: 500; }
+.dup-copy.shown .dup-copy-facts { color: var(--accent-ink); }
+
+/* ---- "Doppelte Bücher" ---- */
+.dup-panel { width: 820px; max-width: 94vw; }
+.dup-body { display: flex; flex-direction: column; gap: 14px; }
+.dup-intro { margin: 0; font-size: 15px; font-weight: 600; color: var(--text); }
+.dup-note { margin: -6px 0 2px; line-height: 1.5; }
+.dup-group { border: 1px solid var(--line); border-radius: var(--radius-s, 10px); padding: 12px 14px 8px; background: var(--card); }
+.dup-group-head { display: flex; gap: 12px; align-items: center; margin-bottom: 6px; }
+.dup-cover { width: 38px; height: 54px; object-fit: cover; border-radius: 3px; flex: none; box-shadow: 0 2px 6px rgba(var(--shade-rgb), .18); display: grid; place-items: center; font: 700 13px var(--font-ui); }
+.dup-group-title { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.dup-title { font-family: var(--font-serif); font-size: 18px; font-weight: 600; line-height: 1.2; }
+.dup-author { font-family: var(--font-serif); font-style: italic; font-size: 14.5px; color: var(--text-2); }
+.dup-reasons { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 2px; }
+
+/* ---- Einstellungen → Bücherordner → Regale ---- */
+.settings-panel .shelf-sort { min-width: 220px; }
+.settings-panel .shelf-goal { width: 96px; text-align: right; }
+
+/* ---- the computer's statistics: the reading goal of the year ---- */
+.term-goal-row { display: grid; grid-template-columns: auto minmax(120px, 1fr); align-items: center; gap: 6px 18px; }
+.term-goal-big { font-family: var(--font-display); font-size: 24px; font-weight: 600; color: var(--text); white-space: nowrap; }
+.term-goal-meter .term-meter { display: block; width: 100%; }
+.term-goal-sub { grid-column: 1 / -1; font-size: 13.5px; color: var(--text-2); }
+.term-goal-covers { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.term-goal-book { padding: 0; border: 0; background: none; cursor: pointer; border-radius: 4px; }
+.term-goal-book:focus-visible { outline: 2px solid var(--focus, var(--accent)); outline-offset: 2px; }

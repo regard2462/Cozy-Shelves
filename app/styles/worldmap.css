@@ -1,0 +1,237 @@
+/* Weltkarte (app/src/ui/worldmap): the map panel, its cards, the search and the Street View view.
+   Every colour comes from the custom properties of ui.css, the map canvas mixes its colours from them as well
+   (app/src/ui/worldmap/palette.js), so the panel follows the colour theme. */
+
+/* Flag emoji: Chromium on Windows has no flags in its emoji font, this font covers only them (CC BY 4.0, Twemoji) */
+@font-face {
+  font-family: "Twemoji Country Flags";
+  src: url("../data/worldmap/TwemojiCountryFlags.woff2") format("woff2");
+  unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067, U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F;
+  font-display: swap;
+}
+
+.wm-panel { width: min(1600px, 97vw); max-width: 97vw; height: min(94vh, 1040px); max-height: 94vh; outline: none; }
+.wm-head { position: relative; z-index: 4; display: flex; align-items: center; gap: var(--sp-3); padding: 10px 14px 10px 20px; border-bottom: 1px solid var(--line); background: var(--surface); flex: none; }
+.wm-title { display: flex; align-items: center; gap: 9px; font-family: var(--font-display); font-size: 21px; font-weight: 600; letter-spacing: -.01em; color: var(--text); white-space: nowrap; }
+.wm-globe { font-size: 20px; }
+.wm-search-wrap { position: relative; width: min(440px, 42vw); margin-left: var(--sp-3); }
+.wm-search-wrap::before { content: ""; position: absolute; left: 13px; top: 50%; width: 16px; height: 16px; margin-top: -8px; background: var(--text-3); pointer-events: none;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5 21 21'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat; }
+.wm-search-wrap .wm-search { width: 100%; border-radius: 999px; padding-left: 38px; }
+.wm-search::-webkit-search-cancel-button { cursor: pointer; }
+.wm-results { position: absolute; top: calc(100% + 6px); left: 0; right: 0; max-height: min(60vh, 460px); overflow: auto; padding: 6px; background: var(--card); color: var(--text); border: 1px solid var(--line-2); border-radius: var(--radius-m); box-shadow: var(--shadow-m); }
+.wm-res { display: flex; align-items: center; gap: 10px; min-height: 36px; padding: 6px 10px; border-radius: var(--radius-s); cursor: pointer; font-size: 14.5px; }
+.wm-res:hover, .wm-res.on { background: var(--accent-soft); }
+.wm-res.none { cursor: default; color: var(--text-3); background: none; }
+.wm-res-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wm-res-kind { margin-left: auto; padding-left: 10px; color: var(--text-3); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 55%; }
+.wm-worldbtn { white-space: nowrap; }
+/* back and forward through the cards (and Street View's pages) */
+.wm-nav { display: flex; gap: 2px; margin-right: 2px; }
+.wm-nav .btn.icon { font-size: 21px; line-height: 1; }
+.wm-nav .btn:disabled { opacity: .35; cursor: default; }
+
+/* the hint while no card has been opened yet: what a click does */
+.wm-hint { position: absolute; left: 50%; top: 14px; z-index: 3; transform: translateX(-50%); max-width: calc(100% - 40px); padding: 7px 16px; border-radius: 999px; pointer-events: none;
+  background: var(--glass-strong); color: var(--text); border: 1px solid var(--glass-line); box-shadow: var(--glass-shadow); font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  transition: opacity .35s var(--ease); }
+.wm-hint[hidden] { display: none; }
+.wm-hint.gone { opacity: 0; }
+
+.wm-flag { font-family: "Twemoji Country Flags", "Segoe UI Emoji", var(--font-ui); font-size: 18px; line-height: 1; flex: none; }
+.wm-flag.big { font-size: 44px; filter: drop-shadow(0 1px 2px rgba(24, 22, 20, 0.18)); }
+
+/* ---- the map ---- */
+.wm-body { position: relative; flex: 1; min-height: 0; overflow: hidden; background: var(--surface-2); }
+.wm-canvas { position: absolute; left: 0; top: 0; display: block; cursor: grab; touch-action: none; outline: none; }
+.wm-canvas.grabbing { cursor: grabbing; }
+.wm-canvas.pointing { cursor: pointer; }
+.wm-state { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--sp-3); color: var(--text-2); }
+.wm-spinner { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--line-2); border-top-color: var(--accent); animation: wm-spin .9s linear infinite; }
+.wm-mini-spin { display: inline-block; width: 12px; height: 12px; margin-right: 8px; vertical-align: -1px; border-radius: 50%; border: 2px solid var(--line-2); border-top-color: var(--accent); animation: wm-spin .9s linear infinite; }
+@keyframes wm-spin { to { transform: rotate(360deg); } }
+
+.wm-tip { position: absolute; left: 0; top: 0; z-index: 3; display: flex; align-items: center; gap: 10px; max-width: 380px; padding: 7px 14px 7px 11px; border-radius: 14px; pointer-events: none; white-space: nowrap;
+  background: var(--glass-strong); color: var(--text); border: 1px solid var(--glass-line); box-shadow: var(--glass-shadow); font-size: 13.5px; }
+.wm-tip[hidden] { display: none; }
+.wm-tip .wm-flag { font-size: 22px; line-height: 1; }
+.wm-tip-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.wm-tip b { font-weight: 600; font-size: 14px; }
+.wm-tip-facts { color: var(--text-2); font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; }
+/* the views of the map and the legend of the chosen one, bottom middle */
+.wm-legend { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 7px; padding: 7px; border-radius: 16px; white-space: nowrap;
+  background: var(--glass-strong); border: 1px solid var(--glass-line); box-shadow: var(--shadow-s); font-size: 12.5px; color: var(--text-2); transition: left .28s var(--ease); }
+.wm-body.has-card .wm-legend { left: calc(50% - 212px); }
+.wm-legend[hidden] { display: none; }
+.wm-modes { display: flex; gap: 2px; padding: 2px; border-radius: 11px; background: color-mix(in srgb, var(--text) 6%, transparent); }
+.wm-mode { padding: 5px 13px; border: 0; border-radius: 9px; background: transparent; color: var(--text-2); font: inherit; font-size: 13px; font-weight: 500; cursor: pointer; }
+.wm-mode:hover { color: var(--text); background: color-mix(in srgb, var(--text) 6%, transparent); }
+.wm-mode.on { background: var(--card); color: var(--text); box-shadow: var(--shadow-s); }
+.wm-mode:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.wm-lg-scale { display: flex; align-items: center; flex-wrap: wrap; justify-content: center; gap: 4px 12px; max-width: 720px; padding: 2px 8px 0; }
+.wm-lg-title { width: 100%; text-align: center; font-weight: 600; color: var(--text); font-size: 12px; }
+.wm-lg-item { display: inline-flex; align-items: center; gap: 5px; font-variant-numeric: tabular-nums; }
+.wm-lg-swatch { display: inline-block; width: 13px; height: 13px; border-radius: 4px; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 18%, transparent); }
+.wm-zoom { position: absolute; right: 16px; bottom: 16px; z-index: 2; display: flex; flex-direction: column; overflow: hidden; background: var(--card); border: 1px solid var(--line-2); border-radius: var(--radius-m); box-shadow: var(--shadow-s); transition: right .28s var(--ease); }
+.wm-body.has-card .wm-zoom { right: calc(392px + 30px); }
+.wm-zbtn { width: 40px; height: 38px; padding: 0; border: 0; background: transparent; color: var(--text-2); font-size: 20px; line-height: 1; cursor: pointer; }
+.wm-zbtn:hover { background: var(--hover); color: var(--text); }
+.wm-zbtn + .wm-zbtn { border-top: 1px solid var(--line); }
+.wm-zall { font-size: 17px; }
+
+/* ---- the card of a country or a city ---- */
+.wm-card { position: absolute; top: 14px; right: 14px; bottom: 14px; z-index: 2; width: 392px; overflow: auto; padding: 18px 20px 16px; background: var(--surface); color: var(--text);
+  border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-m); animation: wm-card-in .3s var(--ease); overscroll-behavior: contain; }
+.wm-card[hidden] { display: none; }
+@keyframes wm-card-in { from { opacity: 0; transform: translateX(14px); } to { opacity: 1; transform: none; } }
+.wm-card-close { position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; border: 0; border-radius: 50%; background: transparent; color: var(--text-3); font-size: 14px; cursor: pointer; }
+.wm-card-close:hover { background: var(--hover); color: var(--text); }
+.wm-card-head { display: flex; align-items: center; gap: 14px; margin: 0 34px 14px 0; }
+.wm-card-head h2 { margin: 0; font-family: var(--font-display); font-size: 25px; font-weight: 650; line-height: 1.15; letter-spacing: -.01em; }
+.wm-card-sub { margin-top: 3px; color: var(--text-3); font-size: 14px; }
+.wm-card-formal { margin-top: 2px; color: var(--text-2); font-size: 13.5px; font-style: italic; }
+.wm-card-note { margin: -6px 0 14px; color: var(--text-2); font-size: 14px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.wm-citymark { width: 40px; height: 40px; flex: none; border-radius: 50%; background: radial-gradient(circle, var(--warm) 0 6px, var(--warm-soft) 7px 100%); border: 1px solid var(--line); }
+.wm-citymark.cap { background: radial-gradient(circle, var(--warm) 0 5px, var(--card) 6px 10px, var(--warm) 11px 12px, var(--warm-soft) 13px 100%); }
+.wm-facts { display: grid; grid-template-columns: minmax(118px, auto) 1fr; gap: 7px 14px; margin: 0; font-size: 14.5px; line-height: 1.35; }
+.wm-facts dt { color: var(--text-3); }
+.wm-facts dd { margin: 0; color: var(--text); font-variant-numeric: tabular-nums; min-width: 0; overflow-wrap: anywhere; }
+.wm-facts small { color: var(--text-3); font-size: 12.5px; }
+.wm-sec { margin-top: 18px; }
+.wm-sec h3 { margin: 0 0 8px; font-size: 12px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; color: var(--text-3); }
+.wm-sec .muted { margin: 0; font-size: 14px; }
+.wm-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.wm-chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 11px 4px 8px; border: 1px solid var(--line-2); border-radius: 999px; background: var(--card); color: var(--text); font-size: 13.5px; cursor: pointer; transition: background .15s, border-color .15s; }
+.wm-chip:hover { background: var(--accent-soft); border-color: var(--accent-line); }
+.wm-chip .wm-flag { font-size: 15px; }
+.wm-link { padding: 0; border: 0; background: none; font: inherit; color: var(--accent-ink); cursor: pointer; text-decoration: underline; text-decoration-color: var(--accent-line); text-underline-offset: 2px; }
+.wm-link:hover { text-decoration-color: currentColor; }
+.wm-cities { margin: 0; padding: 0; list-style: none; counter-reset: wmc; }
+.wm-city { display: flex; align-items: baseline; gap: 10px; width: 100%; padding: 5px 8px; border: 0; border-radius: var(--radius-s); background: none; color: var(--text); font: inherit; font-size: 14.5px; text-align: left; cursor: pointer; }
+.wm-city:hover { background: var(--hover); }
+.wm-city::before { counter-increment: wmc; content: counter(wmc); width: 16px; flex: none; color: var(--text-3); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+.wm-city-name { flex: 1; min-width: 0; display: inline-flex; align-items: center; gap: 6px; }
+.wm-city-pop { color: var(--text-3); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.wm-cap-mark { width: 7px; height: 7px; border-radius: 50%; border: 1.5px solid var(--warm); flex: none; }
+.wm-wiki { overflow: hidden; }
+.wm-wiki-img { float: right; width: 92px; height: 92px; margin: 2px 0 8px 14px; object-fit: cover; border-radius: var(--radius-s); background: var(--surface-3); box-shadow: 0 0 0 1px var(--line); }
+.wm-wiki-desc { margin: 0 0 6px; color: var(--text-2); font-size: 14px; font-style: italic; }
+.wm-wiki-text { margin: 0; font-family: var(--font-serif); font-size: 16.5px; line-height: 1.5; color: var(--text); hyphens: auto; }
+.wm-wiki-loading { margin: 0; color: var(--text-3); font-size: 14px; }
+.wm-wiki-actions { clear: both; display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+.wm-wiki-lic { margin-left: auto; font-size: 11.5px; color: var(--text-3); }
+.wm-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }   /* right under the name of the place */
+.wm-actions .btn small { font-weight: 400; opacity: .85; }
+.wm-card-src { margin-top: 16px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 12px; line-height: 1.4; color: var(--text-3); }
+
+/* ---- Street View ---- */
+.wm-sv { position: absolute; inset: 0; z-index: 6; display: flex; flex-direction: column; background: var(--surface); }
+.wm-sv[hidden] { display: none; }
+/* nothing of the map stays under the page (the map does not redraw either) */
+.wm-body.sv-open > :not(.wm-sv) { visibility: hidden; }
+/* full screen from inside the page: the view covers the window */
+.wm-sv.fullscreen { position: fixed; inset: 0; z-index: 60; }
+.wm-sv.fullscreen .wm-sv-bar, .wm-sv.fullscreen .wm-sv-progress { display: none; }
+.wm-sv-bar { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-bottom: 1px solid var(--line); background: var(--surface); flex: none; }
+.wm-sv-btn { min-height: 32px; padding: 3px 13px; border: 1px solid var(--line-2); border-radius: 999px; background: var(--card); color: var(--text); font-size: 14px; font-weight: 500; cursor: pointer; white-space: nowrap; }
+.wm-sv-btn:hover { background: var(--surface-2); border-color: var(--line-3); }
+.wm-sv-btn:disabled { opacity: .4; cursor: default; }
+.wm-sv-btn.icon { width: 32px; padding: 0; font-size: 17px; line-height: 1; }
+.wm-sv-btn.home { font-weight: 600; }
+.wm-sv-title { flex: 1; min-width: 0; padding: 0 6px; font-weight: 600; font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wm-sv-modes { display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--surface-3); }
+.wm-sv-mode { padding: 4px 13px; border: 0; border-radius: 999px; background: transparent; color: var(--text-2); font-size: 13.5px; cursor: pointer; }
+.wm-sv-mode:hover { color: var(--text); }
+.wm-sv-mode.on { background: var(--card); color: var(--text); font-weight: 600; box-shadow: var(--shadow-s); }
+.wm-sv-progress { position: relative; height: 2px; overflow: hidden; flex: none; }
+.wm-sv-progress i { position: absolute; top: 0; bottom: 0; width: 30%; left: -30%; background: var(--accent); opacity: 0; }
+.wm-sv-progress.on i { opacity: 1; animation: wm-progress 1.1s ease-in-out infinite; }
+@keyframes wm-progress { to { left: 100%; } }
+.wm-sv-stage { position: relative; flex: 1; min-height: 0; background: var(--stage); }
+/* a web page draws on the browser's light default canvas (the consent page of Google has no background of its own) */
+.wm-sv-view { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; color-scheme: light; background: Canvas; }
+.wm-sv-note { position: absolute; left: 50%; top: 14px; z-index: 2; max-width: min(640px, 90%); transform: translateX(-50%); padding: 8px 16px; border-radius: 999px;
+  background: var(--glass-strong); color: var(--text); border: 1px solid var(--glass-line); box-shadow: var(--glass-shadow); font-size: 14px; text-align: center; pointer-events: none; }
+.wm-sv-error { position: absolute; inset: 0; z-index: 3; display: flex; align-items: center; justify-content: center; background: var(--surface-2); }
+.wm-sv-error[hidden] { display: none; }
+.wm-sv-error-card { max-width: 460px; padding: 24px 28px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-m); text-align: center; }
+.wm-sv-error-card h3 { margin: 0 0 8px; font-family: var(--font-display); font-size: 19px; }
+.wm-sv-error-card p { margin: 0 0 16px; color: var(--text-2); font-size: 14px; }
+.wm-sv-error-actions { display: flex; gap: 8px; justify-content: center; }
+
+/* a large window (2560 × 1440 at 100 %): the map uses the room, countries get bigger and easier to hit */
+@media (min-width: 1900px) and (min-height: 1100px) {
+  .wm-panel { width: min(2300px, 96vw); height: min(1340px, 94vh); }
+  .wm-card { width: 420px; }
+  .wm-body.has-card .wm-zoom { right: calc(420px + 30px); }
+  .wm-body.has-card .wm-legend { left: calc(50% - 226px); }
+}
+
+@media (max-width: 1100px) {
+  .wm-card { width: 340px; }
+  .wm-body.has-card .wm-zoom { right: calc(340px + 30px); }
+  .wm-lg-title { display: none; }
+  .wm-mode { padding: 4px 9px; font-size: 12px; }
+}
+
+/* Behind the map the world stands still (main.js: 'paused'). No backdrop filter over a 3D canvas that stands still (on
+   some Windows systems such a canvas did not reach the screen, the margins stayed black), but a small still of the
+   world under the veil (main.js stillBehind), soft from being shown large, darkened like the blurred view */
+.panel-layer[data-panel="worldmap"] { --still-shade: rgba(0, 0, 0, 0); backdrop-filter: none; -webkit-backdrop-filter: none; }
+:root[data-theme="sepia"] .panel-layer[data-panel="worldmap"] { --still-shade: rgba(0, 0, 0, 0.03); }
+:root[data-theme="dark"] .panel-layer[data-panel="worldmap"] { --still-shade: rgba(0, 0, 0, 0.28); }
+.panel-layer[data-panel="worldmap"].has-still { background: linear-gradient(var(--scrim), var(--scrim)), linear-gradient(var(--still-shade), var(--still-shade)), var(--panel-still) center / cover no-repeat, var(--bg); }
+
+/* The map: Leaflet with OpenStreetMap's tiles (ui/worldmap/osm-view.js), plain images in the page. It fills the body;
+   the themes tint the tiles (sepia warmer, dark inverted with the hues turned back), the outlines of the hovered and
+   the selected country and the selected city take the accent colour. */
+.wm-osm { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; background: var(--wm-water); font: inherit; }   /* z-index: Leaflet's panes (400 and up) stay under the card, the tip and the buttons */
+.wm-osm.leaflet-container { cursor: grab; }
+.wm-osm.leaflet-container.leaflet-drag-target, .wm-osm.leaflet-dragging { cursor: grabbing; }
+.wm-osm.pointing.leaflet-container { cursor: pointer; }
+/* OpenStreetMap's tiles muted: fewer colours, softer contrast, so that the towns and streets read calmly (and the sea
+   of the overview, which the atlas leaves to the tiles, is a quiet blue grey); the lakes of the atlas take that blue */
+.wm-osm { --wm-water: #bfd1d6; --wm-river: #a3c0ca; }
+.wm-osm .wm-tiles { filter: saturate(0.45) brightness(1.04) contrast(0.92); }
+:root[data-theme="sepia"] .wm-osm { --wm-water: #c8d0c8; --wm-river: #adbfba; }
+:root[data-theme="sepia"] .wm-osm .wm-tiles { filter: saturate(0.45) sepia(0.25) brightness(1.02) contrast(0.92); }
+:root[data-theme="dark"] .wm-osm { --wm-water: #1e2a33; --wm-river: #2e4553; }
+:root[data-theme="dark"] .wm-osm .wm-tiles { filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.85) saturate(0.45); }
+.wm-osm .wm-lake, .wm-osm .wm-sea { fill: var(--wm-water); }
+.wm-osm .wm-river { stroke: var(--wm-river); fill: none; stroke-linecap: round; }
+.wm-osm[data-zoom="1"] .wm-river.r2, .wm-osm[data-zoom="2"] .wm-river.r2, .wm-osm[data-zoom="3"] .wm-river.r2,
+.wm-osm[data-zoom="1"] .wm-river.r1, .wm-osm[data-zoom="2"] .wm-river.r1 { display: none; }
+.wm-osm .wm-hover-shape { stroke: var(--accent); fill: var(--accent); }
+.wm-osm .wm-sel-shape { stroke: var(--accent); fill: var(--accent); }
+.wm-osm .wm-sel-city { stroke: var(--accent); fill: var(--accent); }
+.wm-osm .leaflet-control-attribution { font-size: 10.5px; background: color-mix(in srgb, var(--surface) 78%, transparent); color: var(--text-3); border-radius: 6px 0 0 0; }
+.wm-osm .leaflet-control-attribution a { color: var(--text-2); }
+.wm-osm .leaflet-control-scale-line { border-color: var(--text-3); color: var(--text-2); background: color-mix(in srgb, var(--surface) 70%, transparent); font-size: 10.5px; }
+.wm-osm .leaflet-bottom.leaflet-left { margin-bottom: 0; }
+
+/* The names on the map (map-labels.js): plain elements placed at their point; the halo keeps them readable on every
+   colour. Countries in small capitals of the interface font, seas in italics, cities with a dot (capitals a ring). */
+.wm-osm { --wm-halo: rgba(255, 255, 255, 0.92); --wm-country: #4b4036; --wm-sea: #4d7d93; --wm-city: #2f2b27; --wm-dot: #3a3631; }
+:root[data-theme="dark"] .wm-osm { --wm-halo: rgba(20, 22, 25, 0.9); --wm-country: #ece3d4; --wm-sea: #8fb8cb; --wm-city: #f1ece4; --wm-dot: #e9e2d6; }
+.wm-labels { position: absolute; left: 0; top: 0; transition: opacity .18s ease; }
+.wm-labels.zooming { opacity: 0; transition: none; }
+.wm-l { position: absolute; left: 0; top: 0; white-space: nowrap; line-height: 1.12; pointer-events: none;
+  text-shadow: 0 0 2px var(--wm-halo), 0 0 3px var(--wm-halo), 0 0 6px var(--wm-halo); }
+.wm-l-country { translate: -50% -50%; text-align: center; color: var(--wm-country); font-weight: 500; }
+.wm-l-country.caps { text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+.wm-l-sea { translate: -50% -50%; text-align: center; color: var(--wm-sea); font-style: italic; letter-spacing: 0.06em; }
+.wm-l-city { --r: 3px; display: flex; align-items: center; gap: 5px; translate: calc(-1 * var(--r)) -50%; color: var(--wm-city); }
+.wm-l-city.left { flex-direction: row-reverse; translate: calc(-100% + var(--r)) -50%; }
+.wm-l-city i { flex: none; width: calc(2 * var(--r)); height: calc(2 * var(--r)); border-radius: 50%; background: var(--wm-dot); box-shadow: 0 0 0 1.5px var(--wm-halo); }
+.wm-l-city.cap { --r: 4px; font-weight: 600; }
+.wm-l-city.cap i { background: var(--wm-halo); box-shadow: inset 0 0 0 2px var(--wm-dot), 0 0 0 1px var(--wm-halo); }
+.wm-l.sel { color: var(--accent); font-weight: 700; }
+:root[data-theme="dark"] .wm-l.sel { color: #ffffff; text-shadow: 0 0 2px #000, 0 0 4px var(--accent), 0 0 8px var(--accent); }
+.wm-l-city.sel i { background: var(--accent); }
+
+/* no connection: the colours and the names stay (they are part of the app), a small note says what is missing */
+.wm-offline { position: absolute; left: 50%; top: 14px; z-index: 4; transform: translateX(-50%); display: flex; align-items: center; gap: 12px; max-width: calc(100% - 40px); padding: 6px 6px 6px 16px; border-radius: 999px;
+  background: var(--glass-strong); border: 1px solid var(--glass-line); box-shadow: var(--shadow-s); }
+.wm-offline[hidden] { display: none; }
+.wm-offline p { margin: 0; color: var(--text-2); font-size: 13px; }

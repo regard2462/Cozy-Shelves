@@ -1,0 +1,103 @@
+<tt ttp:frameRate="25" xml:lang="de" xmlns="http://www.w3.org/ns/ttml" xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title>KP Hochh�user</ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="style-2" tts:color="cyan"/>
+      <style xml:id="style-3" tts:color="white"/>
+      <style xml:id="style-1" tts:color="yellow"/>
+    </styling>
+    <layout>
+      <region xml:id="region-3" tts:origin="0% 0.00%" tts:extent="100% 69.57%" tts:displayAlign="after"/>
+      <region xml:id="region-1" tts:origin="0% 0.00%" tts:extent="100% 95.65%" tts:displayAlign="after"/>
+      <region xml:id="region-2" tts:origin="0% 0.00%" tts:extent="100% 78.26%" tts:displayAlign="after"/>
+    </layout>
+  </head>
+  <body>
+    <div><p end="00:00:12.08" dur="2000ms" begin="00:00:10.08" xml:id="cue-1" region="region-1">
+        <span>.</span>
+      </p><p end="00:00:15.68" dur="3520ms" begin="00:00:12.16" xml:id="cue-2" region="region-1">
+        <span>Schnelles Wachstum </span>
+        <br/>
+        <span>und knapper Boden -</span>
+      </p><p end="00:00:18.56" dur="2480ms" begin="00:00:16.08" xml:id="cue-3" region="region-1">
+        <span>in den letzten Jahren</span>
+        <br/>
+        <span>war das Hochhaus</span>
+      </p><p end="00:00:20.64" dur="2000ms" begin="00:00:18.64" xml:id="cue-4" region="region-1">
+        <span>in Zürich eine Antwort dafür.</span>
+      </p><p end="00:00:22.72" dur="2000ms" begin="00:00:20.72" xml:id="cue-5" region="region-1">
+        <span style="style-1">Wir sind davon überzeugt,</span>
+      </p><p end="00:00:26.28" dur="3480ms" begin="00:00:22.80" xml:id="cue-6" region="region-1">
+        <span style="style-1">dass, wenn wir die Stadt qualitativ</span>
+        <br/>
+        <span style="style-1">gut weiterentwickeln wollen,</span>
+      </p><p end="00:00:29.00" dur="2640ms" begin="00:00:26.36" xml:id="cue-7" region="region-1">
+        <span style="style-1">der Spielraum</span>
+        <br/>
+        <span style="style-1">in der Höhe auch dazugehört.</span>
+      </p><p end="00:00:34.40" dur="2920ms" begin="00:00:31.48" xml:id="cue-8" region="region-1">
+        <span>Doch nicht alle</span>
+        <br/>
+        <span>wollen die Skyline verändern.</span>
+      </p><p end="00:00:36.48" dur="2000ms" begin="00:00:34.48" xml:id="cue-9" region="region-1">
+        <span>Es regt sich Widerstand.</span>
+      </p><p end="00:00:40.52" dur="2480ms" begin="00:00:38.04" xml:id="cue-10" region="region-1">
+        <span style="style-2">Mit dem Hochhaus</span>
+        <br/>
+        <span style="style-2">verdichtet man nicht.</span>
+      </p><p end="00:00:45.08" dur="4480ms" begin="00:00:40.60" xml:id="cue-11" region="region-1">
+        <span style="style-2">Die Stadt wollte flächendeckend</span>
+        <br/>
+        <span style="style-2">über die ganze Stadt eine 40-m-Zone,</span>
+      </p><p end="00:00:48.56" dur="3400ms" begin="00:00:45.16" xml:id="cue-12" region="region-1">
+        <span style="style-2">und ich habe das Gefühl, </span>
+        <br/>
+        <span style="style-2">das gerät ausser Kontrolle.</span>
+      </p><p end="00:00:53.36" dur="3120ms" begin="00:00:50.24" xml:id="cue-13" region="region-1">
+        <span>Wie verdichtet man</span>
+        <br/>
+        <span>die Stadt der Zukunft?</span>
+      </p><p end="00:00:57.64" dur="2840ms" begin="00:00:54.80" xml:id="cue-14" region="region-1">
+        <span>In die Höhe, aber nicht nur.</span>
+      </p><p end="00:01:06.88" dur="5800ms" begin="00:01:01.08" xml:id="cue-15" region="region-1">
+        <span style="style-2">Man muss sich schon fragen,</span>
+        <br/>
+        <span style="style-2">wer dem Gebäude das Recht gibt,</span>
+      </p><p end="00:01:08.96" dur="2000ms" begin="00:01:06.96" xml:id="cue-16" region="region-1">
+        <span style="style-2">so laut zu sein.</span>
+      </p><p end="00:01:13.92" dur="4880ms" begin="00:01:09.04" xml:id="cue-17" region="region-1">
+        <span style="style-2">Also muss diese laute Geste</span>
+        <br/>
+        <span style="style-2">einen Mehrwert mit sich bringen.</span>
+      </p><p end="00:01:19.00" dur="4120ms" begin="00:01:14.88" xml:id="cue-18" region="region-1">
+        <span>Und hilft der Wolkenkratzer </span>
+        <br/>
+        <span>gegen Hitze und Klimawandel?</span>
+      </p><p end="00:01:26.92" dur="6080ms" begin="00:01:20.84" xml:id="cue-19" region="region-1">
+        <span style="style-2">Da wo wir stehen, entsteht</span>
+        <br/>
+        <span style="style-2">eine grüne Matte, eine grüne Anlage,</span>
+      </p><p end="00:01:29.20" dur="2120ms" begin="00:01:27.08" xml:id="cue-20" region="region-1">
+        <span style="style-2">die weder unterbaut </span>
+        <br/>
+        <span style="style-2">noch versiegelt ist,</span>
+      </p><p end="00:01:31.44" dur="2160ms" begin="00:01:29.28" xml:id="cue-21" region="region-1">
+        <span style="style-2">damit richtige Bäume wachsen können.</span>
+      </p><p end="00:01:34.20" dur="2000ms" begin="00:01:32.20" xml:id="cue-22" region="region-1">
+        <span>Das Hochhaus:</span>
+      </p><p end="00:01:38.28" dur="4000ms" begin="00:01:34.28" xml:id="cue-23" region="region-1">
+        <span>Rettung oder Fluch in einem Land,</span>
+        <br/>
+        <span>das lieber am Boden bleibt?</span>
+      </p><p end="00:01:57.20" dur="2000ms" begin="00:01:55.20" xml:id="cue-24" region="region-1">
+        <span style="style-3">Mit Untertiteln von SWISS TXT</span>
+      </p><p end="00:02:10.04" dur="2440ms" begin="00:02:07.60" xml:id="cue-25" region="region-1">
+        <span>Natalia Caroppo</span>
+        <br/>
+        <span>ist vor ein paar Monaten</span>
+      </p>
+</div>
+  </body>
+</tt>

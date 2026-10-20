@@ -1,0 +1,65 @@
+{
+  "count": 3,
+  "next": "https://gutendex.com/books/?languages=de%2Cen&page=2&search=schach",
+  "previous": null,
+  "results": [
+    {
+      "id": 5614,
+      "title": "Chess Fundamentals",
+      "authors": [{ "name": "Capablanca, José Raúl", "birth_year": 1888, "death_year": 1942 }],
+      "summaries": ["\"Chess Fundamentals\" by José Raúl Capablanca is a chess instruction book written in the early 20th century. The work introduces the principles of the game through simple endings, middle-game strategy and openings, with illustrative games by the author."],
+      "translators": [],
+      "subjects": ["Chess"],
+      "bookshelves": ["Browsing: Games & Sports"],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html": "https://www.gutenberg.org/ebooks/5614.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/5614.epub3.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/5614.kf8.images",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/ebooks/5614.txt.utf-8",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/5614.rdf",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/5614/pg5614.cover.medium.jpg",
+        "application/octet-stream": "https://www.gutenberg.org/cache/epub/5614/pg5614-h.zip"
+      },
+      "download_count": 1412
+    },
+    {
+      "id": 33870,
+      "title": "Schachnovelle",
+      "authors": [{ "name": "Zweig, Stefan", "birth_year": 1881, "death_year": 1942 }],
+      "summaries": ["Stefan Zweigs letzte Erzählung: Auf einer Schiffsreise trifft der Weltmeister Czentovic auf den geheimnisvollen Dr. B., der das Schachspiel in Gestapo-Haft allein im Kopf erlernte."],
+      "translators": [],
+      "subjects": ["Chess -- Fiction", "Psychological fiction", "Austria -- Fiction"],
+      "bookshelves": ["Browsing: Fiction", "DE Prosa"],
+      "languages": ["de"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/ebooks/33870.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/33870.epub.noimages",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/ebooks/33870.txt.utf-8",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/33870/pg33870.cover.medium.jpg"
+      },
+      "download_count": 3021
+    },
+    {
+      "id": 4302,
+      "title": "The Blue Book of Chess: Teaching the Rudiments of the Game, and Giving an Analysis of All the Recognized Openings",
+      "authors": [{ "name": "Staunton, Howard", "birth_year": 1810, "death_year": 1874 }, { "name": "Anonymous", "birth_year": null, "death_year": null }],
+      "translators": [],
+      "subjects": ["Chess"],
+      "bookshelves": [],
+      "languages": ["en"],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/4302.epub.noimages",
+        "text/plain": "https://www.gutenberg.org/ebooks/4302.txt.utf-8",
+        "application/epub+zip; images": "https://www.gutenberg.org/ebooks/4302.epub3.images"
+      },
+      "download_count": 210
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+/* Cozy Shelves – shared UI theme. Three appearances on one set of tokens, chosen with data-theme on <html>
+   (app/theme-boot.js sets it before the first paint, main.js when the setting changes):
+     light  "Hell"   warm white surfaces, a teal accent, a terracotta highlight
+     sepia  "Sepia"  (default) the same design on a soft warm paper tone, clearly less bright than white
+     dark   "Dunkel" neutral charcoal and graphite with a lighter teal
+   Every stylesheet takes its colours from these tokens. Translucent tints are written as
+   rgba(var(--tint-rgb), a): dark ink on the light themes, white on the dark one. */
+:root {
+  /* ---- type ---- UI chrome in a modern sans, reading text stays serif */
+  --font-ui: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-ui-display: "Segoe UI Variable Display", "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-body: var(--font-ui);
+  --font-display: var(--font-ui-display);
+  --font-serif: "EB Garamond", "Palatino Linotype", Georgia, serif;             /* reading text */
+  --font-serif-display: "Cormorant Garamond", "EB Garamond", Georgia, serif;   /* titles inside reading content */
+  --font-hand: "Caveat", "Segoe Script", cursive;
+  --font-mono: "Cascadia Mono", Consolas, "Courier New", monospace;
+  --font-retro: "VT323", Consolas, monospace;
+  --font-news: "Playfair Display", "EB Garamond", Georgia, serif;
+
+  /* ---- surfaces ---- */
+  --bg: #f3f1ec;                          /* behind everything (loading, empty stages) */
+  --surface: #fbfaf8;                     /* panels */
+  --surface-2: #f4f2ee;                   /* sidebars, headers, secondary areas */
+  --surface-3: #ebe8e2;                   /* wells, tracks, pressed states */
+  --card: #ffffff;                        /* cards and controls on a panel */
+  --hover: rgba(31, 29, 27, 0.05);
+  --press: rgba(31, 29, 27, 0.09);
+
+  /* ---- text ---- (all ≥ 4.5:1 on --surface, --surface-2 and --card) */
+  --text: #1f1d1b;
+  --text-2: #4d4843;
+  --text-3: #6b655e;
+  --text-on-accent: #ffffff;
+
+  /* ---- lines ---- */
+  --line: rgba(31, 29, 27, 0.10);         /* hairline */
+  --line-2: rgba(31, 29, 27, 0.16);       /* control borders */
+  --line-3: rgba(31, 29, 27, 0.28);       /* hovered control borders */
+
+  /* ---- accents ---- */
+  --accent: #1f6f6b;                      /* deep teal: primary actions, selection, focus */
+  --accent-strong: #185a57;               /* hover / pressed */
+  --accent-ink: #1a5f5b;                  /* accent as text on light surfaces */
+  --accent-rgb: 31, 111, 107;             /* for translucent accent tints */
+  --accent-soft: rgba(var(--accent-rgb), 0.10);
+  --accent-soft-2: rgba(var(--accent-rgb), 0.17);
+  --accent-line: rgba(var(--accent-rgb), 0.38);
+  --accent-bright: #5cb8b0;               /* the accent on dark surfaces (film stage, night reading) */
+  --warm: #d8704a;                        /* terracotta: sparing highlights, badges, live marks */
+  --warm-strong: #b9532f;                 /* terracotta behind white text */
+  --warm-ink: #a64a2a;                    /* terracotta as text */
+  --warm-rgb: 216, 112, 74;
+  --warm-soft: rgba(var(--warm-rgb), 0.14);
+  --good: #2f7a4f; --bad: #b3403a; --warn: #b7791f; --info: #3d6f9e;
+  --good-rgb: 47, 122, 79; --bad-rgb: 179, 64, 58; --info-rgb: 61, 111, 158;
+  --info-ink: #2f5b82;                    /* blue links and tags as text */
+  --on-bad: #ffffff;
+
+  /* ---- translucent tints: ink on the light themes, white on the dark one ---- */
+  --tint-rgb: 31, 29, 27;                 /* rgba(var(--tint-rgb), a) for hover wells, tracks, hairlines */
+  --shade-rgb: 24, 22, 20;                /* shadows */
+  --track: rgba(var(--tint-rgb), 0.07);   /* segmented controls, pill groups */
+  --seg-hover: rgba(255, 255, 255, 0.6);  /* a hovered option inside such a track */
+  --seg-on: var(--card);                  /* the chosen option inside such a track */
+  --range-track: rgba(var(--tint-rgb), 0.16);
+  --toggle-off: rgba(var(--tint-rgb), 0.18);
+  --toggle-off-hover: rgba(var(--tint-rgb), 0.26);
+  --knob: #ffffff;
+  --scroll-thumb: rgba(var(--tint-rgb), 0.2);
+  --scroll-thumb-hover: rgba(var(--tint-rgb), 0.34);
+  --scroll-thumb-active: rgba(var(--tint-rgb), 0.46);
+  --selection: rgba(var(--accent-rgb), 0.22);
+  --veil: rgba(244, 242, 238, 0.6);       /* a dialog inside a panel */
+  --img-bg: #ffffff;                      /* behind pictures with transparency (diagrams, figures) */
+
+  /* ---- light glass for the HUD over the 3D world (bright day and dark night). The HUD pills stay without
+     backdrop blur: it would be recomputed for every frame of the world and drags software rendering to 1 fps */
+  --glass: rgba(255, 255, 255, 0.9);
+  --glass-strong: rgba(255, 255, 255, 0.95);
+  --glass-line: rgba(31, 29, 27, 0.08);
+  --glass-shadow: 0 6px 22px rgba(20, 18, 16, 0.16), 0 1px 3px rgba(20, 18, 16, 0.10);
+
+  /* ---- the veil between the world and an open panel ---- */
+  --scrim: rgba(244, 242, 238, 0.46);
+  --scrim-clear: rgba(244, 242, 238, 0.16);
+  --scrim-blur: blur(16px) saturate(1.15) brightness(1.06);
+
+  /* ---- dark stages (films, video) stay neutral black ---- */
+  --stage: #0d0d0e;
+
+  /* one spacing scale for all panels */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 18px; --sp-5: 24px; --sp-6: 36px;
+  --hit: 34px;                            /* minimum comfortable hit area */
+  --focus: var(--accent);
+  --radius: 18px; --radius-m: 12px; --radius-s: 10px;
+  --shadow: 0 24px 64px rgba(var(--shade-rgb), 0.20), 0 4px 14px rgba(var(--shade-rgb), 0.08);
+  --shadow-s: 0 1px 2px rgba(var(--shade-rgb), 0.06), 0 2px 8px rgba(var(--shade-rgb), 0.06);
+  --shadow-m: 0 8px 24px rgba(var(--shade-rgb), 0.12), 0 2px 6px rgba(var(--shade-rgb), 0.06);
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  color-scheme: light;
+
+  /* legacy names: older rules and parallel work may still use them, mapped onto the light palette */
+  --wood-900: #1b1a19; --wood-800: #242321; --wood-700: #2e2c2a; --wood-600: #3a3835; --wood-500: #4a4743;
+  --paper: var(--surface); --paper-2: var(--surface-2); --paper-3: var(--surface-3);
+  --ink: var(--text); --ink-2: var(--text-2); --ink-3: var(--text-3);
+  --amber: var(--accent); --amber-2: var(--accent-ink); --ember: var(--warm);
+  --sage: var(--good); --sky: #5b8db3; --red: var(--bad);
+  --glass-2: var(--glass-strong);
+  --line-paper: var(--line);
+}
+
+/* ---- Sepia: soft warm paper, less bright than white, the same teal (a shade deeper for the contrast) ---- */
+:root[data-theme="sepia"] {
+  --bg: #e3dccf;
+  --surface: #eee8dd;
+  --surface-2: #e7e0d3;
+  --surface-3: #ddd5c6;
+  --card: #f5f0e7;
+  --hover: rgba(58, 44, 26, 0.06);
+  --press: rgba(58, 44, 26, 0.10);
+  --text: #27221c;
+  --text-2: #4c443a;
+  --text-3: #655b4f;
+  --line: rgba(58, 44, 26, 0.12);
+  --line-2: rgba(58, 44, 26, 0.19);
+  --line-3: rgba(58, 44, 26, 0.32);
+  --accent: #1d6b66;
+  --accent-strong: #165450;
+  --accent-ink: #185954;
+  --accent-rgb: 29, 107, 102;
+  --warm: #c8663f;
+  --warm-strong: #a9492a;
+  --warm-ink: #95401f;
+  --warm-rgb: 200, 102, 63;
+  --good: #2a6c46; --bad: #a73a33; --warn: #9a6419; --info: #35658f;
+  --good-rgb: 42, 108, 70; --bad-rgb: 167, 58, 51; --info-rgb: 53, 101, 143;
+  --info-ink: #2b5578;
+  --tint-rgb: 58, 44, 26;
+  --shade-rgb: 52, 38, 20;
+  --seg-hover: rgba(255, 252, 245, 0.55);
+  --knob: #fbf8f2;
+  --veil: rgba(232, 225, 213, 0.62);
+  --img-bg: #fbf8f2;
+  --glass: rgba(246, 241, 232, 0.92);
+  --glass-strong: rgba(246, 241, 232, 0.96);
+  --glass-line: rgba(58, 44, 26, 0.10);
+  --glass-shadow: 0 6px 22px rgba(40, 28, 12, 0.18), 0 1px 3px rgba(40, 28, 12, 0.10);
+  --scrim: rgba(230, 223, 210, 0.52);
+  --scrim-clear: rgba(230, 223, 210, 0.2);
+  --scrim-blur: blur(16px) saturate(1.05) brightness(0.97);
+}
+
+/* ---- Dunkel: neutral charcoal and graphite, raised parts lighter, a lighter teal for text and marks ---- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121315;
+  --surface: #1b1c1f;
+  --surface-2: #17181b;
+  --surface-3: #111214;
+  --card: #242528;
+  --hover: rgba(255, 255, 255, 0.06);
+  --press: rgba(255, 255, 255, 0.10);
+  --text: #ecebe8;
+  --text-2: #c3c1bc;
+  --text-3: #9d9a94;
+  --text-on-accent: #ffffff;
+  --line: rgba(255, 255, 255, 0.09);
+  --line-2: rgba(255, 255, 255, 0.15);
+  --line-3: rgba(255, 255, 255, 0.26);
+  --accent: #2b8078;
+  --accent-strong: #33958c;
+  --accent-ink: #6cc4bb;
+  --accent-rgb: 92, 184, 176;
+  --accent-soft: rgba(var(--accent-rgb), 0.13);
+  --accent-soft-2: rgba(var(--accent-rgb), 0.21);
+  --accent-line: rgba(var(--accent-rgb), 0.45);
+  --warm: #e08563;
+  --warm-strong: #b4532f;
+  --warm-ink: #f0a384;
+  --warm-rgb: 224, 133, 99;
+  --warm-soft: rgba(var(--warm-rgb), 0.16);
+  --good: #6cc592; --bad: #f08a80; --warn: #e3ae55; --info: #8cb8e6;
+  --good-rgb: 108, 197, 146; --bad-rgb: 240, 138, 128; --info-rgb: 140, 184, 230;
+  --info-ink: #9cc4ee;
+  --on-bad: #1b1c1f;
+  --tint-rgb: 255, 255, 255;
+  --shade-rgb: 0, 0, 0;
+  --track: rgba(255, 255, 255, 0.07);
+  --seg-hover: rgba(255, 255, 255, 0.07);
+  --seg-on: #3a3b3f;
+  --range-track: rgba(255, 255, 255, 0.18);
+  --toggle-off: rgba(255, 255, 255, 0.2);
+  --toggle-off-hover: rgba(255, 255, 255, 0.28);
+  --knob: #f4f3f0;
+  --scroll-thumb: rgba(255, 255, 255, 0.16);
+  --scroll-thumb-hover: rgba(255, 255, 255, 0.26);
+  --scroll-thumb-active: rgba(255, 255, 255, 0.36);
+  --selection: rgba(var(--accent-rgb), 0.34);
+  --veil: rgba(14, 15, 17, 0.62);
+  --img-bg: #e9e7e3;
+  --glass: rgba(30, 31, 34, 0.88);
+  --glass-strong: rgba(30, 31, 34, 0.95);
+  --glass-line: rgba(255, 255, 255, 0.09);
+  --glass-shadow: 0 6px 22px rgba(0, 0, 0, 0.34), 0 1px 3px rgba(0, 0, 0, 0.24);
+  --scrim: rgba(14, 15, 17, 0.56);
+  --scrim-clear: rgba(14, 15, 17, 0.22);
+  --scrim-blur: blur(16px) saturate(1.05) brightness(0.72);
+  --shadow: 0 24px 64px rgba(0, 0, 0, 0.5), 0 4px 14px rgba(0, 0, 0, 0.3);
+  --shadow-s: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.22);
+  --shadow-m: 0 8px 24px rgba(0, 0, 0, 0.4), 0 2px 6px rgba(0, 0, 0, 0.26);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 16px; -webkit-font-smoothing: antialiased; }
+button, input, select, textarea { font: inherit; color: inherit; }
+::selection { background: var(--selection); }
+
+/* ---- focus: one visible ring everywhere, keyboard only ---- */
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* ---- scrollbars: thin, neutral ---- */
+* { scrollbar-width: thin; scrollbar-color: var(--scroll-thumb) transparent; }
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-thumb { background: var(--scroll-thumb); border-radius: 999px; border: 3px solid transparent; background-clip: padding-box; }
+::-webkit-scrollbar-thumb:hover { background: var(--scroll-thumb-hover); background-clip: padding-box; border: 3px solid transparent; }
+::-webkit-scrollbar-thumb:active { background: var(--scroll-thumb-active); background-clip: padding-box; border: 3px solid transparent; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-corner { background: transparent; }
+
+#app { position: fixed; inset: 0; }
+#world { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+#ui { position: absolute; inset: 0; pointer-events: none; }
+#ui > * { pointer-events: auto; }
+#panels { position: absolute; inset: 0; pointer-events: none; }
+
+/* ---- panel layers ----
+   A light, blurred veil: the world stays visible behind the panel without competing with it, over a sunlit
+   hall as well as at night. Panels that deliberately want to show the world can opt out with .panel-layer.clear. */
+.panel-layer { position: absolute; inset: 0; pointer-events: auto; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity .28s var(--ease); background: var(--scrim); backdrop-filter: var(--scrim-blur); -webkit-backdrop-filter: var(--scrim-blur); }
+.panel-layer.clear { background: var(--scrim-clear); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+.panel-layer.open { opacity: 1; }
+.panel-layer.closing { opacity: 0; pointer-events: none; }   /* may linger while a browser tears down */
+.panel-layer > .panel { transform: translateY(14px) scale(.985); transition: transform .32s var(--ease); }
+.panel-layer.open > .panel { transform: none; }
+/* max-width caps every panel at 1200 px: a panel that declares a larger width also sets its own max-width */
+.panel { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); color: var(--text); max-width: min(1200px, 94vw); max-height: 92vh; display: flex; flex-direction: column; overflow: hidden; }
+.panel.paper { background: var(--surface); color: var(--text); }
+.panel.full { max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; border-radius: 0; border: 0; }
+.panel-header { display: flex; align-items: center; gap: var(--sp-3); padding: var(--sp-3) var(--sp-5); border-bottom: 1px solid var(--line); font-family: var(--font-display); font-size: 20px; font-weight: 600; letter-spacing: -.005em; flex: none; }
+.panel-header .spacer, .spacer { flex: 1; }
+.panel-body { padding: var(--sp-4) var(--sp-5); overflow: auto; flex: 1; min-height: 0; }
+.panel-error { padding: var(--sp-5); gap: var(--sp-3); }
+.panel-error h2 { margin: 0; font-size: 22px; }
+.panel-error pre { max-width: 80vw; white-space: pre-wrap; font-size: 12px; color: var(--bad); }
+
+/* ---- controls ---- */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--sp-2); min-height: var(--hit); padding: 6px 16px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--card); color: var(--text); cursor: pointer; transition: background .16s, transform .12s, border-color .16s, box-shadow .16s, color .16s; font-family: var(--font-body); font-size: 14.5px; font-weight: 500; line-height: 1.2; white-space: nowrap; user-select: none; box-shadow: 0 1px 1px rgba(var(--shade-rgb), 0.04); }
+.btn:hover { background: color-mix(in srgb, var(--card) 94%, var(--text)); border-color: var(--line-3); }
+.btn:active { transform: translateY(1px); background: var(--surface-3); }
+.btn.primary { background: var(--accent); color: var(--text-on-accent); border-color: var(--accent); font-weight: 600; box-shadow: 0 1px 2px rgba(var(--accent-rgb), 0.25); }
+.btn.primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); box-shadow: 0 4px 14px rgba(var(--accent-rgb), 0.25); }
+.btn.ghost { background: transparent; border-color: transparent; color: var(--text-2); box-shadow: none; }
+.btn.ghost:hover { background: var(--hover); color: var(--text); }
+.btn.small { min-height: 32px; padding: 3px 13px; font-size: 14px; }
+.btn.icon { width: 38px; height: 38px; min-height: 38px; padding: 0; border-radius: 50%; font-size: 16px; }
+.btn.small.icon { width: 32px; height: 32px; min-height: 32px; font-size: 14px; }
+.btn[disabled] { opacity: .45; pointer-events: none; }
+.input, input.input, select.input, textarea.input { min-height: var(--hit); padding: 6px 12px; border-radius: var(--radius-s); border: 1px solid var(--line-2); background: var(--card); color: var(--text); min-width: 0; transition: border-color .15s, box-shadow .15s; }
+.input::placeholder { color: var(--text-3); }
+.input:hover { border-color: var(--line-3); }
+.input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft-2); }
+.input:focus-visible { outline: none; }
+select.input option { color: var(--text); background: var(--card); }
+.row { display: flex; align-items: center; gap: var(--sp-3); flex-wrap: wrap; }
+.col { display: flex; flex-direction: column; gap: var(--sp-3); }
+.muted { color: var(--text-3); }
+.small { font-size: 14px; }
+.hand { font-family: var(--font-hand); }
+.display { font-family: var(--font-display); }
+.mono { font-family: var(--font-mono); }
+.tabs { display: flex; gap: var(--sp-1); border-bottom: 1px solid var(--line); }
+.tab { display: inline-flex; align-items: center; min-height: var(--hit); padding: var(--sp-2) var(--sp-3); cursor: pointer; color: var(--text-2); border-bottom: 2px solid transparent; margin-bottom: -1px; font-family: var(--font-body); font-size: 15px; font-weight: 500; transition: color .15s, border-color .15s; }
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--text); border-bottom-color: var(--accent); font-weight: 600; }
+.list { display: flex; flex-direction: column; }
+.list-item { display: flex; gap: var(--sp-3); align-items: center; min-height: var(--hit); padding: 6px 10px; border-radius: var(--radius-s); cursor: pointer; transition: background .15s; }
+.list-item:hover { background: var(--hover); }
+
+/* back and forward in panels with a history of their own (ui/nav-history.js) */
+.nav-arrows { display: inline-flex; align-items: center; gap: 2px; flex: none; }
+.nav-chevron { width: 18px; height: 18px; display: block; }
+.btn.small.icon .nav-chevron { width: 16px; height: 16px; }
+.nav-btn[disabled] { opacity: .35; }
+
+/* a <button> that should look like inline text ("mehr", "weniger", "alle anzeigen") */
+.linkish { background: none; border: 0; padding: 0; margin: 0; font: inherit; color: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.linkish:hover { opacity: 1; text-decoration-thickness: 2px; }
+
+/* rows and cards that behave like buttons (role="button" + tabindex="0") get the same affordances */
+[role="button"] { cursor: pointer; }
+[role="button"]:focus-visible, [role="switch"]:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+
+/* keys in hints and help texts: small key caps */
+:where(#ui) kbd { display: inline-block; min-width: 1.6em; padding: 1px 6px; border-radius: 6px; border: 1px solid var(--line-2); border-bottom-width: 2px; background: var(--card); color: var(--text-2); font: 600 .8em/1.35 var(--font-ui); text-align: center; vertical-align: .08em; }
+
+/* ---- range slider: a real 32 px hit target; the 4 px track is painted by the pseudo-elements ---- */
+.range { -webkit-appearance: none; appearance: none; width: 180px; height: 32px; margin: 0; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.range::-webkit-slider-runnable-track { height: 4px; border-radius: 999px; background: var(--range-track); }
+.range::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; margin-top: -7px; border-radius: 50%; background: var(--card); border: 2px solid var(--accent); box-shadow: 0 1px 4px rgba(var(--shade-rgb), 0.22); cursor: pointer; transition: transform .12s, box-shadow .15s; }
+.range:hover::-webkit-slider-thumb { transform: scale(1.1); }
+.range:active::-webkit-slider-thumb { transform: scale(1.18); background: var(--accent); }
+.range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 4px var(--accent-soft-2); }
+.range::-moz-range-track { height: 4px; border-radius: 999px; background: var(--range-track); }
+.range::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--card); border: 2px solid var(--accent); cursor: pointer; }
+.range[disabled] { opacity: .45; cursor: default; }
+
+/* ---- switch ---- */
+.toggle { position: relative; width: 52px; height: 30px; border-radius: 999px; background: var(--toggle-off); border: 1px solid transparent; cursor: pointer; transition: background .2s, border-color .2s; flex: none; }
+.toggle::after { content: ""; position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: var(--knob); box-shadow: 0 1px 3px rgba(var(--shade-rgb), 0.28); transition: transform .2s var(--ease); }
+.toggle:hover { background: var(--toggle-off-hover); }
+.toggle.on { background: var(--accent); }
+.toggle.on:hover { background: var(--accent-strong); }
+.toggle.on::after { transform: translateX(22px); }
+.kbd { font-family: var(--font-ui); font-size: 13px; font-weight: 600; padding: 1px 7px; border-radius: 6px; border: 1px solid var(--line-2); border-bottom-width: 2px; background: var(--card); color: var(--text-2); }
+.cover-thumb { width: 64px; height: 92px; object-fit: cover; border-radius: 4px; box-shadow: 0 2px 6px rgba(var(--shade-rgb), 0.18), 0 0 0 1px rgba(var(--shade-rgb), 0.06); background: var(--surface-3); flex: none; }
+/* a book without a cover (yet): cloth-coloured tile with the initials */
+.cover-ph { display: grid; place-items: center; font-family: var(--font-display); font-size: 20px; font-weight: 600; letter-spacing: .04em; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.14), 0 2px 6px rgba(var(--shade-rgb), 0.18); user-select: none; }
+.book-title { font-family: var(--font-serif); font-weight: 600; font-size: 19px; line-height: 1.2; }
+.book-author { color: var(--text-2); font-style: italic; font-family: var(--font-serif); font-size: 16px; }
+.progress-bar { height: 5px; border-radius: 999px; background: rgba(var(--tint-rgb), 0.10); overflow: hidden; }
+.progress-bar > i { display: block; height: 100%; border-radius: inherit; background: var(--accent); }
+
+/* ---- toasts ---- */
+#toasts { position: absolute; left: 50%; bottom: 60px; transform: translateX(-50%); display: flex; flex-direction: column; gap: var(--sp-2); align-items: center; pointer-events: none; z-index: 50; }
+.toast { background: var(--glass-strong); color: var(--text); border: 1px solid var(--glass-line); border-radius: 999px; padding: 9px 18px; font-size: 14.5px; box-shadow: var(--glass-shadow); animation: toast-in .3s var(--ease); }
+.toast.fade { opacity: 0; transition: opacity .5s; }
+/* the pill "Klicken, um dich umzusehen" sits at the same height: the toasts move above it while it shows */
+#ui:has(#pointer-hint.show) #toasts { bottom: 122px; }
+@keyframes toast-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+/* ---- HUD: light pills that read over a bright hall and a dark night ---- */
+#hud { position: absolute; inset: 0; pointer-events: none; }
+#crosshair { position: absolute; left: 50%; top: 50%; width: 6px; height: 6px; margin: -3px; border-radius: 50%; background: rgba(255, 255, 255, 0.95); box-shadow: 0 0 0 1.5px rgba(20, 18, 16, 0.35), 0 1px 4px rgba(20, 18, 16, 0.3); transition: background .12s ease, box-shadow .12s ease; }
+/* something in reach: the dot opens into a small ring (looking at things shows no text) */
+#crosshair::after { content: ''; position: absolute; left: 50%; top: 50%; width: 16px; height: 16px; box-sizing: border-box; border-radius: 50%; border: 1.5px solid rgba(255, 255, 255, 0.95); box-shadow: 0 0 0 1px rgba(20, 18, 16, 0.25), inset 0 0 0 1px rgba(20, 18, 16, 0.25), 0 1px 4px rgba(20, 18, 16, 0.2); opacity: 0; transform: translate(-50%, -50%) scale(0.4); transition: opacity .12s ease, transform .16s cubic-bezier(.22, .61, .36, 1); }
+#crosshair.active { background: transparent; box-shadow: none; }
+#crosshair.active::after { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+#hud-bottom { position: absolute; left: 18px; bottom: 16px; display: flex; gap: 10px; align-items: flex-end; }
+#hud-top-right { position: absolute; right: 18px; top: 14px; display: flex; flex-direction: column; gap: 6px; align-items: flex-end; font-size: 14px; }
+.hud-chip { background: var(--glass); color: var(--text); border: 1px solid var(--glass-line); border-radius: 999px; padding: 5px 12px; font-size: 13.5px; font-weight: 500; display: inline-flex; gap: 8px; align-items: center; box-shadow: var(--glass-shadow); font-variant-numeric: tabular-nums; }
+#basket-hud { display: flex; gap: 4px; align-items: flex-end; background: var(--glass); color: var(--text); border: 1px solid var(--glass-line); border-radius: 14px; padding: 6px 10px; pointer-events: auto; cursor: pointer; box-shadow: var(--glass-shadow); transition: background .15s; }
+#basket-hud:hover { background: var(--glass-strong); }
+#basket-hud img { width: 26px; height: 38px; object-fit: cover; border-radius: 3px; box-shadow: 0 1px 3px rgba(var(--shade-rgb), 0.3); }
+#basket-hud .count { font-size: 13px; font-weight: 500; color: var(--text-2); margin-left: 6px; }
+#fade { position: absolute; inset: 0; background: #000; opacity: 1; pointer-events: none; transition: opacity .9s ease; z-index: 40; }
+#fade.hidden { opacity: 0; }
+#scan-status { position: absolute; left: 50%; top: 14px; transform: translateX(-50%); font-size: 13px; color: var(--text-2); background: var(--glass); border: 1px solid var(--glass-line); border-radius: 999px; padding: 4px 12px; box-shadow: var(--glass-shadow); }
+#scan-status:empty { display: none; }
+#pointer-hint { position: absolute; left: 50%; bottom: 70px; transform: translateX(-50%); font-family: var(--font-body); font-size: 15px; font-weight: 500; color: var(--text); background: var(--glass); border: 1px solid var(--glass-line); border-radius: 999px; padding: 9px 20px; opacity: 0; transition: opacity .3s; pointer-events: none; white-space: nowrap; box-shadow: var(--glass-shadow); }
+#pointer-hint.show { opacity: 1; pointer-events: auto; cursor: pointer; }
+
+/* ---- reader theming hooks (see styles/reader.css) ---- */
+.hidden { display: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+/* ---- a finger instead of a mouse (a phone, a tablet, the Android app): every target at least 44 px ---- */
+@media (pointer: coarse) {
+  .btn, .menu-btn, .wel-mode, .settings-nav button, .rd-top button, .rd-zone, .panel-close { min-height: 44px; }
+  .btn.small { min-height: 40px; }
+  .rd-zone { width: 13%; }
+  input[type="range"] { height: 36px; }
+  select, input[type="text"], input[type="search"], input[type="number"] { min-height: 40px; font-size: 16px; }
+  #basket-hud { min-height: 44px; }
+  .hud-chip.dep { min-height: 40px; display: flex; align-items: center; }
+}
+
+/* ---- read-aloud button of the newspaper and the encyclopedia (ui/reader/tts-button.js) ---- */
+.tts-btn { font-variant-numeric: tabular-nums; }
+.tts-btn.active { border-color: var(--accent); color: var(--accent-ink); box-shadow: inset 0 0 0 1px var(--accent-line); }
+.tts-btn.offer { border-color: var(--warm); }
+.tts-btn-spin { width: 12px; height: 12px; border-radius: 50%; border: 2px solid currentColor; border-right-color: transparent; display: inline-block; animation: tts-spin .8s linear infinite; flex: none; }
+@keyframes tts-spin { to { transform: rotate(360deg); } }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Achess%26id_list%3D%26start%3D0%26max_results%3D20" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:chess&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <id>http://arxiv.org/api/abc</id>
+  <updated>2026-09-10T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1532</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">20</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.01815v1</id>
+    <updated>2017-12-05T19:38:58Z</updated>
+    <published>2017-12-05T19:38:58Z</published>
+    <title>Mastering Chess and Shogi by Self-Play with a General Reinforcement
+  Learning Algorithm</title>
+    <summary>  The game of chess is the most widely-studied domain in the history of
+artificial intelligence. In this paper, we generalise this approach into a single AlphaZero algorithm.
+</summary>
+    <author><name>David Silver</name></author>
+    <author><name>Thomas Hubert</name></author>
+    <author><name>Julian Schrittwieser</name></author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Demis Hassabis is the corresponding author</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.01815v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.01815v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.04374v2</id>
+    <published>2020-09-09T00:00:00Z</published>
+    <title>Chess as a Testbed for Language Model State Tracking</title>
+    <summary>Transformer language models have made tremendous strides …</summary>
+    <author><name>Shubham Toshniwal</name></author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1000/xyz123</arxiv:doi>
+    <link href="http://arxiv.org/abs/2009.04374v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.04374v2" rel="related" type="application/pdf"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

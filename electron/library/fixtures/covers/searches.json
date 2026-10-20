@@ -1,0 +1,2391 @@
+{
+ "note": "Synthetic: made by electron/library/fixtures/make-fixtures.js, nothing recorded; invented answers in the formats of the real services, drawn pictures, made-up addresses. DuckDuckGo image searches of 20 results each; thumbnails.png holds the analysed thumbnails as 32 x 32 grids: one row per search, one column per entry of \"analysed\".",
+ "grid": 32,
+ "searches": [
+  {
+   "slug": "shelley-en",
+   "book": {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "language": "en"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Another edition of a classic",
+     "url": "https://www.buchladen-vier.example/another-edition-of-a-classic/36666",
+     "image": "https://img.buchladen-vier.example/covers/frankenstein-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.EHW66bHQTDWdxOCyDYyUXkvTmI?pid=Api",
+     "width": 600,
+     "height": 900
+    },
+    {
+     "rank": 1,
+     "title": "Frankenstein by Mary Shelley: my copy",
+     "url": "https://www.bookshelf-blog.example/frankenstein-by-mary-shelley-my-copy/12037",
+     "image": "https://img.bookshelf-blog.example/covers/frankenstein-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.DBtwnZQ9o3n1uiDrRYy5XuHMpe?pid=Api",
+     "width": 1280,
+     "height": 1920
+    },
+    {
+     "rank": 2,
+     "title": "Frankenstein - Mary Shelley - Lantern Classics",
+     "url": "https://www.lantern-books.example/frankenstein-mary-shelley-lantern-classics/15267",
+     "image": "https://img.lantern-books.example/covers/frankenstein-lantern-960.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.7UrqmuB3ceDYUlRRy6XgVvMvEQ?pid=Api",
+     "width": 640,
+     "height": 960
+    },
+    {
+     "rank": 3,
+     "title": "Posters and prints",
+     "url": "https://www.reiseblog.example/posters-and-prints/97498",
+     "image": "https://img.reiseblog.example/covers/frankenstein-3.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.L3r3EQXkzPczXlQgwsoMrgd4GI?pid=Api",
+     "width": 630,
+     "height": 945
+    },
+    {
+     "rank": 4,
+     "title": "New this month",
+     "url": "https://www.kleinanzeigen.de/new-this-month/46128",
+     "image": "https://img.kleinanzeigen.de/covers/frankenstein-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.HD54R4XcsqLpGbPAPGRM4JDrLk?pid=Api",
+     "width": 640,
+     "height": 960
+    },
+    {
+     "rank": 5,
+     "title": "A walk through the old town",
+     "url": "https://www.antiquariat-sechs.example/a-walk-through-the-old-town/70529",
+     "image": "https://img.antiquariat-sechs.example/covers/frankenstein-5.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.3fJiIibveeL0ixAf6AmW6rNNQQ?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 6,
+     "title": "Another edition of a classic",
+     "url": "https://www.buchladen-drei.example/another-edition-of-a-classic/16036",
+     "image": "https://img.buchladen-drei.example/covers/frankenstein-6.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.FkCix9aZMmSkxWqMwArVN3jEOk?pid=Api",
+     "width": 660,
+     "height": 990
+    },
+    {
+     "rank": 7,
+     "title": "Bookshop of the week",
+     "url": "https://www.literaturforum.example/bookshop-of-the-week/25718",
+     "image": "https://img.literaturforum.example/covers/frankenstein-7.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.LHnjTHfUeeGgCWf6fKsEi6eY0N?pid=Api",
+     "width": 670,
+     "height": 1005
+    },
+    {
+     "rank": 8,
+     "title": "Library sale",
+     "url": "https://www.alamy.de/library-sale/49502",
+     "image": "https://c8.alamy.com/comp/UO4LFWZ/book.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.uo4lFWZmfqRcMPVoDvdXHrZYnw?pid=Api",
+     "width": 680,
+     "height": 1020
+    },
+    {
+     "rank": 9,
+     "title": "Another edition of a classic",
+     "url": "https://www.leseecke.example/another-edition-of-a-classic/89440",
+     "image": "https://img.leseecke.example/covers/frankenstein-9.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.OWqPGbD81ADZ44ok86HitWc65M?pid=Api",
+     "width": 690,
+     "height": 1035
+    },
+    {
+     "rank": 10,
+     "title": "Classic novels for a rainy weekend",
+     "url": "https://www.buchblog.example/classic-novels-for-a-rainy-weekend/99490",
+     "image": "https://img.buchblog.example/covers/frankenstein-10.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.og1L2Ck5zy4FmLI78gd4TrdLVC?pid=Api",
+     "width": 700,
+     "height": 1050
+    },
+    {
+     "rank": 11,
+     "title": "Our reading list",
+     "url": "https://www.feuilleton.example/our-reading-list/38200",
+     "image": "https://img.feuilleton.example/covers/frankenstein-11.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.xthQ87j8fS3rtvfxUZUi7Ybqtb?pid=Api",
+     "width": 710,
+     "height": 533
+    },
+    {
+     "rank": 12,
+     "title": "The reading room",
+     "url": "https://www.leserunde.example/the-reading-room/71917",
+     "image": "https://img.leserunde.example/covers/frankenstein-12.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.8zCqG0MbAYpU6mhpRhRE75HrbP?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 13,
+     "title": "Posters and prints",
+     "url": "https://www.reiseblog.example/posters-and-prints/20191",
+     "image": "https://img.reiseblog.example/covers/frankenstein-13.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.cdL0nFKHVkibObedLAwR7UWvap?pid=Api",
+     "width": 730,
+     "height": 1095
+    },
+    {
+     "rank": 14,
+     "title": "New this month",
+     "url": "https://www.kleinanzeigen.de/new-this-month/17704",
+     "image": "https://img.kleinanzeigen.de/covers/frankenstein-14.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.eHE4ayssewFyfFzf9RxlQdQbA?pid=Api",
+     "width": 740,
+     "height": 1110
+    },
+    {
+     "rank": 15,
+     "title": "A walk through the old town",
+     "url": "https://www.antiquariat-sechs.example/a-walk-through-the-old-town/21588",
+     "image": "https://img.antiquariat-sechs.example/covers/frankenstein-15.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.1eSVEzRycJAWBJURmGPD3IfFzL?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 16,
+     "title": "Book club picks",
+     "url": "https://www.poster-shop.example/book-club-picks/16263",
+     "image": "https://img.poster-shop.example/covers/frankenstein-16.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.bKvIKlxQx1Eo1ijJJ5T6ZARyA?pid=Api",
+     "width": 760,
+     "height": 1140
+    },
+    {
+     "rank": 17,
+     "title": "Bookshop of the week",
+     "url": "https://www.literaturforum.example/bookshop-of-the-week/41855",
+     "image": "https://img.literaturforum.example/covers/frankenstein-17.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.KzM1bGpWyGEenkUauyAj1UAnmO?pid=Api",
+     "width": 770,
+     "height": 1155
+    },
+    {
+     "rank": 18,
+     "title": "Library sale",
+     "url": "https://www.alamy.de/library-sale/57957",
+     "image": "https://c8.alamy.com/comp/FW1TUOA/book.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.Fw1tUOaKNW79baqtm2VDAWbmLo?pid=Api",
+     "width": 780,
+     "height": 1170
+    },
+    {
+     "rank": 19,
+     "title": "Rare editions",
+     "url": "https://www.stadtbibliothek.example/rare-editions/41994",
+     "image": "https://img.stadtbibliothek.example/covers/frankenstein-19.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.QH5Jgd6EKnnIGAW3U2ZeUC0cKU?pid=Api",
+     "width": 790,
+     "height": 1185
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 2,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 3,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 4,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 5,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 6,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 9,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 10,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 11,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 12,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 13,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 15,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 16,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 17,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 19,
+     "aspect": 0.667,
+     "boxHeight": 474
+    }
+   ],
+   "expect": {
+    "group": [
+     1,
+     2
+    ],
+    "confidence": "cluster"
+   }
+  },
+  {
+   "slug": "werther-de",
+   "book": {
+    "title": "Die Leiden des jungen Werthers",
+    "author": "Johann Wolfgang von Goethe",
+    "language": "de"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Die Leiden des jungen Werthers | Johann Wolfgang von Goethe | Taschenbuch",
+     "url": "https://www.verlag-zwei.example/die-leiden-des-jungen-werthers-johann-wolfgang-v/53354",
+     "image": "https://img.verlag-zwei.example/covers/die-leiden-des-jungen-we-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.V24g8RXMvVIZsbFWQI6R0xLrZG?pid=Api",
+     "width": 600,
+     "height": 900
+    },
+    {
+     "rank": 1,
+     "title": "Die Leiden des jungen Werthers von Johann Wolfgang von Goethe - Buch",
+     "url": "https://www.buchladen-drei.example/die-leiden-des-jungen-werthers-von-johann-wolfga/36659",
+     "image": "https://img.buchladen-drei.example/covers/die-leiden-des-jungen-we-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.2GoisymsH6sDM5m5BvLsom4VEY?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 2,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.antiquariat-sechs.example/bucher-fur-lange-abende/18543",
+     "image": "https://img.antiquariat-sechs.example/covers/die-leiden-des-jungen-we-2.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.TgLqMVFVjhd10OyZtWcYIfgWl8?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 3,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.antiquariat-fuenf.example/eine-andere-ausgabe/69018",
+     "image": "https://img.antiquariat-fuenf.example/covers/die-leiden-des-jungen-we-3.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.JGHYJnTYgEnmTOzU7j4szOWI?pid=Api",
+     "width": 630,
+     "height": 945
+    },
+    {
+     "rank": 4,
+     "title": "Das Lesezimmer",
+     "url": "https://www.literaturforum.example/das-lesezimmer/26295",
+     "image": "https://img.literaturforum.example/covers/die-leiden-des-jungen-we-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.5SxrPhroqebemi2025LsKGlw?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 5,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.alamy.de/neuerscheinungen-im-marz/29702",
+     "image": "https://c8.alamy.com/comp/SVLI956/book.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.sVLi956k2zgTziIzLaw2b7f5tN?pid=Api",
+     "width": 650,
+     "height": 975
+    },
+    {
+     "rank": 6,
+     "title": "Poster und Drucke",
+     "url": "https://www.stadtbibliothek.example/poster-und-drucke/59828",
+     "image": "https://img.stadtbibliothek.example/covers/die-leiden-des-jungen-we-6.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.Zy6OegvadvX7mivDZrBFmCfM?pid=Api",
+     "width": 660,
+     "height": 990
+    },
+    {
+     "rank": 7,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.buchblog.example/unsere-lieblingsausgaben/39867",
+     "image": "https://img.buchblog.example/no_image_available.png",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.Y4o9qjRH4vXr8Q5lB38FBGDZj8?pid=Api",
+     "width": 670,
+     "height": 1005
+    },
+    {
+     "rank": 8,
+     "title": "Lesekreis am Donnerstag",
+     "url": "https://www.feuilleton.example/lesekreis-am-donnerstag/40236",
+     "image": "https://img.feuilleton.example/covers/die-leiden-des-jungen-we-8.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.yQCSrfsBL1oN7sK9WMFbtFYv40?pid=Api",
+     "width": 680,
+     "height": 1020
+    },
+    {
+     "rank": 9,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.leseecke.example/eine-andere-ausgabe/39416",
+     "image": "https://img.leseecke.example/covers/die-leiden-des-jungen-we-9.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.JbEuhOEM96eZxH5k6nONitCVk?pid=Api",
+     "width": 690,
+     "height": 1035
+    },
+    {
+     "rank": 10,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.reiseblog.example/leseliste-fur-den-herbst/93363",
+     "image": "https://img.reiseblog.example/covers/die-leiden-des-jungen-we-10.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.W57TXEnleZBES8sJqvwc3Pq49N?pid=Api",
+     "width": 700,
+     "height": 525
+    },
+    {
+     "rank": 11,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.kleinanzeigen.de/klassiker-neu-gelesen/79978",
+     "image": "https://img.kleinanzeigen.de/covers/die-leiden-des-jungen-we-11.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.ic7xhAXJrPjwqmJR89dFCcx6Q?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 12,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.antiquariat-sechs.example/bucher-fur-lange-abende/28460",
+     "image": "https://img.antiquariat-sechs.example/covers/die-leiden-des-jungen-we-12.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.CuvSmV7wyPLQaTgiSzUwwzgI?pid=Api",
+     "width": 720,
+     "height": 1080
+    },
+    {
+     "rank": 13,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.poster-shop.example/ein-spaziergang-durch-die-altstadt/96340",
+     "image": "https://img.poster-shop.example/covers/die-leiden-des-jungen-we-13.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.5MnQEHdn9ma8R8XGdcPwiu0sVk?pid=Api",
+     "width": 730,
+     "height": 1095
+    },
+    {
+     "rank": 14,
+     "title": "Das Lesezimmer",
+     "url": "https://www.literaturforum.example/das-lesezimmer/31534",
+     "image": "https://img.literaturforum.example/covers/die-leiden-des-jungen-we-14.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.GiB6JU3DLe2zXr6JFSVWRcEU7l?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 15,
+     "title": "Die Leiden des jungen Werthers von Johann Wolfgang von Goethe - Buch",
+     "url": "https://www.buchladen-drei.example/die-leiden-des-jungen-werthers-von-johann-wolfga/31433",
+     "image": "https://img.buchladen-drei.example/covers/die-leiden-des-jungen-we-15.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.RcoyVkg5O7g4wrGXTL608XFr4S?pid=Api",
+     "width": 900,
+     "height": 1350
+    },
+    {
+     "rank": 16,
+     "title": "Poster und Drucke",
+     "url": "https://www.stadtbibliothek.example/poster-und-drucke/83144",
+     "image": "https://img.stadtbibliothek.example/covers/die-leiden-des-jungen-we-16.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.j5mVhET7W0FfhZH8MQxCEGgJzK?pid=Api",
+     "width": 760,
+     "height": 1140
+    },
+    {
+     "rank": 17,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.buchblog.example/unsere-lieblingsausgaben/59912",
+     "image": "https://img.buchblog.example/no_image_available.png",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.LgHmuj8Dlv3UckIdl3laVwRro?pid=Api",
+     "width": 770,
+     "height": 1155
+    },
+    {
+     "rank": 18,
+     "title": "Die Leiden des jungen Werthers | Johann Wolfgang von Goethe | Taschenbuch",
+     "url": "https://www.leseecke.example/die-leiden-des-jungen-werthers-johann-wolfgang-v/29091",
+     "image": "https://img.leseecke.example/covers/die-leiden-des-jungen-we-18.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.URzDFbTOhd1NEGGNBntfSKQKVH?pid=Api",
+     "width": 960,
+     "height": 1440
+    },
+    {
+     "rank": 19,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.leserunde.example/romane-des-19-jahrhunderts-im-uberblick/12899",
+     "image": "https://img.leserunde.example/covers/die-leiden-des-jungen-we-19.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.w3UoOAfNKe7pncCOMqYIKlcC8a?pid=Api",
+     "width": 790,
+     "height": 1185
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 2,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 3,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 4,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 5,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 6,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 9,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 10,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 11,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 12,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 13,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 15,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 16,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 17,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 19,
+     "aspect": 0.667,
+     "boxHeight": 474
+    }
+   ],
+   "expect": {
+    "group": [
+     0,
+     1,
+     15,
+     18
+    ],
+    "confidence": "cluster"
+   }
+  },
+  {
+   "slug": "keller-de",
+   "book": {
+    "title": "Der grüne Heinrich",
+    "author": "Gottfried Keller",
+    "language": "de"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.poster-shop.example/klassiker-neu-gelesen/65461",
+     "image": "https://img.poster-shop.example/covers/der-grune-heinrich-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.5DddcCGNO7xv0GrgiI4b0d0I?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 1,
+     "title": "Der grüne Heinrich von Gottfried Keller - Buch",
+     "url": "https://www.buchladen-vier.example/der-grune-heinrich-von-gottfried-keller-buch/70349",
+     "image": "https://img.buchladen-vier.example/covers/der-grune-heinrich-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.el25810QIB5h6r4HTuKRTpePTw?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 2,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.alamy.de/ein-spaziergang-durch-die-altstadt/16419",
+     "image": "https://c8.alamy.com/comp/WDP2P8V/book.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.WDp2p8vyDXNJM0Oaz5AqSxK8k?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 3,
+     "title": "Das Lesezimmer",
+     "url": "https://www.stadtbibliothek.example/das-lesezimmer/89898",
+     "image": "https://img.stadtbibliothek.example/covers/der-grune-heinrich-3.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.pHVMjslOBIgLeFB5inObCgcFY8?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 4,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.buchblog.example/neuerscheinungen-im-marz/62368",
+     "image": "https://img.buchblog.example/covers/der-grune-heinrich-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.gx2toTJLT1ymzkWar13LuWaQXA?pid=Api",
+     "width": 640,
+     "height": 960
+    },
+    {
+     "rank": 5,
+     "title": "Poster und Drucke",
+     "url": "https://www.feuilleton.example/poster-und-drucke/68885",
+     "image": "https://img.feuilleton.example/covers/der-grune-heinrich-5.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.fGYlg7rH95pQakwA51fBivfYkL?pid=Api",
+     "width": 650,
+     "height": 975
+    },
+    {
+     "rank": 6,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.leserunde.example/unsere-lieblingsausgaben/91848",
+     "image": "https://img.leserunde.example/no_image_available.png",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.0g29cU2GTtkjcIPlqj0hiziu3U?pid=Api",
+     "width": 660,
+     "height": 990
+    },
+    {
+     "rank": 7,
+     "title": "Lesekreis am Donnerstag",
+     "url": "https://www.reiseblog.example/lesekreis-am-donnerstag/59999",
+     "image": "https://img.reiseblog.example/covers/der-grune-heinrich-7.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.59R6OZ1UHpcEWFRsIEcWoxEJQA?pid=Api",
+     "width": 670,
+     "height": 1005
+    },
+    {
+     "rank": 8,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.kleinanzeigen.de/romane-des-19-jahrhunderts-im-uberblick/27445",
+     "image": "https://img.kleinanzeigen.de/covers/der-grune-heinrich-8.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.KGUAjlBUplh7v2xf3yiEWENaio?pid=Api",
+     "width": 680,
+     "height": 1020
+    },
+    {
+     "rank": 9,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.antiquariat-sechs.example/leseliste-fur-den-herbst/55805",
+     "image": "https://img.antiquariat-sechs.example/covers/der-grune-heinrich-9.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.u9Y6ZTk87RwwzJmt0GGHiLDv0e?pid=Api",
+     "width": 690,
+     "height": 518
+    },
+    {
+     "rank": 10,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.poster-shop.example/klassiker-neu-gelesen/29954",
+     "image": "https://img.poster-shop.example/covers/der-grune-heinrich-10.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.d9WiLcqz1tVIt6cpbN5hAI1J8N?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 11,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.literaturforum.example/bucher-fur-lange-abende/69741",
+     "image": "https://img.literaturforum.example/covers/der-grune-heinrich-11.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.gcpRuLqYulxUuxfRQEqTYgeZZE?pid=Api",
+     "width": 710,
+     "height": 1065
+    },
+    {
+     "rank": 12,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.verlag-zwei.example/eine-andere-ausgabe/73881",
+     "image": "https://img.verlag-zwei.example/covers/der-grune-heinrich-12.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.cxKlk2BZ4SD6yz2E3Y2uJXhg8Y?pid=Api",
+     "width": 720,
+     "height": 1080
+    },
+    {
+     "rank": 13,
+     "title": "Der grüne Heinrich von Gottfried Keller - Buch",
+     "url": "https://www.verlag-zwei.example/der-grune-heinrich-von-gottfried-keller-buch/95438",
+     "image": "https://img.verlag-zwei.example/covers/der-grune-heinrich-13.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.PBRJszP7lsR1cU0grldjYBs4I?pid=Api",
+     "width": 860,
+     "height": 1290
+    },
+    {
+     "rank": 14,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.buchblog.example/neuerscheinungen-im-marz/75907",
+     "image": "https://img.buchblog.example/covers/der-grune-heinrich-14.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.uMl6Lr4MsehBKk5wZatSxXsfU6?pid=Api",
+     "width": 740,
+     "height": 1110
+    },
+    {
+     "rank": 15,
+     "title": "Poster und Drucke",
+     "url": "https://www.feuilleton.example/poster-und-drucke/89562",
+     "image": "https://img.feuilleton.example/covers/der-grune-heinrich-15.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.oboNVAg3pYSGZS0Ra6tcY7vdPc?pid=Api",
+     "width": 750,
+     "height": 1125
+    },
+    {
+     "rank": 16,
+     "title": "Der grüne Heinrich | Gottfried Keller | Taschenbuch",
+     "url": "https://www.lantern-books.example/der-grune-heinrich-gottfried-keller-taschenbuch/27983",
+     "image": "https://img.lantern-books.example/covers/der-grune-heinrich-16.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.L1bEKAj8Nn3H8LjabbaAiOYi7v?pid=Api",
+     "width": 920,
+     "height": 1380
+    },
+    {
+     "rank": 17,
+     "title": "Lesekreis am Donnerstag",
+     "url": "https://www.reiseblog.example/lesekreis-am-donnerstag/27509",
+     "image": "https://img.reiseblog.example/covers/der-grune-heinrich-17.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.GYhOfKI4VFClZyVQCEdU5WJ6F1?pid=Api",
+     "width": 770,
+     "height": 1155
+    },
+    {
+     "rank": 18,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.buchhandlung-eins.example/eine-andere-ausgabe/94623",
+     "image": "https://img.buchhandlung-eins.example/covers/der-grune-heinrich-18.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.n3CuiewlB2MGmisHECwRaa2K9o?pid=Api",
+     "width": 780,
+     "height": 1170
+    },
+    {
+     "rank": 19,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.antiquariat-sechs.example/leseliste-fur-den-herbst/58212",
+     "image": "https://img.antiquariat-sechs.example/covers/der-grune-heinrich-19.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.OxZVtdhtZF0wJPVEkMUkfOum74?pid=Api",
+     "width": 790,
+     "height": 593
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 2,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 3,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 4,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 5,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 6,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 9,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 10,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 11,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 12,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 13,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 15,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 16,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 17,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 19,
+     "aspect": 1.333,
+     "boxHeight": 474
+    }
+   ],
+   "expect": {
+    "group": [
+     1,
+     13,
+     16
+    ],
+    "confidence": "cluster"
+   }
+  },
+  {
+   "slug": "schiller-de",
+   "book": {
+    "title": "Kabale und Liebe",
+    "author": "Friedrich Schiller",
+    "language": "de"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Kabale und Liebe, eine andere Ausgabe",
+     "url": "https://www.buchhandlung-eins.example/kabale-und-liebe-eine-andere-ausgabe/31847",
+     "image": "https://img.buchhandlung-eins.example/covers/kabale-und-liebe-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.PCytU317v9zGaCJ6ABJhZVZPNP?pid=Api",
+     "width": 600,
+     "height": 900
+    },
+    {
+     "rank": 1,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.buchblog.example/ein-spaziergang-durch-die-altstadt/15565",
+     "image": "https://img.buchblog.example/covers/kabale-und-liebe-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.9EcAr0MYNFLdms7YIORunX45H4?pid=Api",
+     "width": 610,
+     "height": 915
+    },
+    {
+     "rank": 2,
+     "title": "Das Lesezimmer",
+     "url": "https://www.feuilleton.example/das-lesezimmer/93830",
+     "image": "https://img.feuilleton.example/covers/kabale-und-liebe-2.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.i3thBvpWb8tY7tejkYbHezxSZI?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 3,
+     "title": "Kabale und Liebe von Friedrich Schiller - Buch",
+     "url": "https://www.antiquariat-fuenf.example/kabale-und-liebe-von-friedrich-schiller-buch/48641",
+     "image": "https://img.antiquariat-fuenf.example/covers/kabale-und-liebe-3.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.axHwhSDfdT5AuYMjPiPAtb9U?pid=Api",
+     "width": 660,
+     "height": 990
+    },
+    {
+     "rank": 4,
+     "title": "Poster und Drucke",
+     "url": "https://www.reiseblog.example/poster-und-drucke/49350",
+     "image": "https://img.reiseblog.example/covers/kabale-und-liebe-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.iYNmXzw9nCmsez9W0RgiPSPZY?pid=Api",
+     "width": 640,
+     "height": 960
+    },
+    {
+     "rank": 5,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.kleinanzeigen.de/unsere-lieblingsausgaben/78551",
+     "image": "https://img.kleinanzeigen.de/no_image_available.png",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.4JJNsH2I59CwIc6dZRbtBEaqPg?pid=Api",
+     "width": 650,
+     "height": 975
+    },
+    {
+     "rank": 6,
+     "title": "Kabale und Liebe | Friedrich Schiller | Taschenbuch",
+     "url": "https://www.buchladen-drei.example/kabale-und-liebe-friedrich-schiller-taschenbuch/70987",
+     "image": "https://img.buchladen-drei.example/covers/kabale-und-liebe-6.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.dSdYVYHqBocF3McVgVhDyZLkrB?pid=Api",
+     "width": 720,
+     "height": 1080
+    },
+    {
+     "rank": 7,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.poster-shop.example/romane-des-19-jahrhunderts-im-uberblick/27989",
+     "image": "https://img.poster-shop.example/covers/kabale-und-liebe-7.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.EoqkH598ATeGK6gqMwdFplqw?pid=Api",
+     "width": 670,
+     "height": 1005
+    },
+    {
+     "rank": 8,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.literaturforum.example/leseliste-fur-den-herbst/32143",
+     "image": "https://img.literaturforum.example/covers/kabale-und-liebe-8.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.xZYv7CFT1ws2I0QooaDSLeEpSg?pid=Api",
+     "width": 680,
+     "height": 510
+    },
+    {
+     "rank": 9,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.alamy.de/klassiker-neu-gelesen/94057",
+     "image": "https://c8.alamy.com/comp/BTNPZIJ/book.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.bTNPziJ20kxqAgmqpjXyixfV3w?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 10,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.stadtbibliothek.example/bucher-fur-lange-abende/38388",
+     "image": "https://img.stadtbibliothek.example/covers/kabale-und-liebe-10.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.fgeLHtDxQLtBEUfgCnx0v7tUQ?pid=Api",
+     "width": 700,
+     "height": 1050
+    },
+    {
+     "rank": 11,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.buchblog.example/ein-spaziergang-durch-die-altstadt/75756",
+     "image": "https://img.buchblog.example/covers/kabale-und-liebe-11.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.z0473WkGNz1IDXUNdwLLhkdp6w?pid=Api",
+     "width": 710,
+     "height": 1065
+    },
+    {
+     "rank": 12,
+     "title": "Das Lesezimmer",
+     "url": "https://www.feuilleton.example/das-lesezimmer/29100",
+     "image": "https://img.feuilleton.example/covers/kabale-und-liebe-12.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.9BOTRzCye01zC2APMDbDSstwQa?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 13,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.leserunde.example/neuerscheinungen-im-marz/69143",
+     "image": "https://img.leserunde.example/covers/kabale-und-liebe-13.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.vbVmqFNZqVQgqjCtOpHBT5mkkM?pid=Api",
+     "width": 730,
+     "height": 1095
+    },
+    {
+     "rank": 14,
+     "title": "Poster und Drucke",
+     "url": "https://www.reiseblog.example/poster-und-drucke/75888",
+     "image": "https://img.reiseblog.example/covers/kabale-und-liebe-14.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.3kYkhNAdWL0LWBqW2LH3iKXkZc?pid=Api",
+     "width": 740,
+     "height": 1110
+    },
+    {
+     "rank": 15,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.kleinanzeigen.de/unsere-lieblingsausgaben/20522",
+     "image": "https://img.kleinanzeigen.de/no_image_available.png",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.ixVdxcljaCIxo3VBtnGMn8V8DB?pid=Api",
+     "width": 750,
+     "height": 1125
+    },
+    {
+     "rank": 16,
+     "title": "Lesekreis am Donnerstag",
+     "url": "https://www.antiquariat-sechs.example/lesekreis-am-donnerstag/87659",
+     "image": "https://img.antiquariat-sechs.example/covers/kabale-und-liebe-16.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.PsAcp7PCVjSx6TW58wRKN8vetw?pid=Api",
+     "width": 760,
+     "height": 1140
+    },
+    {
+     "rank": 17,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.poster-shop.example/romane-des-19-jahrhunderts-im-uberblick/92641",
+     "image": "https://img.poster-shop.example/covers/kabale-und-liebe-17.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.FkQcHUA97SjiIDrikaZVRUJjZ0?pid=Api",
+     "width": 770,
+     "height": 1155
+    },
+    {
+     "rank": 18,
+     "title": "Kabale und Liebe | Friedrich Schiller | Taschenbuch",
+     "url": "https://www.buchhandlung-eins.example/kabale-und-liebe-friedrich-schiller-taschenbuch/84640",
+     "image": "https://img.buchhandlung-eins.example/covers/kabale-und-liebe-18.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.xb8fpFZsVeOHokDxPPgXBm0fvA?pid=Api",
+     "width": 960,
+     "height": 1440
+    },
+    {
+     "rank": 19,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.alamy.de/klassiker-neu-gelesen/49325",
+     "image": "https://c8.alamy.com/comp/AAYTOYB/book.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.aaYToYbK3N6oB57JrFwcQ3YBSE?pid=Api",
+     "width": 1600,
+     "height": 800
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 2,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 3,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 4,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 5,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 6,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 9,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 10,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 11,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 12,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 13,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 15,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 16,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 17,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 19,
+     "aspect": 2,
+     "boxHeight": 474
+    }
+   ],
+   "expect": {
+    "group": [
+     3,
+     6,
+     18
+    ],
+    "confidence": "cluster"
+   }
+  },
+  {
+   "slug": "storm-de",
+   "book": {
+    "title": "Der Schimmelreiter",
+    "author": "Theodor Storm",
+    "language": "de"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Der Schimmelreiter | Theodor Storm | Taschenbuch",
+     "url": "https://www.leseecke.example/der-schimmelreiter-theodor-storm-taschenbuch/76795",
+     "image": "https://img.leseecke.example/covers/der-schimmelreiter-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.VHDUtaIzhdw9tXnMlvgvMrkg08?pid=Api",
+     "width": 600,
+     "height": 900
+    },
+    {
+     "rank": 1,
+     "title": "Das Lesezimmer",
+     "url": "https://www.reiseblog.example/das-lesezimmer/55884",
+     "image": "https://img.reiseblog.example/covers/der-schimmelreiter-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.UNaADDAEltVshY2vXzIyPMIxTQ?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 2,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.kleinanzeigen.de/neuerscheinungen-im-marz/88580",
+     "image": "https://img.kleinanzeigen.de/covers/der-schimmelreiter-2.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.bE20xIvXs8CMzbXoDjn7shlkkA?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 3,
+     "title": "Poster und Drucke",
+     "url": "https://www.antiquariat-sechs.example/poster-und-drucke/89309",
+     "image": "https://img.antiquariat-sechs.example/covers/der-schimmelreiter-3.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.EbXdD3gnh6G4RP52P4BMwqETUf?pid=Api",
+     "width": 630,
+     "height": 945
+    },
+    {
+     "rank": 4,
+     "title": "Der Schimmelreiter | Theodor Storm | Taschenbuch",
+     "url": "https://www.verlag-zwei.example/der-schimmelreiter-theodor-storm-taschenbuch/48578",
+     "image": "https://img.verlag-zwei.example/covers/der-schimmelreiter-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.03HWQEBpw17sf1OsXkf7GIFMsA?pid=Api",
+     "width": 1000,
+     "height": 1500
+    },
+    {
+     "rank": 5,
+     "title": "Der Schimmelreiter von Theodor Storm - Buch",
+     "url": "https://www.buchladen-drei.example/der-schimmelreiter-von-theodor-storm-buch/59728",
+     "image": "https://img.buchladen-drei.example/covers/der-schimmelreiter-5.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.rwfoaZ6NVdVmV3vfoPcYDQaA5s?pid=Api",
+     "width": 420,
+     "height": 640
+    },
+    {
+     "rank": 6,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.buchladen-drei.example/eine-andere-ausgabe/52336",
+     "image": "https://img.buchladen-drei.example/covers/der-schimmelreiter-6.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.8sPK8bpXMcYXA12qqfSjvUPlVj?pid=Api",
+     "width": 660,
+     "height": 990
+    },
+    {
+     "rank": 7,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.stadtbibliothek.example/leseliste-fur-den-herbst/28945",
+     "image": "https://img.stadtbibliothek.example/covers/der-schimmelreiter-7.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.e95pyHcCmWkovSePhUO2TRMg0g?pid=Api",
+     "width": 670,
+     "height": 503
+    },
+    {
+     "rank": 8,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.buchblog.example/klassiker-neu-gelesen/53315",
+     "image": "https://img.buchblog.example/covers/der-schimmelreiter-8.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.QhVRTwk0lfB1h4M2NEhkwsc3Ue?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 9,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.feuilleton.example/bucher-fur-lange-abende/99461",
+     "image": "https://img.feuilleton.example/covers/der-schimmelreiter-9.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.Xbr2tSjY4z0HGtFw6ifmsMG0A?pid=Api",
+     "width": 690,
+     "height": 1035
+    },
+    {
+     "rank": 10,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.leserunde.example/ein-spaziergang-durch-die-altstadt/48466",
+     "image": "https://img.leserunde.example/covers/der-schimmelreiter-10.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.WU8Eyxj7otOA0PF51vPD8FnoE?pid=Api",
+     "width": 700,
+     "height": 1050
+    },
+    {
+     "rank": 11,
+     "title": "Das Lesezimmer",
+     "url": "https://www.reiseblog.example/das-lesezimmer/60282",
+     "image": "https://img.reiseblog.example/covers/der-schimmelreiter-11.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.Qd6Nosth23uTdAEWmZOMEC1VyA?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 12,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.verlag-zwei.example/eine-andere-ausgabe/19261",
+     "image": "https://img.verlag-zwei.example/covers/der-schimmelreiter-12.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.FL0moBku4ZRUJ6vsYYxwFD17fr?pid=Api",
+     "width": 720,
+     "height": 1080
+    },
+    {
+     "rank": 13,
+     "title": "Poster und Drucke",
+     "url": "https://www.antiquariat-sechs.example/poster-und-drucke/43027",
+     "image": "https://img.antiquariat-sechs.example/covers/der-schimmelreiter-13.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.Sf6jLDmGyum80Qys4DJPvcq4ct?pid=Api",
+     "width": 730,
+     "height": 1095
+    },
+    {
+     "rank": 14,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.poster-shop.example/unsere-lieblingsausgaben/51486",
+     "image": "https://img.poster-shop.example/no_image_available.png",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.KiowGy78OalrsT30fCGuA9TSPu?pid=Api",
+     "width": 740,
+     "height": 1110
+    },
+    {
+     "rank": 15,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.lantern-books.example/eine-andere-ausgabe/29504",
+     "image": "https://img.lantern-books.example/covers/der-schimmelreiter-15.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.R0t8HemgkWdSathv4McuAXnp5A?pid=Api",
+     "width": 750,
+     "height": 1125
+    },
+    {
+     "rank": 16,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.alamy.de/romane-des-19-jahrhunderts-im-uberblick/36357",
+     "image": "https://c8.alamy.com/comp/BCZ81SA/book.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.bcz81sAyiwRlIqRV14nCm88MU?pid=Api",
+     "width": 760,
+     "height": 1140
+    },
+    {
+     "rank": 17,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.stadtbibliothek.example/leseliste-fur-den-herbst/55160",
+     "image": "https://img.stadtbibliothek.example/covers/der-schimmelreiter-17.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.n8fjHerWRr34bNoDzXqsdcCZcY?pid=Api",
+     "width": 770,
+     "height": 578
+    },
+    {
+     "rank": 18,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.buchblog.example/klassiker-neu-gelesen/67708",
+     "image": "https://img.buchblog.example/covers/der-schimmelreiter-18.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.Eh6UJ6aLdmLH5pYCoBX6aU6mus?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 19,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.feuilleton.example/bucher-fur-lange-abende/48105",
+     "image": "https://img.feuilleton.example/covers/der-schimmelreiter-19.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.v1MEm3dxfRS9Q64sZQbGQzbHIH?pid=Api",
+     "width": 790,
+     "height": 1185
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 2,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 3,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 4,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 5,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 6,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 9,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 10,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 11,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 12,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 13,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 15,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 16,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 17,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 19,
+     "aspect": 0.75,
+     "boxHeight": 474
+    }
+   ],
+   "expect": {
+    "group": [
+     0,
+     4,
+     5
+    ],
+    "confidence": "cluster"
+   }
+  },
+  {
+   "slug": "austen-en",
+   "book": {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "language": "en"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Pride and Prejudice | Jane Austen | Taschenbuch",
+     "url": "https://www.leseecke.example/pride-and-prejudice-jane-austen-taschenbuch/67224",
+     "image": "https://img.leseecke.example/covers/pride-and-prejudice-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.Zm68iq1hQ2cukVWUn8BT6nTlo?pid=Api",
+     "width": 600,
+     "height": 900
+    },
+    {
+     "rank": 1,
+     "title": "Book club picks",
+     "url": "https://www.poster-shop.example/book-club-picks/79880",
+     "image": "https://img.poster-shop.example/covers/pride-and-prejudice-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.TIvfyHOJS7XJNirCGdD34HubA?pid=Api",
+     "width": 610,
+     "height": 915
+    },
+    {
+     "rank": 2,
+     "title": "Bookshop of the week",
+     "url": "https://www.literaturforum.example/bookshop-of-the-week/25756",
+     "image": "https://img.literaturforum.example/covers/pride-and-prejudice-2.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.JK4PB6wDlkoF1O6xTMMdoCdwgI?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 3,
+     "title": "Library sale",
+     "url": "https://www.alamy.de/library-sale/15477",
+     "image": "https://c8.alamy.com/comp/ZP13OYD/book.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.zP13OyDLUo8TFLECpMtZw5IxTy?pid=Api",
+     "width": 630,
+     "height": 945
+    },
+    {
+     "rank": 4,
+     "title": "Rare editions",
+     "url": "https://www.stadtbibliothek.example/rare-editions/17204",
+     "image": "https://img.stadtbibliothek.example/covers/pride-and-prejudice-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.6KMlrFNhJzSp2TqB2E1liOdlUU?pid=Api",
+     "width": 640,
+     "height": 960
+    },
+    {
+     "rank": 5,
+     "title": "Classic novels for a rainy weekend",
+     "url": "https://www.buchblog.example/classic-novels-for-a-rainy-weekend/59276",
+     "image": "https://img.buchblog.example/covers/pride-and-prejudice-5.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.grfxn5pcXg09Yyim5enpXTWE0?pid=Api",
+     "width": 650,
+     "height": 975
+    },
+    {
+     "rank": 6,
+     "title": "Our reading list",
+     "url": "https://www.feuilleton.example/our-reading-list/37447",
+     "image": "https://img.feuilleton.example/covers/pride-and-prejudice-6.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.4OQlW7iwoatFE1l99bLpTB40?pid=Api",
+     "width": 660,
+     "height": 495
+    },
+    {
+     "rank": 7,
+     "title": "The reading room",
+     "url": "https://www.leserunde.example/the-reading-room/89033",
+     "image": "https://img.leserunde.example/covers/pride-and-prejudice-7.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.DjSGAcLciv1eMZejcYVKksHg?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 8,
+     "title": "Posters and prints",
+     "url": "https://www.reiseblog.example/posters-and-prints/56721",
+     "image": "https://img.reiseblog.example/covers/pride-and-prejudice-8.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.AsVWDF6X4FUT6feHJbZg9X2ZI?pid=Api",
+     "width": 680,
+     "height": 1020
+    },
+    {
+     "rank": 9,
+     "title": "Another edition of a classic",
+     "url": "https://www.leseecke.example/another-edition-of-a-classic/86893",
+     "image": "https://img.leseecke.example/covers/pride-and-prejudice-9.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.E4WsjoP8ZTzkGCZz5EJjRornPI?pid=Api",
+     "width": 690,
+     "height": 1035
+    },
+    {
+     "rank": 10,
+     "title": "A walk through the old town",
+     "url": "https://www.antiquariat-sechs.example/a-walk-through-the-old-town/77492",
+     "image": "https://img.antiquariat-sechs.example/covers/pride-and-prejudice-10.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.oDTJBWnmeXXRbVW2jhicjr8vzU?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 11,
+     "title": "Book club picks",
+     "url": "https://www.poster-shop.example/book-club-picks/87550",
+     "image": "https://img.poster-shop.example/covers/pride-and-prejudice-11.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.3g4ggBybQe3qQwCF8nHVjVcvuE?pid=Api",
+     "width": 710,
+     "height": 1065
+    },
+    {
+     "rank": 12,
+     "title": "Bookshop of the week",
+     "url": "https://www.literaturforum.example/bookshop-of-the-week/75013",
+     "image": "https://img.literaturforum.example/covers/pride-and-prejudice-12.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.rSlR3MxNom7bW6SSswP6N6UpqA?pid=Api",
+     "width": 720,
+     "height": 1080
+    },
+    {
+     "rank": 13,
+     "title": "Library sale",
+     "url": "https://www.alamy.de/library-sale/42979",
+     "image": "https://c8.alamy.com/comp/UEBZ2GF/book.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.ueBZ2GfJFlYA0nVVazVYqxT9jU?pid=Api",
+     "width": 730,
+     "height": 1095
+    },
+    {
+     "rank": 14,
+     "title": "Rare editions",
+     "url": "https://www.stadtbibliothek.example/rare-editions/17480",
+     "image": "https://img.stadtbibliothek.example/covers/pride-and-prejudice-14.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.24EL24kqHqH3O8JsSo0u1lMctR?pid=Api",
+     "width": 740,
+     "height": 1110
+    },
+    {
+     "rank": 15,
+     "title": "Another edition of a classic",
+     "url": "https://www.lantern-books.example/another-edition-of-a-classic/94607",
+     "image": "https://img.lantern-books.example/covers/pride-and-prejudice-15.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.861w3Uh1L7IGH39ytcqFXQQ5QA?pid=Api",
+     "width": 750,
+     "height": 1125
+    },
+    {
+     "rank": 16,
+     "title": "Our reading list",
+     "url": "https://www.feuilleton.example/our-reading-list/39614",
+     "image": "https://img.feuilleton.example/covers/pride-and-prejudice-16.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.ipG38t3t6zellp1L4qtBpPXzQ?pid=Api",
+     "width": 760,
+     "height": 570
+    },
+    {
+     "rank": 17,
+     "title": "The reading room",
+     "url": "https://www.leserunde.example/the-reading-room/37122",
+     "image": "https://img.leserunde.example/covers/pride-and-prejudice-17.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.e4mNCY2CN9mCQeuKq9rLzoa9NA?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 18,
+     "title": "Posters and prints",
+     "url": "https://www.reiseblog.example/posters-and-prints/62464",
+     "image": "https://img.reiseblog.example/covers/pride-and-prejudice-18.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.iOJArGZsGqBfq7IT2fWe0VLvIz?pid=Api",
+     "width": 780,
+     "height": 1170
+    },
+    {
+     "rank": 19,
+     "title": "New this month",
+     "url": "https://www.kleinanzeigen.de/new-this-month/60474",
+     "image": "https://img.kleinanzeigen.de/covers/pride-and-prejudice-19.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.NuUBOvv8nYSvWF4kRzurJW3cI8?pid=Api",
+     "width": 790,
+     "height": 1185
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 2,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 3,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 4,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 5,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 6,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 9,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 10,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 11,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 12,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 13,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 15,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 16,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 17,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 19,
+     "aspect": 0.667,
+     "boxHeight": 474
+    }
+   ],
+   "expect": {
+    "single": 0,
+    "confidence": "single"
+   }
+  },
+  {
+   "slug": "dufresne-de",
+   "book": {
+    "title": "Kleines Lehrbuch des Schachspiels",
+    "author": "Jean Dufresne",
+    "language": "de"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Kleines Lehrbuch des Schachspiels | Jean Dufresne | Taschenbuch",
+     "url": "https://www.antiquariat-fuenf.example/kleines-lehrbuch-des-schachspiels-jean-dufresne-/84445",
+     "image": "https://img.antiquariat-fuenf.example/covers/kleines-lehrbuch-des-sch-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.uqg7GKq2xmNdhVX3BgetxeT3i8?pid=Api",
+     "width": 600,
+     "height": 900
+    },
+    {
+     "rank": 1,
+     "title": "Poster und Drucke",
+     "url": "https://www.stadtbibliothek.example/poster-und-drucke/85923",
+     "image": "https://img.stadtbibliothek.example/covers/kleines-lehrbuch-des-sch-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.otCeKTyVK77nygfDrAMEBK2ulQ?pid=Api",
+     "width": 610,
+     "height": 915
+    },
+    {
+     "rank": 2,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.buchblog.example/unsere-lieblingsausgaben/97424",
+     "image": "https://img.buchblog.example/no_image_available.png",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.FNlCHS5B12STpzA4XnM7br7Vko?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 3,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.antiquariat-fuenf.example/eine-andere-ausgabe/93635",
+     "image": "https://img.antiquariat-fuenf.example/covers/kleines-lehrbuch-des-sch-3.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.quwnnj6EVtJbFVRpQs46TIl7w?pid=Api",
+     "width": 630,
+     "height": 945
+    },
+    {
+     "rank": 4,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.leserunde.example/romane-des-19-jahrhunderts-im-uberblick/53591",
+     "image": "https://img.leserunde.example/covers/kleines-lehrbuch-des-sch-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.BCa7H5ubr8CvmNwDhMWPLS06E8?pid=Api",
+     "width": 640,
+     "height": 960
+    },
+    {
+     "rank": 5,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.reiseblog.example/leseliste-fur-den-herbst/66729",
+     "image": "https://img.reiseblog.example/covers/kleines-lehrbuch-des-sch-5.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.ZXgk5vQ5hTo2fc2g5yuAwMhafg?pid=Api",
+     "width": 650,
+     "height": 488
+    },
+    {
+     "rank": 6,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.kleinanzeigen.de/klassiker-neu-gelesen/23517",
+     "image": "https://img.kleinanzeigen.de/covers/kleines-lehrbuch-des-sch-6.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.v7hiSqAHMbb0HPDe2Px0lGDJpM?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 7,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.antiquariat-sechs.example/bucher-fur-lange-abende/41018",
+     "image": "https://img.antiquariat-sechs.example/covers/kleines-lehrbuch-des-sch-7.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.alNazHroDkeQqlhuRONlQ4QJM?pid=Api",
+     "width": 670,
+     "height": 1005
+    },
+    {
+     "rank": 8,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.poster-shop.example/ein-spaziergang-durch-die-altstadt/97600",
+     "image": "https://img.poster-shop.example/covers/kleines-lehrbuch-des-sch-8.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.9mPlyFtmoyPz5fFfCNe1Gg8lM?pid=Api",
+     "width": 680,
+     "height": 1020
+    },
+    {
+     "rank": 9,
+     "title": "Das Lesezimmer",
+     "url": "https://www.literaturforum.example/das-lesezimmer/12667",
+     "image": "https://img.literaturforum.example/covers/kleines-lehrbuch-des-sch-9.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.kitSThEO2HlVMwDO0Ng8lhdgEE?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 10,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.alamy.de/neuerscheinungen-im-marz/58358",
+     "image": "https://c8.alamy.com/comp/1V0E4WO/book.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.1v0E4WORaBKbrprN7pmM0D1lpY?pid=Api",
+     "width": 700,
+     "height": 1050
+    },
+    {
+     "rank": 11,
+     "title": "Poster und Drucke",
+     "url": "https://www.stadtbibliothek.example/poster-und-drucke/80986",
+     "image": "https://img.stadtbibliothek.example/covers/kleines-lehrbuch-des-sch-11.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.PbqQbaNAk2PTaoVvfjWkN2DJsA?pid=Api",
+     "width": 710,
+     "height": 1065
+    },
+    {
+     "rank": 12,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.buchblog.example/unsere-lieblingsausgaben/11946",
+     "image": "https://img.buchblog.example/no_image_available.png",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.4eq4opkrRiw4kN8gLRyeJqJjg?pid=Api",
+     "width": 720,
+     "height": 1080
+    },
+    {
+     "rank": 13,
+     "title": "Lesekreis am Donnerstag",
+     "url": "https://www.feuilleton.example/lesekreis-am-donnerstag/92450",
+     "image": "https://img.feuilleton.example/covers/kleines-lehrbuch-des-sch-13.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.plJ2isIIbZqeohnv4YNucGzmfQ?pid=Api",
+     "width": 730,
+     "height": 1095
+    },
+    {
+     "rank": 14,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.leserunde.example/romane-des-19-jahrhunderts-im-uberblick/14851",
+     "image": "https://img.leserunde.example/covers/kleines-lehrbuch-des-sch-14.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.m9l2BaQtx1yRIqZrWUGLeWuQmw?pid=Api",
+     "width": 740,
+     "height": 1110
+    },
+    {
+     "rank": 15,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.reiseblog.example/leseliste-fur-den-herbst/18797",
+     "image": "https://img.reiseblog.example/covers/kleines-lehrbuch-des-sch-15.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.CIMN7vuPROXtGgeIyWoLUkYMs0?pid=Api",
+     "width": 750,
+     "height": 563
+    },
+    {
+     "rank": 16,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.kleinanzeigen.de/klassiker-neu-gelesen/85279",
+     "image": "https://img.kleinanzeigen.de/covers/kleines-lehrbuch-des-sch-16.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.Ntb6JYUPtzsNGhkCeG2QerFg?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 17,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.antiquariat-sechs.example/bucher-fur-lange-abende/55637",
+     "image": "https://img.antiquariat-sechs.example/covers/kleines-lehrbuch-des-sch-17.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.5NAz6CQ04PSSfaSNDh2O6qZ01g?pid=Api",
+     "width": 770,
+     "height": 1155
+    },
+    {
+     "rank": 18,
+     "title": "Eine andere Ausgabe",
+     "url": "https://www.buchhandlung-eins.example/eine-andere-ausgabe/74428",
+     "image": "https://img.buchhandlung-eins.example/covers/kleines-lehrbuch-des-sch-18.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.ttMDX5NYs2MXkbVSbIY9JZ8Wyu?pid=Api",
+     "width": 780,
+     "height": 1170
+    },
+    {
+     "rank": 19,
+     "title": "Das Lesezimmer",
+     "url": "https://www.literaturforum.example/das-lesezimmer/83323",
+     "image": "https://img.literaturforum.example/covers/kleines-lehrbuch-des-sch-19.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.3l5v6A9U7k1IVTduE3R2bQaLF6?pid=Api",
+     "width": 800,
+     "height": 800
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 2,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 3,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 4,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 5,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 6,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 9,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 10,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 11,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 12,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 13,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 15,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 16,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 17,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 19,
+     "aspect": 0.667,
+     "boxHeight": 431
+    }
+   ],
+   "expect": {
+    "single": 0,
+    "confidence": "single"
+   }
+  },
+  {
+   "slug": "fake1-de",
+   "book": {
+    "title": "Die vergessene Kartografie der Nebelinseln",
+    "author": "Hartmut Quellbrunn",
+    "language": "de"
+   },
+   "results": [
+    {
+     "rank": 0,
+     "title": "Poster und Drucke",
+     "url": "https://www.feuilleton.example/poster-und-drucke/63855",
+     "image": "https://img.feuilleton.example/covers/die-vergessene-kartograf-0.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.0LW8OBVWZZewhYRv11hSR0kbwP?pid=Api",
+     "width": 600,
+     "height": 900
+    },
+    {
+     "rank": 1,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.leserunde.example/unsere-lieblingsausgaben/86055",
+     "image": "https://img.leserunde.example/covers/die-vergessene-kartograf-1.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.ed59SKsb6Jhou9m2FVRfasNJiL?pid=Api",
+     "width": 610,
+     "height": 915
+    },
+    {
+     "rank": 2,
+     "title": "Lesekreis am Donnerstag",
+     "url": "https://www.reiseblog.example/lesekreis-am-donnerstag/12883",
+     "image": "https://img.reiseblog.example/covers/die-vergessene-kartograf-2.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.tfyIlEwBCiE2Vxezx1ilcdSwvQ?pid=Api",
+     "width": 620,
+     "height": 930
+    },
+    {
+     "rank": 3,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.kleinanzeigen.de/romane-des-19-jahrhunderts-im-uberblick/26906",
+     "image": "https://img.kleinanzeigen.de/covers/die-vergessene-kartograf-3.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.DyZUBYdI9EMLrVeoiY3easX8c?pid=Api",
+     "width": 630,
+     "height": 945
+    },
+    {
+     "rank": 4,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.antiquariat-sechs.example/leseliste-fur-den-herbst/75315",
+     "image": "https://img.antiquariat-sechs.example/covers/die-vergessene-kartograf-4.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.leMOxhe1deAJE1v0CmJ7RrcRcL?pid=Api",
+     "width": 640,
+     "height": 480
+    },
+    {
+     "rank": 5,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.poster-shop.example/klassiker-neu-gelesen/62678",
+     "image": "https://img.poster-shop.example/covers/die-vergessene-kartograf-5.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.dJmIi6yvZynHXaZmQMwBpp7OjU?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 6,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.literaturforum.example/bucher-fur-lange-abende/16873",
+     "image": "https://img.literaturforum.example/covers/die-vergessene-kartograf-6.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.yBpRL8kIvG707zDWrqIhpzBaQ?pid=Api",
+     "width": 660,
+     "height": 990
+    },
+    {
+     "rank": 7,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.alamy.de/ein-spaziergang-durch-die-altstadt/48233",
+     "image": "https://c8.alamy.com/comp/FGVZXUZ/book.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.FgvzxuZCx0Qgm0N5tSEGSgsCV4?pid=Api",
+     "width": 670,
+     "height": 1005
+    },
+    {
+     "rank": 8,
+     "title": "Das Lesezimmer",
+     "url": "https://www.stadtbibliothek.example/das-lesezimmer/12281",
+     "image": "https://img.stadtbibliothek.example/covers/die-vergessene-kartograf-8.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.cdm2ndjJBg5jI6bBvfmDauCtrK?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 9,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.buchblog.example/neuerscheinungen-im-marz/50081",
+     "image": "https://img.buchblog.example/covers/die-vergessene-kartograf-9.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.hE923gcBeeD6h8iAuLw1hZqvzo?pid=Api",
+     "width": 690,
+     "height": 1035
+    },
+    {
+     "rank": 10,
+     "title": "Poster und Drucke",
+     "url": "https://www.feuilleton.example/poster-und-drucke/27799",
+     "image": "https://img.feuilleton.example/covers/die-vergessene-kartograf-10.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.cs3auJtnEkiDSxkrk5RuSNiknY?pid=Api",
+     "width": 700,
+     "height": 1050
+    },
+    {
+     "rank": 11,
+     "title": "Unsere Lieblingsausgaben",
+     "url": "https://www.leserunde.example/unsere-lieblingsausgaben/23598",
+     "image": "https://img.leserunde.example/no_image_available.png",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.fADtieqVlqfmFakyTJgSmeiSnA?pid=Api",
+     "width": 710,
+     "height": 1065
+    },
+    {
+     "rank": 12,
+     "title": "Lesekreis am Donnerstag",
+     "url": "https://www.reiseblog.example/lesekreis-am-donnerstag/91966",
+     "image": "https://img.reiseblog.example/covers/die-vergessene-kartograf-12.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.g4YBYBLsLvcRG6Vzf5LYmsozA?pid=Api",
+     "width": 720,
+     "height": 1080
+    },
+    {
+     "rank": 13,
+     "title": "Romane des 19. Jahrhunderts im Überblick",
+     "url": "https://www.kleinanzeigen.de/romane-des-19-jahrhunderts-im-uberblick/13315",
+     "image": "https://img.kleinanzeigen.de/covers/die-vergessene-kartograf-13.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.fst2hdXfboaJHqiQOksjtWN8ca?pid=Api",
+     "width": 730,
+     "height": 1095
+    },
+    {
+     "rank": 14,
+     "title": "Leseliste für den Herbst",
+     "url": "https://www.antiquariat-sechs.example/leseliste-fur-den-herbst/19259",
+     "image": "https://img.antiquariat-sechs.example/covers/die-vergessene-kartograf-14.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.EHlClDZm1rwW3L4Q8zVns1bXyu?pid=Api",
+     "width": 740,
+     "height": 555
+    },
+    {
+     "rank": 15,
+     "title": "Klassiker neu gelesen",
+     "url": "https://www.poster-shop.example/klassiker-neu-gelesen/76515",
+     "image": "https://img.poster-shop.example/covers/die-vergessene-kartograf-15.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.U9RColwkT81wOXxVg4cIheQck?pid=Api",
+     "width": 1600,
+     "height": 800
+    },
+    {
+     "rank": 16,
+     "title": "Bücher für lange Abende",
+     "url": "https://www.literaturforum.example/bucher-fur-lange-abende/48983",
+     "image": "https://img.literaturforum.example/covers/die-vergessene-kartograf-16.jpg",
+     "thumbnail": "https://tse1.mm.bing.net/th/id/OIP.Tjf2IDz14ib3GPJaqE4DQ8UREI?pid=Api",
+     "width": 760,
+     "height": 1140
+    },
+    {
+     "rank": 17,
+     "title": "Ein Spaziergang durch die Altstadt",
+     "url": "https://www.alamy.de/ein-spaziergang-durch-die-altstadt/93453",
+     "image": "https://c8.alamy.com/comp/9G9OCH1/book.jpg",
+     "thumbnail": "https://tse2.mm.bing.net/th/id/OIP.9g9och1Dmq71wbz67RSuSnL2E?pid=Api",
+     "width": 770,
+     "height": 1155
+    },
+    {
+     "rank": 18,
+     "title": "Das Lesezimmer",
+     "url": "https://www.stadtbibliothek.example/das-lesezimmer/93492",
+     "image": "https://img.stadtbibliothek.example/covers/die-vergessene-kartograf-18.jpg",
+     "thumbnail": "https://tse3.mm.bing.net/th/id/OIP.W6juST7ARuQv88J1r7DfH4p8mM?pid=Api",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "rank": 19,
+     "title": "Neuerscheinungen im März",
+     "url": "https://www.buchblog.example/neuerscheinungen-im-marz/50684",
+     "image": "https://img.buchblog.example/covers/die-vergessene-kartograf-19.jpg",
+     "thumbnail": "https://tse4.mm.bing.net/th/id/OIP.99YXgGzuM7Lb4DzYnc6GNZCGfM?pid=Api",
+     "width": 790,
+     "height": 1185
+    }
+   ],
+   "analysed": [
+    {
+     "rank": 0,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 1,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 2,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 3,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 4,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 5,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 6,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 7,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 8,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 9,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 10,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 11,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 12,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 13,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 14,
+     "aspect": 1.333,
+     "boxHeight": 474
+    },
+    {
+     "rank": 15,
+     "aspect": 2,
+     "boxHeight": 474
+    },
+    {
+     "rank": 16,
+     "aspect": 0.75,
+     "boxHeight": 474
+    },
+    {
+     "rank": 17,
+     "aspect": 0.667,
+     "boxHeight": 474
+    },
+    {
+     "rank": 18,
+     "aspect": 0.667,
+     "boxHeight": 431
+    },
+    {
+     "rank": 19,
+     "aspect": 0.667,
+     "boxHeight": 474
+    }
+   ],
+   "expect": null
+  }
+ ]
+}

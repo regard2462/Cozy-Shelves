@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Profile: EBU-TT-D-Basic-DE-->
+<tt:tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ebuttm="urn:ebu:tt:metadata" ttp:timeBase="media" ttp:cellResolution="50 30" xml:lang="de-DE">
+  <tt:head>
+    <tt:metadata>
+      <ebuttm:documentMetadata>
+        <ebuttm:documentEbuttVersion>v1.0</ebuttm:documentEbuttVersion>
+      </ebuttm:documentMetadata>
+    </tt:metadata>
+    <tt:styling>
+      <tt:style xml:id="defaultStyle" tts:fontFamily="Verdana,Arial,Tiresias" tts:fontSize="160%" tts:lineHeight="125%" />
+      <tt:style xml:id="textBlack" tts:color="#000000" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textRed" tts:color="#FF0000" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textGreen" tts:color="#00FF00" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textYellow" tts:color="#FFFF00" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textBlue" tts:color="#0000FF" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textMagenta" tts:color="#FF00FF" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textCyan" tts:color="#00FFFF" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textWhite" tts:color="#FFFFFF" tts:backgroundColor="#000000c2" />
+      <tt:style xml:id="textCenter" tts:textAlign="center" />
+      <tt:style xml:id="textLeft" tts:textAlign="left" />
+      <tt:style xml:id="textRight" tts:textAlign="right" />
+    </tt:styling>
+    <tt:layout>
+      <tt:region xml:id="top" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="before" />
+      <tt:region xml:id="bottom" tts:origin="10% 10%" tts:extent="80% 80%" tts:displayAlign="after" />
+    </tt:layout>
+  </tt:head>
+  <tt:body>
+    <tt:div style="defaultStyle">
+      <tt:p xml:id="sub0" style="textCenter" region="bottom" begin="00:00:01.320" end="00:00:03.400">
+        <tt:span style="textWhite">Techno, Feiern, Ekstase.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub1" style="textCenter" region="bottom" begin="00:00:03.440" end="00:00:06.240">
+        <tt:span style="textWhite">Eine Branche,</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">die Millionen verdient.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub2" style="textCenter" region="bottom" begin="00:00:06.280" end="00:00:09.560">
+        <tt:span style="textWhite">* Elektronische Musik *</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub3" style="textCenter" region="bottom" begin="00:00:09.600" end="00:00:12.800">
+        <tt:span style="textWhite">- Natürlich steht Festival</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">auch so für Eskalation,</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub4" style="textCenter" region="bottom" begin="00:00:12.840" end="00:00:16.000">
+        <tt:span style="textWhite">für Party, für Trinken,</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">für all diese Dinge.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub5" style="textCenter" region="bottom" begin="00:00:16.040" end="00:00:18.080">
+        <tt:span style="textWhite">- Jetzt erlebt sie ein Erdbeben.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub6" style="textCenter" region="bottom" begin="00:00:19.560" end="00:00:22.200">
+        <tt:span style="textWhite">- Das betrifft jeden</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">in der ganzen Szene.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub7" style="textCenter" region="bottom" begin="00:00:22.240" end="00:00:24.840">
+        <tt:span style="textWhite">Von den Ravern</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">bis hin zu den großen DJs.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub8" style="textCenter" region="bottom" begin="00:00:24.880" end="00:00:26.360">
+        <tt:span style="textWhite">- Ein Insider packt aus,</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub9" style="textCenter" region="bottom" begin="00:00:26.400" end="00:00:29.680">
+        <tt:span style="textWhite">wirft großen DJs</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">sexuellen Missbrauch vor.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub10" style="textCenter" region="bottom" begin="00:00:29.720" end="00:00:33.240">
+        <tt:span style="textWhite">Nach Jahren des Schweigens sprechen</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">Frauen über ihre Erlebnisse.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub11" style="textCenter" region="bottom" begin="00:00:33.280" end="00:00:37.480">
+        <tt:span style="textWhite">- Ich hab mich sehr,</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">sehr, sehr dreckig gefühlt.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub12" style="textCenter" region="bottom" begin="00:00:37.520" end="00:00:40.760">
+        <tt:span style="textWhite">- Wir wollen wissen,</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">was in der Szene los ist.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub13" style="textCenter" region="bottom" begin="00:00:40.800" end="00:00:42.640">
+        <tt:span style="textWhite">Gibt es wirklich</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">sexuellen Missbrauch</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub14" style="textCenter" region="bottom" begin="00:00:42.680" end="00:00:44.840">
+        <tt:span style="textWhite">in unbekanntem Ausmaß?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub15" style="textCenter" region="bottom" begin="00:00:44.880" end="00:00:46.760">
+        <tt:span style="textWhite">- Veranstalter haben über Jahre</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub16" style="textCenter" region="bottom" begin="00:00:46.800" end="00:00:49.920">
+        <tt:span style="textWhite">so ein Verhalten</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">nicht nur toleriert,</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub17" style="textCenter" region="bottom" begin="00:00:49.960" end="00:00:53.640">
+        <tt:span style="textWhite">sondern vor allen Dingen diese Leute</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">auch noch mit Drogen versorgt.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub18" style="textCenter" region="bottom" begin="00:00:53.680" end="00:00:55.840">
+        <tt:span style="textWhite">- Warum kommt das</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">erst jetzt ans Licht?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub19" style="textCenter" region="bottom" begin="00:00:55.880" end="00:00:57.840">
+        <tt:span style="textWhite">Und das</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">ausgerechnet in einer Szene,</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub20" style="textCenter" region="bottom" begin="00:00:57.880" end="00:01:00.200">
+        <tt:span style="textWhite">die sich sonst immer</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">besonders rücksichtsvoll gibt?</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub21" style="textCenter" region="bottom" begin="00:01:00.240" end="00:01:02.640">
+        <tt:span style="textWhite">- Man muss halt immer</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">in seinen eigenen Reihen schauen.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub22" style="textCenter" region="bottom" begin="00:01:02.680" end="00:01:05.760">
+        <tt:span style="textWhite">Und ich würd nicht für jeden</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">meine Hand ins Feuer legen.</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub23" style="textCenter" region="bottom" begin="00:01:05.800" end="00:01:07.360">
+        <tt:span style="textWhite">- Und wer ist der Insider,</tt:span>
+      </tt:p>
+      <tt:p xml:id="sub24" style="textCenter" region="bottom" begin="00:01:07.400" end="00:01:09.720">
+        <tt:span style="textWhite">der die Affäre</tt:span>
+        <tt:br />
+        <tt:span style="textWhite">jetzt ins Rollen gebracht hat?</tt:span>
+      </tt:p>
+    </tt:div>
+  </tt:body>
+</tt:tt>

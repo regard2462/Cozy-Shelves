@@ -1,0 +1,9 @@
+{
+  "batchcomplete": true,
+  "continue": { "cmcontinue": "page|4f4e|12345", "continue": "-||" },
+  "query": { "categorymembers": [
+    { "pageid": 501, "ns": 0, "title": "Die Bremer Stadtmusikanten (1857)" },
+    { "pageid": 502, "ns": 0, "title": "Rotkäppchen (1857)" },
+    { "pageid": 503, "ns": 0, "title": "Kategorie:Unterkategorie" }
+  ] }
+}

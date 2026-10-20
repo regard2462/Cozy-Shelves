@@ -1,0 +1,34 @@
+# dependencies and build output (npm install, npm run build, npm run dist:win)
+node_modules/
+app/dist/
+app/vendor/
+dist/
+THIRD_PARTY_LICENSES.txt
+
+# test runs: screenshots, user data folders, logs
+shots/
+test-output/
+userdata*/
+*.log
+
+# release archives
+*.zip
+
+# the optional Python sidecar for German speech (tts-server/setup_tts.py)
+__pycache__/
+*.pyc
+tts-server/venv/
+tts-server/voices/
+
+# editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# the word list of build/privacy-check.js stays on the developer's computer
+.privacy-words.json
+
+# the release key of the Android app and its password (build/android-keystore.js) never enter the repository
+.android-signing/
