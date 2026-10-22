@@ -1,7 +1,7 @@
 {
   "name": "cozy-shelves",
   "productName": "Cozy Shelves",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "A walkable 3D library for the books on your own computer, with newspapers, podcasts, a media library and more.",
   "main": "electron/main.js",
   "author": "Cozy Shelves contributors",

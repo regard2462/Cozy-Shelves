@@ -108,6 +108,15 @@
 .theme-opt { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 96px; padding: 6px 6px 7px; border-radius: var(--radius-m); border: 1px solid var(--line-2); background: var(--card); color: var(--text-2); cursor: pointer; font-size: 13.5px; font-weight: 500; transition: border-color .15s, box-shadow .15s, color .15s; }
 .theme-opt:hover { border-color: var(--line-3); color: var(--text); }
 .theme-opt.on { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft-2); color: var(--accent-ink); font-weight: 600; }
+/* About (end of Allgemein): a quiet link to Buy me a coffee; the yellow badge keeps its colours in every theme */
+.setting.setting-coffee { grid-template-columns: minmax(0, 1fr); border-bottom: 0; }
+.coffee-link { display: inline-flex; align-items: center; gap: var(--sp-3); justify-self: start; max-width: 100%; min-height: var(--hit); padding: 6px 12px 6px 6px; margin-left: -6px; border: 0; border-radius: var(--radius-s); background: transparent; color: var(--text); cursor: pointer; font: inherit; text-align: left; transition: background .15s; }
+.coffee-link:hover { background: var(--hover); }
+.coffee-link:active { background: var(--press); }
+.coffee-badge { display: inline-flex; align-items: center; justify-content: center; flex: none; width: 32px; height: 32px; border-radius: 50%; background: #FFDD00; color: #2b1d0e; box-shadow: 0 1px 2px rgba(var(--shade-rgb), 0.18); }
+.coffee-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.coffee-title { font-size: 15px; }
+.settings-version { margin-top: var(--sp-2); }
 .theme-swatch { position: relative; display: block; width: 82px; height: 52px; border-radius: 8px; overflow: hidden; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12); }
 .theme-swatch i { position: absolute; display: block; }
 .theme-swatch .ts-bar { left: 0; top: 0; bottom: 0; width: 22px; }
