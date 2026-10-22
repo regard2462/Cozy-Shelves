@@ -4,8 +4,6 @@
 
 *English: [README.md](README.md)*
 
-<p><a href="https://buymeacoffee.com/regard2462"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" alt="Buy me a coffee"></a></p>
-
 Cozy Shelves ist eine begehbare 3D-Bücherei für Windows und Linux, in der du durch deine eigenen Bücher gehst. Zur Halle
 gehören ein Kamin, eine große Glasfront mit Türen zur Terrasse und in einen Garten mit See und Steg, dazu
 Lesetische und Sessel. Im Garten wechseln die Jahreszeiten, Vögel fliegen über Wiese und See, Kois schwimmen im
