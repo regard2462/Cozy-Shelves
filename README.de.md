@@ -21,6 +21,12 @@ mit freien Büchern, ein eingebauter Lesebrowser, ein Plattenspieler mit ruhiger
 Schachtisch mit Stockfish und Taktikaufgaben sowie zwei Computer am Eingang mit Katalog, Statistik und Spielen.
 Alles lässt sich mit Tastatur und Maus oder mit einem Controller bedienen.
 
+## Neu in 0.10.3
+
+* **Buy me a coffee**: Unter Einstellungen → Allgemein steht ganz unten im Abschnitt „Über Cozy Shelves“ die Version
+  und ein kleiner Link zu Buy me a coffee. Er öffnet die Seite im Browser des Systems. Die App zeigt dazu keine
+  Fenster und keine Erinnerungen.
+
 ## Neu in 0.10.2
 
 * **Schachdiagramme besser erkannt**: Das Diagramm-Werkzeug (`D`) liest Stellungen aus Büchern deutlich zuverlässiger.

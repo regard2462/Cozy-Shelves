@@ -27,6 +27,9 @@ const BRIGHT_MIN = 0.6, BRIGHT_MAX = 1.3;   // the world clamps to 0.4…1.6 –
 const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, Number.isFinite(+v) ? +v : lo));
 /** the gallery used to write 'none' where everything else expects 'off' */
 const paintingMode = (m) => (m === 'none' ? 'off' : (m || 'impressionist'));
+// the small support link at the end of Allgemein; it opens in the system's browser (api.app.openExternal)
+const COFFEE_URL = 'https://buymeacoffee.com/regard2462';
+const COFFEE_CUP = '<svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z" fill="currentColor"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8.5 3.5c-.7 1 .7 1.5 0 2.5M12 3.5c-.7 1 .7 1.5 0 2.5"/></svg>';
 
 export async function mount(container, ctx, params = {}) {
   const { api, state, bus } = ctx;
@@ -153,6 +156,20 @@ export async function mount(container, ctx, params = {}) {
 
   const note = (text) => h('p.settings-note.small.muted', text);
   const groupTitle = (text) => h('h3.settings-group', text);
+  /** About: the version and a quiet "Buy me a coffee" link, nothing that asks twice */
+  const aboutRows = () => {
+    const version = h('p.settings-note.small.muted.settings-version', 'Cozy Shelves');
+    api.app.info?.().then((inf) => { if (inf?.version) version.textContent = `Cozy Shelves ${inf.version}`; }).catch(() => {});
+    return [
+      groupTitle(tr({ de: 'Über Cozy Shelves', en: 'About Cozy Shelves' })),
+      h('div.setting.setting-coffee',
+        h('button.coffee-link', { type: 'button', title: COFFEE_URL, onclick: () => api.app.openExternal(COFFEE_URL) },
+          h('span.coffee-badge', { 'aria-hidden': 'true', html: COFFEE_CUP }),
+          h('span.coffee-text', h('span.coffee-title', 'Buy me a coffee'),
+            h('span.setting-hint', tr({ de: 'Die App unterstützen, wenn sie dir gefällt', en: 'Support the app if you like it' }))))),
+      version,
+    ];
+  };
   /** The background music pauses while a film of the Mediathek or a podcast plays (in Klang and in Mediathek). */
   const pauseMusicRow = () => toggle(tr({ de: 'Hintergrundmusik pausieren', en: 'Pause the background music' }), () => s.audio?.pauseForMedia !== false, (v) => set({ audio: { pauseForMedia: v } }),
     { hint: tr({ de: 'solange ein Film aus der Mediathek, ein Podcast oder ein Hörbuch läuft', en: 'while a film from the Mediathek, a podcast or an audiobook is playing' }) });
@@ -195,6 +212,7 @@ export async function mount(container, ctx, params = {}) {
       has('paintingsFolder') && paintingMode(s.paintings?.mode) === 'own' && !s.paintings?.folder
         ? note(tr({ de: 'Für „eigener Bilderordner“ fehlt noch ein Ordner. Bis dahin bleiben die Rahmen leer.', en: 'The “own picture folder” mode still needs a folder. Until then the frames stay empty.' }))
         : null,
+      ...aboutRows(),
     ],
 
     graphics: () => [
