@@ -4,6 +4,8 @@
 
 *Deutsch: [README.de.md](README.de.md)*
 
+<p><a href="https://buymeacoffee.com/regard2462"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" alt="Buy me a coffee"></a></p>
+
 Cozy Shelves is a walkable 3D library for the books on your own computer. You walk through a cosy hall
 with a fireplace, a glass front and a garden with a lake, into a book room where your folders stand as departments
 on oak shelves. You take books from the shelves, sit down by the fire and read them full screen, with
