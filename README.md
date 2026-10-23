@@ -4,6 +4,8 @@
 
 *Deutsch: [README.de.md](README.de.md)*
 
+<p align="center"><a href="https://github.com/regard2462/Cozy-Shelves/releases/download/v0.10.3/cozy-shelves-demo.mp4"><img src="docs/demo.jpg" width="720" alt="Watch the demo video (4 minutes, with music)"></a><br><a href="https://github.com/regard2462/Cozy-Shelves/releases/download/v0.10.3/cozy-shelves-demo.mp4">Watch the demo video (4 minutes, with music)</a></p>
+
 Cozy Shelves is a walkable 3D library for the books on your own computer. You walk through a cosy hall
 with a fireplace, a glass front and a garden with a lake, into a book room where your folders stand as departments
 on oak shelves. You take books from the shelves, sit down by the fire and read them full screen, with
