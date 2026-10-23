@@ -4,6 +4,8 @@
 
 *English: [README.md](README.md)*
 
+<p align="center"><a href="https://github.com/regard2462/Cozy-Shelves/releases/download/v0.10.3/cozy-shelves-demo.mp4"><img src="docs/demo.jpg" width="720" alt="Demovideo ansehen (4 Minuten, mit Musik, englische Oberfläche)"></a><br><a href="https://github.com/regard2462/Cozy-Shelves/releases/download/v0.10.3/cozy-shelves-demo.mp4">Demovideo ansehen (4 Minuten, mit Musik, englische Oberfläche)</a></p>
+
 Cozy Shelves ist eine begehbare 3D-Bücherei für Windows und Linux, in der du durch deine eigenen Bücher gehst. Zur Halle
 gehören ein Kamin, eine große Glasfront mit Türen zur Terrasse und in einen Garten mit See und Steg, dazu
 Lesetische und Sessel. Im Garten wechseln die Jahreszeiten, Vögel fliegen über Wiese und See, Kois schwimmen im
