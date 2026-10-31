@@ -1,6 +1,6 @@
 export default {
   'app.title': 'Cozy Shelves',
-  'app.subtitle': 'Your walk-in library',
+  'app.subtitle': 'A library you can walk through',
   'loading': 'Setting up the library …',
   'loading.books': 'Shelving books …',
   'menu.enter': 'Enter the library',
@@ -31,7 +31,7 @@ export default {
   'hud.inBasket': '“{title}” is in your basket. <kbd>B</kbd> opens the basket.',
   'hud.returned': 'All books are back on the shelves.',
   'hud.hung': 'The picture is now hanging on the wall.',
-  'hud.downloaded': 'A new book has arrived – it is being shelved.',
+  'hud.downloaded': 'A new book has arrived and is being shelved.',
   'settings.title': 'Settings',
   'settings.general': 'General',
   'settings.graphics': 'Graphics',

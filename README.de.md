@@ -528,7 +528,7 @@ Vibration: ein kurzes Rütteln, wenn du ein Buch nimmst, nur bei Controllern, di
   mit dunklen Staubbahnen und helleren Sternwolken über den Himmel. Der Himmel dreht sich mit der Uhrzeit langsam um
   den Polarstern. In der Abenddämmerung erscheinen die Sterne nach und nach, im Morgengrauen verblassen sie. Wolken
   verdecken sie, bei bedecktem Himmel, Regen und Nebel ist keiner zu sehen. Der Mond zeigt die Phase des heutigen
-  Datums, geht auf und unter und spiegelt sich im See. Am schönsten zu sehen von der Terrasse und vom Steg, auch
+  Datums, geht auf und unter und spiegelt sich im See. Am besten zu sehen ist er von der Terrasse und vom Steg, auch
   durch die Glasfront und die Fenster.
 * **Nachts** ist der Garten heller: Blausilbernes Licht von Himmel und Mond liegt über Rasen, Wegen und Bäumen, bei
   Vollmond kräftiger, bei Neumond schwächer, aber nie ganz dunkel. Draußen gewöhnt sich das Auge an die Dunkelheit.
@@ -544,11 +544,11 @@ Vibration: ein kurzes Rütteln, wenn du ein Buch nimmst, nur bei Controllern, di
 * **Lichtstrahlen** (*Einstellungen → Grafik*, an): Das Sonnenlicht wird in der Luft sichtbar. In der Halle fallen
   Strahlen durch die Glasfront und die Glastüren, im Staub zeichnen sich helle Bahnen ab, und einzelne Staubkörnchen
   glitzern dort, wo die Sonne sie trifft. Draußen fällt das Licht in Bahnen durch die Baumkronen und den Waldrand, im
-  Dunst und am schönsten im Nebel. Am kräftigsten sind die Strahlen bei tiefer Sonne. Bewölkung schwächt sie, bei
+  Dunst und am deutlichsten im Nebel. Am kräftigsten sind die Strahlen bei tiefer Sonne. Bewölkung schwächt sie, bei
   Regen, Gewitter und nachts gibt es keine. Die Bäume werfen Schatten auf Rasen, Wege und Steg und durch die Glasfront
   bis in die Halle (ab Qualität „Mittel“ mit eingeschalteten Schatten). Auf „Hoch“ rechnet die App die Strahlen in
   halber Auflösung, auf „Mittel“ in einem Viertel. Auf „Niedrig“ gibt es keine, dort bleiben die einfachen Lichtbahnen
-  an den Fenstern. Am schönsten zu sehen unter *Orte* (`G`): „Glasfront“, „Terrasse“ und „Steg am See“.
+  an den Fenstern. Am besten zu sehen unter *Orte* (`G`): „Glasfront“, „Terrasse“ und „Steg am See“.
 * **Schatten**: Die Schatten der Bäume wandern gleichmäßig mit der Sonne, ohne Sprünge.
 * **Fenster**: Die Lampen spiegeln sich nur noch als schwacher, weicher Schein im Glas. Nachts zeigt das Glas ein
   leises Spiegelbild des Raums, der Blick nach draußen bleibt klar.
@@ -606,14 +606,14 @@ Hörbuch läuft. Mehr dazu unter *Mediathek*.
 * Neue Dateien werden automatisch erkannt (Ordnerüberwachung). Umbenannte oder verschobene Bücher behalten
   Lesestand, Lesezeichen und Notizen.
 * **Cover**: eingebettete Cover bzw. Seite 1 bei PDFs. Ist Seite 1 kein Cover (leer, nur eine Farbe, nur Text wie
-  eine Titelseite oder ein gescanntes Blatt mit Bibliotheksstempel) oder hat das Buch keins, zeigt es eine schlichte
+  eine Titelseite oder ein gescanntes Blatt mit Bibliotheksstempel) oder hat das Buch keins, zeigt es eine einfache
   Titelkarte in seiner Einbandfarbe und bekommt im Hintergrund ein Cover aus dem Internet. Neue Cover erscheinen
   sofort im Regal, an den Seiten der Bücher, auf der Karte rechts und im Katalog.
 * **Cover und Metadaten aus dem Internet**: Bücher ohne echtes Cover bekommen eines aus dem Internet. Zuerst fragt der
   Cozy Shelves die Buchkataloge Open Library, Goodreads, Apple Books, die Deutsche Nationalbibliothek, das Internet Archive
   und Google Books (nur mit eigenem Schlüssel). Für Ausgaben mit ISBN kommt Amazons Bild dazu, eine ASIN im Dateinamen
   gilt wie eine ISBN. Jeder Katalog hat ein eigenes kleines Budget, und jedes Buch fragt den Katalog, der gerade frei
-  ist: Ein Lauf nutzt so alle Kataloge zugleich. Ein Eintrag zählt nur, wenn er wirklich das Buch ist (ISBN, oder Titel
+  ist: Ein Lauf nutzt so alle Kataloge zugleich. Ein Eintrag zählt nur, wenn er das Buch ist (ISBN, oder Titel
   und Autor passen, in der Sprache des Buchs und beim richtigen Band). Lieber kein Cover als ein falsches. Kennt kein
   Katalog das Buch, fragt Cozy Shelves die Bildersuche von Bing, Yandex und DuckDuckGo (strenger Jugendschutzfilter),
   jede mit eigenem kleinem Budget und mit Pause bei jedem Anzeichen einer Drosselung. Das Bild, das die meisten
@@ -780,7 +780,7 @@ hinzufügen“). Cozy Shelves liest sie im Hintergrund ein und erkennt neue Date
   Der kleine Spieler unten rechts zeigt Cover, Titel, Autor und Kapitel. `K` hält an und setzt fort, `J` springt 15
   Sekunden zurück, `L` 30 Sekunden vor, `O` öffnet den Player, `X` beendet das Hörbuch. Die Medientasten der Tastatur
   wirken ebenso, „vorheriger“ und „nächster Titel“ springen zum vorigen und nächsten Kapitel. Es läuft immer nur
-  eines: Ein Hörbuch hält einen Film oder Podcast an und umgekehrt, die Hintergrundmusik pausiert dabei.
+  eines. Ein Hörbuch hält einen Film oder Podcast an und umgekehrt, die Hintergrundmusik pausiert dabei.
 * **Das Hörbuchregal**: An der Südwand der Halle steht zwischen Staffelei und Plattenspieler ein Regal für
   Hörbuch-Boxen, auch bevor es einen Hörbuchordner gibt. Dann sind seine Fächer leer, die Beschriftung sagt
   „Hörbücher · E Öffnen“, und `E` oder ein Klick öffnet die Tafel „Hörbücher“ mit „Hörbuchordner hinzufügen“. Mit
@@ -925,7 +925,7 @@ Ein Film lässt sich auf vier Arten nutzen:
   Richtest du den Blick auf die Leinwand, hält `E` den Film an und setzt ihn fort. Je weiter du dich entfernst,
   desto leiser wird der Ton, im Bücherzimmer ist er noch leise zu hören. Endet der Film, rollt die Leinwand
   wieder ein. Läuft ein Film auf der Leinwand, ruckelt das Herumlaufen in der Halle nicht. Die Farbe des Lichts,
-  das die Leinwand in den Raum wirft, misst Cozy Shelves, ohne dass das Bild darauf wartet: Die Grafikkarte
+  das die Leinwand in den Raum wirft, misst Cozy Shelves, ohne dass das Bild darauf wartet. Die Grafikkarte
   verkleinert das Filmbild auf 16 × 9 Punkte, ein eigener Worker liest nur diese. Bis 0.6 kopierte Cozy Shelves
   dafür fünfmal in der Sekunde das ganze Filmbild von der Grafikkarte, mit einem 1080p-Film im Mittel 18 ms und bis
   über 200 ms lang.
@@ -1044,7 +1044,7 @@ deshalb beim ersten Start einmal auf 1 gesetzt, damit die Bildrate gleich bleibt
 entsprechend mehr Rechenzeit (1,4 etwa die doppelte Pixelzahl).
 
 **Grafikqualität**: Auf „Hoch“ mit Kantenglättung und Umgebungsverdeckung, die Ecken und Regalböden plastischer
-macht. Die Grafikstufe schaltet keine Lampe aus: Auf „Niedrig“ werfen die großen Pendelleuchten und das Kaminfeuer
+macht. Die Grafikstufe schaltet keine Lampe aus. Auf „Niedrig“ werfen die großen Pendelleuchten und das Kaminfeuer
 echtes Licht, auf „Mittel“ auch Steh- und Tischlampen, auf „Hoch“ zusätzlich die Leselampen. Kleinere Lampen ohne
 echtes Licht werfen dann einen kräftigeren Lichtkreis, Wandleuchten und Regal-LEDs leuchten auf jeder Stufe. Auf
 mittlerer Stufe zeichnet der Garten halb so viel Gras, auf niedriger keines, das Laub hat dort harte Ränder.
@@ -1084,7 +1084,7 @@ jetzt laden“ in `web-covers.json`, das ersetzte Cover aus dem Buch als `covers
 ihrem Lesestand in `audiobooks.json`, ihre Tags in `audiobook-tags.json` und ihre Cover in `audiobook-covers\`, der
 Index der Volltextsuche in `fulltext\`, die Auflösungen der Mediathek in `mediathek\heights.json` und in
 `logs\gpu.log` jedes Ende des Grafikprozesses mit Zeit, Grund und Version, `logs\renderer.log` Fehler der Oberfläche.
-Löschen = Werkseinstellungen.
+Wird der Ordner gelöscht, gelten die Werkseinstellungen.
 
 ## Browser-Version
 
@@ -1124,7 +1124,7 @@ Bedienelemente.
 * **Der Bücherordner**: Beim ersten Start öffnet die Willkommenskarte die Ordnerauswahl des Systems; wähle den Ordner
   mit deinen Büchern (seine Unterordner werden Abteilungen und Regale wie auf dem Desktop). Android behält die
   Erlaubnis, der Ordner wird bei jedem Start ohne neue Wahl gelesen; wer den Ordner in den Einstellungen entfernt, gibt
-  sie zurück. Die Bücher verlassen das Handy nie: nichts wird kopiert, nichts verschickt.
+  sie zurück. Die Bücher verlassen das Handy nie. Sie werden weder kopiert noch verschickt.
 * **Steuerung**: Der Stick unten links geht (weit nach außen gedrückt läuft er; die Läuferfigur darüber hält das
   Laufen fest), Ziehen auf der rechten Hälfte sieht sich um, die große Hand benutzt, worauf das Fadenkreuz liegt, die
   Knöpfe daneben lesen, öffnen die Infokarte und springen, Menü und Abteilungsrad sitzen oben links, der Korb-Chip

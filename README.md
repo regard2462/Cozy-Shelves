@@ -27,8 +27,8 @@ keyboard and mouse or with a game controller.
   where each one stands. A library too large for the walls shows one department at a time, and the department wheel
   (hold `Tab`) switches it; otherwise the wheel takes you straight to any department.
 - Books stand at eye level on lit shelves. A book you look at slides out and turns towards you, stopping just short
-  of facing you, so that its spine and the page block stay in view; it takes the proportions of its cover and shows it
-  whole. The cover stands right of the middle without a frame, the keys on a small bar below it: `E` puts the book
+  of facing you, so that its spine and the page block stay in view; it takes the proportions of its cover and shows the
+  complete cover. The cover stands right of the middle without a frame, the keys on a small bar below it: `E` puts the book
   into your basket, `R` opens it, `C` marks it as read.
 - At the start and the end of every row and next to a gap, a book shows its cover on its side as well, trimmed like a
   print and never stretched; a book without a cover shows its title card.
@@ -198,7 +198,7 @@ browser's IndexedDB. Your books never leave your computer; the page only reads t
 * **Browsers**: Edge, Chrome, Opera and other Chromium browsers remember the folder and ask for permission once after a
   restart. Firefox and Safari read the folder through the file dialog and need it again after every restart (the books
   keep their positions). WebGL 2 is required.
-* **In the browser**: the whole world (hall, book room, garden, animals, weather, seasons), the shelves from your folders,
+* **In the browser**: the world (hall, book room, garden, animals, weather, seasons), the shelves from your folders,
   covers out of the books, the reader with bookmarks and notes, the chess books and Stockfish, the computer with all
   games and Lichess, the world map with Wikipedia, the encyclopedia and the dictionary, the easel and the gallery, the
   record player, read-aloud through the browser's own speech output.
@@ -368,7 +368,7 @@ the data and the voice models that are downloaded on use, and the online service
 
 ## Credits
 
-Cozy Shelves stands on the work of many projects: [Electron](https://www.electronjs.org), [three.js](https://threejs.org),
+Cozy Shelves is built on the work of many projects: [Electron](https://www.electronjs.org), [three.js](https://threejs.org),
 [foliate-js](https://github.com/johnfactotum/foliate-js), [PDF.js](https://mozilla.github.io/pdf.js/),
 [chessground](https://github.com/lichess-org/chessground) and [lichess](https://lichess.org),
 [Stockfish](https://stockfishchess.org), [Piper](https://github.com/rhasspy/piper),

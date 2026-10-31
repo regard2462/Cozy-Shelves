@@ -345,7 +345,7 @@ export async function createTextView(o) {
       const secLang = sample.length > 80 ? chooseLanguage(sample, { meta: o.lang, ui: o.uiLang }).lang : (lang.slice(0, 2) || 'de');
       const hyphenate = await hyphenator(secLang);
       const { html, tookLead } = buildSection(models, { nextPage: nextModel, skipLead, figureHtml, pageHtml, hyphenate });
-      if (k + 1 < ranges.length) d.lead.set(k + 1, tookLead);
+      if (k + 1 < ranges.length && !d.lead.has(k + 1)) d.lead.set(k + 1, tookLead);
       const title = esc(info.outline.find((it) => it.page === first)?.label || o.title || '');
       const doc = `<!DOCTYPE html><html lang="${esc(secLang)}"><head><meta charset="utf-8"><title>${title}</title><style>${TV_CSS}</style></head><body class="tv">${filterDefs()}\n${html}</body></html>`;
       const url = URL.createObjectURL(new Blob([doc], { type: 'text/html' }));
@@ -367,7 +367,7 @@ export async function createTextView(o) {
   let current = 0;
   function trim(justBuilt) {
     if (d.imageBytes <= IMAGE_BUDGET) return;
-    const keep = new Set([current - 1, current, current + 1, justBuilt]);
+    const keep = new Set([current - 2, current - 1, current, current + 1, current + 2, justBuilt]);
     const old = [...d.sections.entries()].filter(([k]) => !keep.has(k)).sort((a, b) => a[1].used - b[1].used);
     for (const [k, s] of old) {
       if (d.imageBytes <= IMAGE_BUDGET * 0.8) break;
@@ -419,7 +419,7 @@ export async function createTextView(o) {
     cfi: sectionCfi(k),
     linear: 'yes',
     size: (b - a + 1) * 1500,
-    load: async () => { const s = await buildSectionOf(k); plan(k); return s.url; },
+    load: async () => { current = k; const s = await buildSectionOf(k); plan(k); return s.url; },
     unload: () => {},
     createDocument: async () => new DOMParser().parseFromString((await buildSectionOf(k)).html, 'text/html'),
     resolveHref: (href) => String(href ?? ''),
