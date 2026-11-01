@@ -15,7 +15,7 @@ English-language sources, an online catalogue of free books, a reading browser, 
 computers with games are part of the house. Outside, the seasons change, birds fly over the lake and deer come out of
 the wood.
 
-Cozy Shelves runs on Windows 10 and 11 and on Linux x64 (Electron, three.js). Until 0.7.2 it was called Lesesaal, from 0.8.0 to 0.9.2 Cozystacks. The interface is in German and English. It works with
+Cozy Shelves runs on Windows 10 and 11, on Linux x64 and on macOS (arm64 and x64, unsigned, untested) (Electron, three.js). Until 0.7.2 it was called Lesesaal, from 0.8.0 to 0.9.2 Cozystacks. The interface is in German and English. It works with
 keyboard and mouse or with a game controller.
 
 ## Features
@@ -124,6 +124,11 @@ application menu and starts with `cozy-shelves` in a terminal.
 `./install-desktop-entry.sh` adds an entry to the application menu. If Cozy Shelves stops with a message about
 `chrome-sandbox`, the system allows Chromium's sandbox only through that helper (Ubuntu 23.10 and later). Run
 `sudo chown root:root chrome-sandbox && sudo chmod 4755 chrome-sandbox` once in the program folder.
+
+**macOS** (unsigned, untested): unpack `CozyShelves-<version>-mac-arm64.zip` (Apple silicon) or `CozyShelves-<version>-mac-x64.zip` (Intel),
+move `Cozy Shelves.app` to the Applications folder and open it with a right-click, then *Open*. If macOS says the app is
+damaged, run `xattr -dr com.apple.quarantine "/Applications/Cozy Shelves.app"` once in a terminal. On Apple silicon the app also
+needs an ad-hoc signature: `codesign --force --deep --sign - "/Applications/Cozy Shelves.app"`. START.txt in the archive says the same.
 
 Cozy Shelves sends no personal data anywhere. It uses the internet only for newspapers, Wikipedia, podcasts, the online
 catalogue, the reading browser, the Mediathek, the world map (Wikipedia, Street View), missing covers and book
@@ -260,6 +265,7 @@ npm run build          # copies the vendor files (vendor-src/foliate-js, fonts, 
 npx electron .         # starts Cozy Shelves
 npm run dist:win       # the portable Windows package in dist/ (with LICENSE, notices and third-party license texts)
 npm run dist:linux     # the Linux packages in dist/: a .deb and a portable .tar.gz (builds on Windows too)
+npm run dist:mac       # the unsigned macOS packages in dist/ (arm64 and x64 zip; builds on Windows with permission to make symbolic links)
 npm run build:web      # the browser version as a static site in dist/web/ (see above)
 ```
 

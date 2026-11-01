@@ -15,6 +15,7 @@
     "dev": "node build/bundle.js --watch",
     "dist:win": "npm run build && node build/package-win.js",
     "dist:linux": "npm run build && node build/package-linux.js",
+    "dist:mac": "npm run build && node build/package-mac.js",
     "test:shot": "node build/screenshot.js",
     "test": "node electron/catalog/test-catalog.js && node electron/test-data-folder.js && node electron/test-settings.js && node electron/feeds/test-feeds.js && node electron/library/test-library.js && node electron/library/test-shelves.js && node electron/library/test-covers.js && node electron/audiobooks/test-audiobooks.js && node electron/mediathek/test-mediathek.js && node app/src/ui/computer/games/__tests__/run.js && node electron/tts/test-tts.js && node electron/test-permissions.js && node electron/test-pad-input.js && node electron/search/test-fulltext.js && node app/src/ui/reader/__tests__/run.js && node app/src/ui/__tests__/run.js && node build/test-package.js && node build/floor-art-check.js && node build/world-geometry-check.js && node build/steps-check.js && npm run check:privacy",
     "test:world": "node build/screenshot.js world-check",

@@ -6,7 +6,7 @@
 
 <p align="center"><a href="https://github.com/regard2462/Cozy-Shelves/releases/download/v0.10.3/cozy-shelves-demo.mp4"><img src="docs/demo.jpg" width="720" alt="Demovideo ansehen (4 Minuten, mit Musik, englische Oberfläche)"></a><br><a href="https://github.com/regard2462/Cozy-Shelves/releases/download/v0.10.3/cozy-shelves-demo.mp4">Demovideo ansehen (4 Minuten, mit Musik, englische Oberfläche)</a></p>
 
-Cozy Shelves ist eine begehbare 3D-Bücherei für Windows und Linux, in der du durch deine eigenen Bücher gehst. Zur Halle
+Cozy Shelves ist eine begehbare 3D-Bücherei für Windows, Linux und macOS (unsigniert, ungetestet), in der du durch deine eigenen Bücher gehst. Zur Halle
 gehören ein Kamin, eine große Glasfront mit Türen zur Terrasse und in einen Garten mit See und Steg, dazu
 Lesetische und Sessel. Im Garten wechseln die Jahreszeiten, Vögel fliegen über Wiese und See, Kois schwimmen im
 Wasser, und Rehe, Hirsche und Füchse kommen aus dem Wald. Hinter einem kurzen Durchgang liegt **ein** großes
@@ -212,6 +212,11 @@ Cozy Shelves im Anwendungsmenü, im Terminal startet es mit `cozy-shelves`.
 `./install-desktop-entry.sh` legt einen Eintrag im Anwendungsmenü an. Bricht Cozy Shelves mit einer Meldung über
 `chrome-sandbox` ab, erlaubt das System die Sandbox von Chromium nur über dieses Hilfsprogramm (Ubuntu ab 23.10).
 Dann im Programmordner einmal `sudo chown root:root chrome-sandbox && sudo chmod 4755 chrome-sandbox` ausführen.
+
+**macOS** (unsigniert, ungetestet): `CozyShelves-…-mac-arm64.zip` (Apple-Chip) oder `CozyShelves-…-mac-x64.zip` (Intel) entpacken,
+`Cozy Shelves.app` in den Ordner Programme ziehen und per Rechtsklick, dann *Öffnen* starten. Meldet macOS, die App sei
+beschädigt, einmal im Terminal `xattr -dr com.apple.quarantine "/Applications/Cozy Shelves.app"` ausführen. Auf Apple-Chips braucht
+die App außerdem eine Ad-hoc-Signatur: `codesign --force --deep --sign - "/Applications/Cozy Shelves.app"`. Dasselbe steht in START.txt im Archiv.
 
 1. Beim ersten Start trägt Cozy Shelves keinen Ordner von selbst ein. Über dem Startmenü
    erscheint die Karte **„Willkommen in Cozy Shelves“**: Wähle dort, wie einsortiert wird, und dann mit **„Ordner mit
@@ -1159,6 +1164,7 @@ npm run build          # kopiert Vendor-Dateien (inkl. vendor-src/foliate-js), b
 npx electron .         # startet die App (COZYSHELVES_BOOKS=<Ordner>[|structured|auto][;…] für Testordner)
 npm run dist:win       # portable Windows-Version nach dist/
 npm run dist:linux     # Linux-Pakete nach dist/: .deb und portables .tar.gz (baut auch unter Windows)
+npm run dist:mac       # unsignierte macOS-Pakete nach dist/ (Zip für arm64 und x64; unter Windows mit Recht für symbolische Links)
 npm run build:web      # die Browser-Version als statische Seite nach dist/web/ (siehe oben)
 ```
 
