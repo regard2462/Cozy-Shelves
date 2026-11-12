@@ -32,3 +32,8 @@ desktop.ini
 
 # the release key of the Android app and its password (build/android-keystore.js) never enter the repository
 .android-signing/
+
+# Lokale Einstellungen von Entwicklungswerkzeugen
+.claude/settings.local.json
+.mcp.json
+.env
